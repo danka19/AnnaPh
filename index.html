@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <title>Анна · фотограф в Хабаровске · портретные, семейные и образные съёмки</title>
 <meta name="description" content="Анна, фотограф в Хабаровске. Женская, мужская, семейная, образная фотосессия и съёмка беременности. Снимаю настоящих людей: не только внешность, но и состояние." />
-<link rel="canonical" href="https://example.com/" />
+<link rel="canonical" href="https://annaph.ru/" />
 <meta name="theme-color" content="#21241a" />
 
 <!-- Open Graph -->
@@ -14,8 +14,8 @@
 <meta property="og:site_name" content="Анна · фотограф в Хабаровске" />
 <meta property="og:title" content="Анна · фотограф в Хабаровске · портретные, семейные и образные съёмки" />
 <meta property="og:description" content="Женская, мужская, семейная, образная фотосессия и съёмка беременности в Хабаровске. Фотосессия как разговор с собой." />
-<meta property="og:url" content="https://example.com/" />
-<meta property="og:image" content="https://example.com/assets/background_photo_1.jpg" />
+<meta property="og:url" content="https://annaph.ru/" />
+<meta property="og:image" content="https://annaph.ru/assets/background_photo_1-hero.jpg" />
 <meta name="twitter:card" content="summary_large_image" />
 
 <link rel="icon" href="brand_assets/logo.png" />
@@ -161,6 +161,7 @@ h1,h2,h3{font-family:var(--font-display);font-weight:500;line-height:1.05;letter
   padding:120px 0 56px;overflow:hidden;
 }
 .hero-bg{position:absolute;inset:0;z-index:0}
+.hero-bg picture{display:block;width:100%;height:100%}
 .hero-bg img{width:100%;height:100%;object-fit:cover;object-position:62% 32%}
 .hero-bg::after{
   content:"";position:absolute;inset:0;
@@ -465,7 +466,7 @@ section{position:relative}
 .lb-close svg{width:18px;height:18px}
 .lb-stage{flex:1;position:relative;display:flex;align-items:center;justify-content:center;min-height:0;padding:0 clamp(.5rem,2vw,1.5rem)}
 .lb-img-wrap{position:relative;max-width:100%;max-height:100%;display:flex;align-items:center;justify-content:center}
-.lb-stage img{max-width:100%;max-height:78svh;width:auto;height:auto;object-fit:contain;border-radius:4px;box-shadow:var(--shadow-overlay)}
+.lb-stage img{max-width:100%;max-height:min(72svh,calc(100svh - 230px));width:auto;height:auto;object-fit:contain;border-radius:4px;box-shadow:var(--shadow-overlay)}
 .lb-nav{
   position:absolute;top:50%;transform:translateY(-50%);width:48px;height:48px;border-radius:50%;
   background:rgba(20,22,15,.6);backdrop-filter:blur(6px);border:1px solid var(--border-strong);
@@ -511,6 +512,11 @@ section{position:relative}
   .lb-bar .lb-title{font-size:1.1rem;max-width:55vw;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
 }
 @media (max-width:560px){
+  .container,.section-head,.section-head p{min-width:0;max-width:100%}
+  .section-head p{overflow-wrap:break-word}
+  .best-grid{grid-template-columns:1fr}
+  .bc-tall,.bc-wide,.bc-half{grid-column:1/-1;aspect-ratio:4/5}
+  .bc-wide,.bc-half{aspect-ratio:4/3}
   .services-grid,.process-grid,.trust-grid{grid-template-columns:1fr}
   .flip-grid{grid-template-columns:repeat(2,1fr)}
   .contact-buttons .btn{width:100%}
@@ -518,7 +524,7 @@ section{position:relative}
   .hero-cta .btn{width:100%}
   .hero-content,.hero-sub,.hero-line{max-width:100%}
   .hero-sub{overflow-wrap:break-word}
-  .lb-stage img{max-height:68svh}
+  .lb-stage img{max-height:min(60svh,calc(100svh - 220px))}
 }
 </style>
 </head>
@@ -563,7 +569,10 @@ section{position:relative}
 <!-- ============ HERO ============ -->
 <section class="hero" id="top">
   <div class="hero-bg">
-    <img src="assets/background_photo_1.jpg" alt="Женский портрет с цветком лотоса, авторская работа Анны, отмеченная в конкурсе" width="1280" height="1920" fetchpriority="high" />
+    <picture>
+      <source srcset="assets/background_photo_1-hero.webp" type="image/webp" />
+      <img src="assets/background_photo_1-hero.jpg" alt="Женский портрет с цветком лотоса, авторская работа Анны, отмеченная в конкурсе" width="1700" height="2550" fetchpriority="high" decoding="async" />
+    </picture>
   </div>
   <div class="container">
     <div class="hero-content">
@@ -593,7 +602,7 @@ section{position:relative}
     </div>
     <div class="best-grid">
       <article class="best-card bc-tall reveal" data-series="women">
-        <div class="frame"><img src="assets/web/portrait-women/IMG_4270.jpg" alt="Женский портрет на закате, девушка с веснушками" loading="lazy" decoding="async" /></div>
+        <div class="frame"><img src="assets/webp/portrait-women/IMG_4270.webp" data-fallback="assets/web/portrait-women/IMG_4270.jpg" alt="Женский портрет на закате, девушка с веснушками" loading="lazy" decoding="async" /></div>
         <div class="overlay">
           <span class="ov-tag">Женский портрет</span>
           <h3>Свет и характер</h3>
@@ -602,7 +611,7 @@ section{position:relative}
         </div>
       </article>
       <article class="best-card bc-wide reveal" data-series="art">
-        <div class="frame"><img src="assets/web/art/IMG_7879.jpg" alt="Образная съёмка, всадница в доспехах на закате зимой" loading="lazy" decoding="async" /></div>
+        <div class="frame"><img src="assets/webp/art/IMG_7879.webp" data-fallback="assets/web/art/IMG_7879.jpg" alt="Образная съёмка, всадница в доспехах на закате зимой" loading="lazy" decoding="async" /></div>
         <div class="overlay">
           <span class="ov-tag">Образные съёмки</span>
           <h3>Кадр как история</h3>
@@ -611,7 +620,7 @@ section{position:relative}
         </div>
       </article>
       <article class="best-card bc-half reveal" data-series="pregnancy">
-        <div class="frame"><img src="assets/web/pregnancy/IMG_5871.jpg" alt="Художественная съёмка беременности в профиль" loading="lazy" decoding="async" /></div>
+        <div class="frame"><img src="assets/webp/pregnancy/IMG_5871.webp" data-fallback="assets/web/pregnancy/IMG_5871.jpg" alt="Художественная съёмка беременности в профиль" loading="lazy" decoding="async" /></div>
         <div class="overlay">
           <span class="ov-tag">Беременность</span>
           <h3>Особое состояние</h3>
@@ -620,7 +629,7 @@ section{position:relative}
         </div>
       </article>
       <article class="best-card bc-half reveal" data-series="family">
-        <div class="frame"><img src="assets/web/family/IMG_2290.jpg" alt="Семейная осенняя фотосессия, семья на качелях" loading="lazy" decoding="async" /></div>
+        <div class="frame"><img src="assets/webp/family/IMG_2290.webp" data-fallback="assets/web/family/IMG_2290.jpg" alt="Семейная осенняя фотосессия, семья на качелях" loading="lazy" decoding="async" /></div>
         <div class="overlay">
           <span class="ov-tag">Семейная &amp; Дети</span>
           <h3>Тепло и близость</h3>
@@ -649,7 +658,7 @@ section{position:relative}
 <section class="band band-paper" id="about">
   <div class="container about-grid">
     <div class="about-figure reveal">
-      <div class="stack-img"><img src="assets/web/portrait-women/IMG_7178.jpg" alt="Женственный портрет с цветами гипсофилы, авторская работа Анны" loading="lazy" decoding="async" /></div>
+      <div class="stack-img"><img src="assets/webp/portrait-women/IMG_7178.webp" data-fallback="assets/web/portrait-women/IMG_7178.jpg" alt="Женственный портрет с цветами гипсофилы, авторская работа Анны" loading="lazy" decoding="async" /></div>
       <div class="badge"><strong>10+ лет</strong><span>с камерой и людьми, которые мне доверяют</span></div>
     </div>
     <div class="about-copy reveal">
@@ -696,7 +705,7 @@ section{position:relative}
 <section class="band band-dark" id="shooting">
   <div class="container shoot-grid">
     <div class="shoot-video reveal">
-      <video autoplay muted loop playsinline preload="metadata" poster="assets/web/portrait-women/IMG_2589.jpg" aria-label="Видео: как проходит съёмка">
+      <video autoplay muted loop playsinline preload="metadata" poster="assets/webp/portrait-women/IMG_2589.webp" aria-label="Видео: как проходит съёмка">
         <source src="assets/best_works_videoForGif.mp4" type="video/mp4" />
       </video>
       <div class="grain"></div>
@@ -833,7 +842,7 @@ section{position:relative}
     <button class="lb-nav lb-prev" id="lbPrev" aria-label="Предыдущее фото">
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M15 6l-6 6 6 6"/></svg>
     </button>
-    <div class="lb-img-wrap"><img id="lbImg" src="" alt="" /></div>
+    <div class="lb-img-wrap"><img id="lbImg" alt="" /></div>
     <button class="lb-nav lb-next" id="lbNext" aria-label="Следующее фото">
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 6l6 6-6 6"/></svg>
     </button>
@@ -852,8 +861,8 @@ section{position:relative}
   "@type":["Photographer","ProfessionalService"],
   "name":"Анна, фотограф в Хабаровске",
   "description":"Фотограф в Хабаровске: женская, мужская, семейная, образная фотосессия и съёмка беременности.",
-  "image":"https://example.com/assets/background_photo_1.jpg",
-  "url":"https://example.com/",
+  "image":"https://annaph.ru/assets/background_photo_1-hero.jpg",
+  "url":"https://annaph.ru/",
   "areaServed":{"@type":"City","name":"Хабаровск"},
   "address":{"@type":"PostalAddress","addressLocality":"Хабаровск","addressCountry":"RU"},
   "priceRange":"Стоимость уточняется",
@@ -874,6 +883,13 @@ section{position:relative}
   // Static QA mode: ?qa=1 renders the final, non-animated state (used for screenshot review).
   var QA = /[?&]qa\b/.test(window.location.search);
   if(QA) reduceMotion = true;
+
+  document.addEventListener("error", function(e){
+    var img = e.target;
+    if(img && img.tagName === "IMG" && img.dataset && img.dataset.fallback && img.src.indexOf(img.dataset.fallback) === -1){
+      img.src = img.dataset.fallback;
+    }
+  }, true);
 
   /* ---------- Contact links (editable placeholders) ---------- */
   var CONTACTS = [
@@ -931,7 +947,8 @@ section{position:relative}
     }
   ];
 
-  function src(p){ return "assets/web/" + p.folder + "/" + encodeURIComponent(p.file); }
+  function jpgSrc(p){ return "assets/web/" + p.folder + "/" + encodeURIComponent(p.file); }
+  function src(p){ return "assets/webp/" + p.folder + "/" + encodeURIComponent(p.file).replace(/\.(jpe?g)$/i, ".webp"); }
   function catById(id){ for(var i=0;i<CATEGORIES.length;i++){ if(CATEGORIES[i].id===id) return CATEGORIES[i]; } return null; }
   function altFor(cat,i){ return cat.title + ", кадр " + (i+1); }
   // Shuffle each series so photos appear in a fresh random order on every load (Fisher–Yates).
@@ -973,7 +990,7 @@ section{position:relative}
     fig.setAttribute("role","button");
     fig.setAttribute("tabindex","0");
     fig.setAttribute("aria-label", cat.title + ", открыть серию");
-    fig.innerHTML = '<img src="'+src(cat.cover)+'" alt="'+cat.title+'" loading="lazy" decoding="async"><figcaption>'+cat.tab+'</figcaption>';
+    fig.innerHTML = '<img src="'+src(cat.cover)+'" data-fallback="'+jpgSrc(cat.cover)+'" alt="'+cat.title+'" loading="lazy" decoding="async"><figcaption>'+cat.tab+'</figcaption>';
     heroFan.appendChild(fig);
   });
 
@@ -1054,7 +1071,7 @@ section{position:relative}
       item.className = "g-item";
       item.setAttribute("aria-label", cat.title + ", фото " + (i+1));
       var idx = i;
-      item.innerHTML = '<img src="'+src(p)+'" alt="'+altFor(cat,i)+'" loading="lazy" decoding="async">';
+      item.innerHTML = '<img src="'+src(p)+'" data-fallback="'+jpgSrc(p)+'" alt="'+altFor(cat,i)+'" loading="lazy" decoding="async">';
       if(i===shown-1 && cat.photos.length>MAX_THUMBS){
         item.classList.add("more");
         item.innerHTML += '<span>+'+(cat.photos.length-MAX_THUMBS+1)+'</span>';
@@ -1101,7 +1118,7 @@ section{position:relative}
     card.setAttribute("aria-label", a.title + ", показать сертификат");
     card.innerHTML =
       '<div class="flip-inner">'+
-        '<div class="flip-face flip-front"><img src="'+src(a)+'" alt="'+a.title+', конкурсная работа" loading="lazy" decoding="async"><span class="ribbon">35AWARDS</span></div>'+
+        '<div class="flip-face flip-front"><img src="'+src(a)+'" data-fallback="'+jpgSrc(a)+'" alt="'+a.title+', конкурсная работа" loading="lazy" decoding="async"><span class="ribbon">35AWARDS</span></div>'+
         '<div class="flip-face flip-back"><div class="cert-frame">'+
           '<div class="cert-logo">35AWARDS</div>'+
           '<div class="cert-title">«'+a.title+'»</div>'+
@@ -1153,7 +1170,7 @@ section{position:relative}
     cat.photos.forEach(function(p,i){
       var t = document.createElement("button");
       t.className = "lb-thumb"; t.setAttribute("aria-label","Фото "+(i+1));
-      t.innerHTML = '<img src="'+src(p)+'" alt="" loading="lazy">';
+      t.innerHTML = '<img src="'+src(p)+'" data-fallback="'+jpgSrc(p)+'" alt="" loading="lazy">';
       t.addEventListener("click", function(){ show(i); });
       lbThumbs.appendChild(t);
     });
@@ -1168,6 +1185,7 @@ section{position:relative}
     current.idx = (i+n)%n;
     var p = cat.photos[current.idx];
     lbImg.src = src(p);
+    lbImg.setAttribute("data-fallback", jpgSrc(p));
     lbImg.alt = altFor(cat, current.idx);
     lbCounter.textContent = (current.idx+1) + " / " + n;
     var thumbs = lbThumbs.children;

@@ -149,12 +149,12 @@ Rules:
 - After any text change, re-read the rendered section image to confirm no clipping/overflow and that wording is correct.
 - Re-screenshot after each fix. Two passes minimum on anything visual.
 
-### Local capture recipe on this machine (Windows, no Node/Python)
+### Local capture recipe on this machine (Windows)
 
-No dev server tooling is installed. Use the bundled `temporary screenshots/serve.ps1` (PowerShell `HttpListener`, port 8123) and headless Chrome at `C:\Program Files\Google\Chrome\Application\chrome.exe`.
+Serve the static site from the repository root with any local HTTP server, then use headless Chrome at `C:\Program Files\Google\Chrome\Application\chrome.exe`.
 
 Environment gotchas (these have actually broken captures here):
-- **Screenshot output path must contain NO spaces.** Chrome reads a space as a second "target" and fails with `Multiple targets are not supported`. Write screenshots to a space-free dir (e.g. `%TEMP%\annashots`), then copy into the repo if needed. (The repo folder name `temporary screenshots` has a space.)
+- **Screenshot output path must contain NO spaces.** Chrome reads a space as a second "target" and fails with `Multiple targets are not supported`. Write screenshots to a space-free dir (e.g. `%TEMP%\annashots`) and keep generated captures out of the production tree.
 - The hero uses `100svh`; in a tall headless window `svh` = window height, so a tall full-page capture just stretches the hero. Use `?qa=1` (below) which caps hero height.
 - Headless screenshots fire at load, before `IntersectionObserver` reveals run and before lazy images decode, so below-fold content looks blank. Use `?qa=1`.
 
