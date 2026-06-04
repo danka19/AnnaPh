@@ -45,6 +45,27 @@ Before writing any code, read the project-specific brief if one exists:
 - Capture screenshots from the served URL and inspect the actual image before declaring the work done.
 - Verify at minimum one desktop viewport and one mobile viewport for layout, overflow, and text fitting.
 
+## Project Workflow
+
+- Treat `CLAUDE.md` as the primary instruction file. `AGENTS.md` exists only to point agents back here.
+- After every meaningful change, create an intentional git commit and push it to `main`.
+- If push fails because network or authentication is unavailable, leave the local commit on `main`, report the exact error, and do not pretend it was pushed.
+
+## Asset Layout
+
+- Production files that can be served publicly live in the repository root, `brand_assets/`, and `assets/`.
+- Optimized web media belongs in `assets/web/`, `assets/webp/`, `assets/achievements/`, or another explicit production subfolder under `assets/`.
+- Heavy originals and source-only material belong in `source_assets/originals/`. Keep them as an archive and do not reference them directly from `index.html`.
+- Do not delete heavy originals unless the user explicitly asks. Move them out of production paths instead, then document where they went.
+- Hosting ignore files such as `.vercelignore` and `.netlifyignore` must exclude source archives and local QA material from deployment.
+
+## Screenshot Workspace
+
+- Keep `temporary screenshots/` in the project as the shared local visual QA workspace for humans and AI agents.
+- Store before/after screenshots, section crops, contact sheets, and comparison artifacts there while working.
+- The folder contents are gitignored, except `temporary screenshots/README.md`, so local visual artifacts do not get published accidentally.
+- Do not delete the folder just because its contents are temporary.
+
 ## Screenshot Checklist
 
 Check all of the following before finalizing:
@@ -154,7 +175,7 @@ Rules:
 Serve the static site from the repository root with any local HTTP server, then use headless Chrome at `C:\Program Files\Google\Chrome\Application\chrome.exe`.
 
 Environment gotchas (these have actually broken captures here):
-- **Screenshot output path must contain NO spaces.** Chrome reads a space as a second "target" and fails with `Multiple targets are not supported`. Write screenshots to a space-free dir (e.g. `%TEMP%\annashots`) and keep generated captures out of the production tree.
+- **Screenshot output path must contain NO spaces.** Chrome reads a space as a second "target" and fails with `Multiple targets are not supported`. Write raw headless output to a space-free dir (e.g. `%TEMP%\annashots`), then copy reviewed/cropped artifacts into `temporary screenshots/` when they are useful for comparison.
 - The hero uses `100svh`; in a tall headless window `svh` = window height, so a tall full-page capture just stretches the hero. Use `?qa=1` (below) which caps hero height.
 - Headless screenshots fire at load, before `IntersectionObserver` reveals run and before lazy images decode, so below-fold content looks blank. Use `?qa=1`.
 

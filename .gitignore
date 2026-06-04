@@ -2,10 +2,10 @@ node_modules/
 dist/
 build/
 .claude/
-temporary screenshots/
+temporary screenshots/*
+!temporary screenshots/README.md
 screenshots/
 .qa-shots/
-source_assets/originals/achievements/
 *.tmp
 .env
 .env.*

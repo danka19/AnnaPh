@@ -176,6 +176,11 @@ h1,h2,h3{font-family:var(--font-display);font-weight:500;line-height:1.05;letter
   font-size:clamp(2.5rem,6vw,4.6rem);font-weight:500;color:var(--candle);
   margin-bottom:1.3rem;text-wrap:balance;
 }
+.hero h1 .hero-city{
+  display:block;font-family:var(--font-body);font-size:clamp(1.05rem,2vw,1.35rem);
+  font-weight:500;line-height:1.35;margin-bottom:.75rem;white-space:nowrap;color:var(--text-secondary);
+}
+.hero h1 .hero-main{display:block}
 .hero h1 em{font-style:italic;color:var(--highlight)}
 .hero-sub{
   font-size:clamp(1.02rem,2vw,1.22rem);color:var(--text-secondary);
@@ -350,6 +355,8 @@ section{position:relative}
 }
 .service:hover{transform:translateY(-4px);border-color:var(--border-strong);background:#30331f}
 .service .s-icon{width:38px;height:38px;color:var(--highlight);margin-bottom:1.1rem}
+.service-media{border-radius:var(--radius);overflow:hidden;aspect-ratio:16/10;margin:-.35rem 0 1rem;background:#000;border:1px solid var(--border)}
+.service-media video{width:100%;height:100%;object-fit:cover;display:block}
 .service h3{font-size:1.6rem;margin-bottom:.3rem;color:var(--candle)}
 .service .s-for{font-size:.78rem;letter-spacing:.04em;color:var(--leaf);text-transform:uppercase;font-weight:600;margin-bottom:1rem}
 .service ul{list-style:none;margin-bottom:1.2rem;display:flex;flex-direction:column;gap:.5rem}
@@ -383,6 +390,7 @@ section{position:relative}
   border-radius:var(--radius);overflow:hidden;border:1px solid var(--border);
 }
 .flip-front img{width:100%;height:100%;object-fit:cover}
+.flip-back img{width:100%;height:100%;object-fit:cover}
 .flip-front .ribbon{
   position:absolute;top:.8rem;right:.8rem;background:rgba(20,22,15,.7);backdrop-filter:blur(6px);
   color:var(--highlight);font-size:.66rem;font-weight:700;letter-spacing:.1em;padding:.3rem .65rem;
@@ -393,6 +401,7 @@ section{position:relative}
   display:flex;flex-direction:column;justify-content:center;align-items:center;text-align:center;
   padding:1.5rem 1.2rem;border-color:rgba(200,169,106,.3);
 }
+.flip-back.has-image{padding:0;background:#111}
 .flip-back .cert-frame{border:1px solid rgba(200,169,106,.4);border-radius:4px;padding:1.4rem 1rem;width:100%;height:100%;display:flex;flex-direction:column;justify-content:center;gap:.5rem}
 .flip-back .cert-logo{font-family:var(--font-display);font-size:1.4rem;letter-spacing:.1em;color:var(--highlight)}
 .flip-back .cert-title{font-family:var(--font-display);font-style:italic;font-size:1.15rem;color:var(--candle)}
@@ -406,7 +415,7 @@ section{position:relative}
 .shoot-video .grain{position:absolute;inset:0;background:linear-gradient(0deg,rgba(20,22,15,.4),transparent 40%);pointer-events:none}
 .shoot-captions{display:flex;flex-direction:column;gap:1.4rem;margin-top:2rem}
 .shoot-cap{display:flex;gap:1rem;align-items:flex-start}
-.shoot-cap .num{font-family:var(--font-display);font-size:1.6rem;color:var(--highlight);line-height:1;flex:0 0 auto}
+.shoot-cap .num{width:10px;height:10px;border-radius:50%;background:var(--highlight);margin-top:.55rem;flex:0 0 auto;font-size:0}
 .shoot-cap h4{font-size:1.3rem;font-family:var(--font-display);color:var(--candle);font-weight:600;margin-bottom:.2rem}
 .shoot-cap p{font-size:.88rem;color:var(--text-secondary)}
 
@@ -534,7 +543,7 @@ section{position:relative}
 <header class="site-header" id="header">
   <div class="container header-inner">
     <a href="#" class="brand" aria-label="Анна, фотограф в Хабаровске, на главную">
-      <img src="brand_assets/logo-trim.png" alt="Анна Линке, фотограф" width="159" height="50" />
+      <img src="brand_assets/logo-trim.png" alt="Anna Fink, фотограф" width="159" height="50" />
     </a>
     <nav class="nav-desktop" aria-label="Основная навигация">
       <a href="#works">Работы</a>
@@ -576,8 +585,7 @@ section{position:relative}
   </div>
   <div class="container">
     <div class="hero-content">
-      <div class="hero-kicker eyebrow-line"><span class="kicker">Портрет · Образ · Эмоция</span></div>
-      <h1 data-seq="1">Фотограф в Хабаровске. <em>Портретные</em>, семейные и образные съёмки</h1>
+      <h1 data-seq="1"><span class="hero-city">Фотограф в Хабаровске.</span> <span class="hero-main"><em>Портретные</em>, семейные и образные съёмки</span></h1>
       <p class="hero-sub" data-seq="2">Снимаю настоящих людей, а не идеальных моделей. В кадре остаётся не только внешность, но и состояние: характер, мягкость, сила и тихая женственность.</p>
       <p class="hero-line" data-seq="3">Твоя лучшая фотосессия начинается здесь</p>
       <div class="hero-cta" data-seq="4">
@@ -715,9 +723,9 @@ section{position:relative}
       <h2 class="section-head" style="margin-bottom:1rem">Как проходит съёмка</h2>
       <p style="color:var(--text-secondary);max-width:34em">Перед камерой почти всем немного тревожно, и это нормально. Я помогаю отпустить это напряжение, чтобы вы расслабились и кадры получились живыми.</p>
       <div class="shoot-captions">
-        <div class="shoot-cap"><span class="num">01</span><div><h4>Помогаю с позированием</h4><p>Показываю и подсказываю каждое движение. Ничего не нужно уметь заранее.</p></div></div>
-        <div class="shoot-cap"><span class="num">02</span><div><h4>Подсказываю движение</h4><p>Немного живого движения вместо застывших поз, и в кадре появляется настроение.</p></div></div>
-        <div class="shoot-cap"><span class="num">03</span><div><h4>Снимаю без напряжения</h4><p>Тёплая беседа, в которой ты постепенно забываешь о камере и просто остаёшься собой.</p></div></div>
+        <div class="shoot-cap"><span class="num"></span><div><h4>Помогаю с позированием</h4><p>Показываю и подсказываю каждое движение. Ничего не нужно уметь заранее.</p></div></div>
+        <div class="shoot-cap"><span class="num"></span><div><h4>Подсказываю движение</h4><p>Немного живого движения вместо застывших поз, и в кадре появляется настроение.</p></div></div>
+        <div class="shoot-cap"><span class="num"></span><div><h4>Снимаю без напряжения</h4><p>Тёплая беседа, в которой ты постепенно забываешь о камере и просто остаёшься собой.</p></div></div>
       </div>
     </div>
   </div>
@@ -791,7 +799,7 @@ section{position:relative}
     <div class="reveal">
       <div class="eyebrow-line" style="justify-content:center"><span class="kicker">Напишите мне</span></div>
       <h2>Какая часть тебя <em>хочет съёмку?</em></h2>
-      <p>Напиши мне, и мы обсудим идею, настроение и формат. Без давления, просто начнём с разговора.</p>
+      <p>Напиши мне, и мы спокойно обсудим идею, настроение и формат. Я подскажу, с чего начать, и помогу собрать съёмку под тебя.</p>
       <div class="contact-buttons" id="contactButtons"></div>
     </div>
   </div>
@@ -803,7 +811,7 @@ section{position:relative}
   <div class="container">
     <div class="footer-top">
       <div class="footer-brand">
-        <img src="brand_assets/logo-trim.png" alt="Анна Линке, фотограф в Хабаровске" width="203" height="64" />
+        <img src="brand_assets/logo-trim.png" alt="Anna Fink, фотограф в Хабаровске" width="203" height="64" />
         <p>Анна, фотограф в Хабаровске. Женская, мужская, семейная и образная фотосессия, съёмка беременности. Фотосессия как разговор с собой.</p>
       </div>
       <div class="footer-col">
@@ -868,10 +876,10 @@ section{position:relative}
   "priceRange":"Стоимость уточняется",
   "knowsAbout":["портретная фотосессия","женская фотосессия","семейная фотосессия","фотосессия беременности","мужской портрет","образная съёмка"],
   "sameAs":[
-    "https://max.ru/",
-    "https://t.me/",
-    "https://vk.com/",
-    "https://t.me/"
+    "https://t.me/Anna_Fink",
+    "https://vk.com/anna_fink",
+    "https://max.ru/u/f9LHodD0cOLPNGGr6jpI33K1cuUN0E16P-s9kA3HxnDV8fCt2W4wYKjlsNY",
+    "https://t.me/ya_vizhu_tak"
   ]
 }
 </script>
@@ -893,10 +901,10 @@ section{position:relative}
 
   /* ---------- Contact links (editable placeholders) ---------- */
   var CONTACTS = [
-    {label:"Написать в MAX", url:"https://max.ru/", cls:"btn-primary", foot:"MAX"},
-    {label:"Написать в Telegram", url:"https://t.me/", cls:"btn-ghost", foot:"Telegram"},
-    {label:"Написать во VK", url:"https://vk.com/", cls:"btn-ghost", foot:"VK"},
-    {label:"Telegram-канал", url:"https://t.me/", cls:"btn-ghost", foot:"Telegram-канал"}
+    {label:"Написать в Telegram", url:"https://t.me/Anna_Fink", cls:"btn-primary", foot:"Telegram"},
+    {label:"Написать в VK", url:"https://vk.com/anna_fink", cls:"btn-ghost", foot:"VK"},
+    {label:"Написать в MAX", url:"https://max.ru/u/f9LHodD0cOLPNGGr6jpI33K1cuUN0E16P-s9kA3HxnDV8fCt2W4wYKjlsNY", cls:"btn-ghost", foot:"MAX"},
+    {label:"Telegram-канал", url:"https://t.me/ya_vizhu_tak", cls:"btn-ghost", foot:"Telegram-канал"}
   ];
 
   /* ---------- Portfolio data ---------- */
@@ -949,6 +957,8 @@ section{position:relative}
 
   function jpgSrc(p){ return "assets/web/" + p.folder + "/" + encodeURIComponent(p.file); }
   function src(p){ return "assets/webp/" + p.folder + "/" + encodeURIComponent(p.file).replace(/\.(jpe?g)$/i, ".webp"); }
+  function achSrc(file){ return "assets/achievements/webp/" + encodeURIComponent(file); }
+  function achJpg(file){ return "assets/achievements/jpg/" + encodeURIComponent(file).replace(/\.webp$/i, ".jpg"); }
   function catById(id){ for(var i=0;i<CATEGORIES.length;i++){ if(CATEGORIES[i].id===id) return CATEGORIES[i]; } return null; }
   function altFor(cat,i){ return cat.title + ", кадр " + (i+1); }
   // Shuffle each series so photos appear in a fresh random order on every load (Fisher–Yates).
@@ -957,12 +967,13 @@ section{position:relative}
 
   /* ---------- Services ---------- */
   var SERVICES = [
-    {icon:"portrait", title:"Женский портрет", who:"Для женщин любого возраста", items:["Студия или природа","Помощь с позированием","Подбор образа и света"], dur:"1–2 часа", count:"15–40 фото"},
-    {icon:"man", title:"Мужской портрет", who:"Деловой и характерный портрет", items:["Студия или локация","Спокойный темп","Сдержанная обработка"], dur:"1–1,5 часа", count:"10–25 фото"},
-    {icon:"family", title:"Семейная съёмка", who:"Семьи и дети", items:["Игровой формат для детей","На природе или дома","Живые, тёплые кадры"], dur:"1–2 часа", count:"20–50 фото"},
-    {icon:"pregnant", title:"Беременность", who:"Будущим мамам", items:["Бережная атмосфера","Подбор образа и красивых тканей","Можно вдвоём или с семьёй"], dur:"1–1,5 часа", count:"15–35 фото"},
-    {icon:"art", title:"Образная съёмка", who:"Для смелых идей", items:["Сюжет и художественный образ","Студия, помещение или улица","Кинематографичный свет"], dur:"2–3 часа", count:"15–30 фото"},
-    {icon:"album", title:"Фотоальбомы", who:"Дополнительно к съёмке", items:["Печатный фотоальбом","Премиальные материалы","Вёрстка под вашу историю"], dur:"по запросу", count:"индивидуально", featured:true}
+    {icon:"portrait", title:"Женский портрет", who:"Для женщин любого возраста", items:["Студия или природа","Помощь с позированием","Подбор образа и света"], dur:"1–2 часа", count:"15–40 фото", price:"от 6000 рублей"},
+    {icon:"man", title:"Мужской портрет", who:"Деловой и характерный портрет", items:["Студия или локация","Спокойный темп","Сдержанная обработка"], dur:"1–1,5 часа", count:"10–25 фото", price:"от 6000 рублей"},
+    {icon:"family", title:"Семейная съёмка", who:"Семьи и дети", items:["Игровой формат для детей","На природе или дома","Живые, тёплые кадры"], dur:"1–2 часа", count:"20–50 фото", price:"от 7000 рублей"},
+    {icon:"pregnant", title:"Беременность", who:"Будущим мамам", items:["Бережная атмосфера","Подбор образа и красивых тканей","Можно вдвоём или с семьёй"], dur:"1–1,5 часа", count:"15–35 фото", price:"от 6000 рублей"},
+    {icon:"art", title:"Образная съёмка", who:"Для смелых идей", items:["Сюжет и художественный образ","Студия, помещение или улица","Кинематографичный свет"], dur:"2–3 часа", count:"15–30 фото", price:"от 6000 рублей"},
+    {icon:"album", title:"Фотоальбомы: школа и детский сад", who:"Для выпускных и групп", items:["Съёмка детей и педагогов","Верстка альбома","Печать и подготовка тиража"], dur:"по проекту", count:"альбом", price:"от 1300 рублей", media:"assets/kindergarten.MOV", featured:true},
+    {icon:"album", title:"Фотоальбомы индивидуальные", who:"Личная история в печати", items:["Индивидуальная верстка","Премиальные материалы","Подбор кадров под настроение"], dur:"по запросу", count:"индивидуально", price:"цена договорная"}
   ];
   var ICONS = {
     portrait:'<path d="M12 13a4 4 0 1 0-4-4 4 4 0 0 0 4 4zM4 21a8 8 0 0 1 16 0"/>',
@@ -973,12 +984,25 @@ section{position:relative}
     album:'<rect x="4" y="4" width="16" height="16" rx="1"/><path d="M9 4v16M14 9l2.5 3 2-2.5"/>'
   };
 
-  /* ---------- 35AWARDS flip cards (front photo, back = editable certificate placeholder) ---------- */
+  /* ---------- 35AWARDS flip cards ---------- */
   var AWARDS = [
-    {folder:"portrait-women", file:"IMG_0305.jpg", title:"Woman portrait with flowers", nom:"Портрет с цветами"},
-    {folder:"art", file:"IMG_7879.jpg", title:"Зимний всадник", nom:"Образная съёмка"},
-    {folder:"art", file:"IMG_3971.jpg", title:"При свечах", nom:"Художественный образ"},
-    {folder:"pregnancy", file:"IMG_5871.jpg", title:"Ожидание", nom:"Beauty & Portrait"}
+    {file:"img-0045.webp", title:"Портрет с цветком лотоса", nom:"Top 7% Contest"},
+    {file:"img-0042.webp", title:"Дети у воды", nom:"Top 5% Children by the Water"},
+    {file:"img-0039.webp", title:"Портрет при свечах", nom:"Top 9% Contest", cert:"img-6290.webp"},
+    {file:"img-0049.webp", title:"Движение и танец", nom:"Top 20% Motion Dance", cert:"img-6288.webp"},
+    {file:"img-0040.webp", title:"Ожидание", nom:"Top 14% Pregnant Contest"},
+    {file:"img-0044.webp", title:"Семейная нежность", nom:"Top 9% Family Contest"},
+    {file:"img-0048.webp", title:"Детский портрет на закате", nom:"Top 15% Contest"},
+    {file:"img-2111.webp", title:"Женский цветной портрет", nom:"Top 30% Female Color Portrait", cert:"img-2110.webp"},
+    {file:"img-0036.webp", title:"Черно-белое движение", nom:"Top 5% Black & White Motion"},
+    {file:"img-0043.webp", title:"Портрет с шляпой", nom:"Top 4% Woman with Hat", cert:"img-6292.webp"},
+    {file:"img-0047.webp", title:"Питомец", nom:"Top 10% Pets 2021", cert:"img-6066.webp"},
+    {file:"img-3436.webp", title:"Nude", nom:"Top 300 Nude Nomination"},
+    {file:"img-8017.webp", title:"Прыжок", nom:"Top 20% Motion Dance", cert:"img-8018.webp"},
+    {file:"img-e6833.webp", title:"Новорождённый", nom:"Top 24% Newborn 2020"},
+    {file:"img-4208.webp", title:"Семейный кадр", nom:"Family Contest"},
+    {file:"img-0046.webp", title:"Детский портрет у ёлки", nom:"Top 15% Contest"},
+    {file:"img-2969.webp", title:"Сертификат 35AWARDS", nom:"International Photography Award"}
   ];
 
   /* ---------- Build hero fan ---------- */
@@ -1098,12 +1122,14 @@ section{position:relative}
     var el = document.createElement("article");
     el.className = "service reveal" + (s.featured?" featured":"");
     var lis = s.items.map(function(i){return "<li>"+i+"</li>";}).join("");
+    var media = s.media ? '<div class="service-media"><video autoplay muted loop playsinline preload="metadata"><source src="'+s.media+'"></video></div>' : "";
     el.innerHTML =
       '<svg class="s-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">'+ICONS[s.icon]+'</svg>'+
+      media+
       '<h3>'+s.title+'</h3><div class="s-for">'+s.who+'</div>'+
       '<ul>'+lis+'</ul>'+
       '<div class="meta"><div><span>Длительность</span><strong>'+s.dur+'</strong></div><div><span>Фотографий</span><strong>'+s.count+'</strong></div></div>'+
-      '<div class="price">Цена: <em>Стоимость уточняется</em></div>'+
+      '<div class="price">Цена: <em>'+s.price+'</em></div>'+
       '<a href="#contacts" class="btn '+(s.featured?"btn-primary":"btn-ghost")+'">Обсудить съёмку</a>';
     sg.appendChild(el);
   });
@@ -1118,14 +1144,16 @@ section{position:relative}
     card.setAttribute("aria-label", a.title + ", показать сертификат");
     card.innerHTML =
       '<div class="flip-inner">'+
-        '<div class="flip-face flip-front"><img src="'+src(a)+'" data-fallback="'+jpgSrc(a)+'" alt="'+a.title+', конкурсная работа" loading="lazy" decoding="async"><span class="ribbon">35AWARDS</span></div>'+
-        '<div class="flip-face flip-back"><div class="cert-frame">'+
-          '<div class="cert-logo">35AWARDS</div>'+
-          '<div class="cert-title">«'+a.title+'»</div>'+
-          '<div class="cert-row">Номинация: '+a.nom+'</div>'+
-          '<div class="cert-row">Год и место: уточняются</div>'+
-          '<div class="cert-sign">Anna Linke</div>'+
-        '</div></div>'+
+        '<div class="flip-face flip-front"><img src="'+achSrc(a.file)+'" data-fallback="'+achJpg(a.file)+'" alt="'+a.title+', конкурсная работа 35AWARDS" loading="lazy" decoding="async"><span class="ribbon">35AWARDS</span></div>'+
+        (a.cert
+          ? '<div class="flip-face flip-back has-image"><img src="'+achSrc(a.cert)+'" data-fallback="'+achJpg(a.cert)+'" alt="Сертификат 35AWARDS: '+a.nom+'" loading="lazy" decoding="async"></div>'
+          : '<div class="flip-face flip-back"><div class="cert-frame">'+
+              '<div class="cert-logo">35AWARDS</div>'+
+              '<div class="cert-title">«'+a.title+'»</div>'+
+              '<div class="cert-row">Номинация: '+a.nom+'</div>'+
+              '<div class="cert-row">Скриншот подготовлен для сайта</div>'+
+              '<div class="cert-sign">Anna Fink</div>'+
+            '</div></div>')+
       '</div>';
     var inner = card.querySelector(".flip-inner");
     function toggle(){ card.classList.toggle("flipped"); }
