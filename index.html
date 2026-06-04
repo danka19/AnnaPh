@@ -127,9 +127,7 @@ h1,h2,h3{font-family:var(--font-display);font-weight:500;line-height:1.05;letter
 }
 .header-inner{display:flex;align-items:center;justify-content:space-between;height:80px;gap:1rem}
 .brand{display:flex;align-items:center;gap:.6rem;flex:0 0 auto}
-.brand-logo{display:flex;flex-direction:column;line-height:.9;filter:drop-shadow(0 2px 6px rgba(0,0,0,.55))}
-.brand-logo strong{font-family:var(--font-display);font-style:italic;font-weight:400;font-size:2rem;color:var(--candle)}
-.brand-logo span{font-size:.58rem;font-weight:700;letter-spacing:.22em;text-transform:uppercase;color:var(--candle);opacity:.9;text-align:center}
+.brand img{height:50px;width:auto;filter:drop-shadow(0 2px 6px rgba(0,0,0,.55))}
 .nav-desktop{display:flex;align-items:center;gap:1.15rem}
 .nav-desktop a{
   font-size:.8rem;font-weight:500;letter-spacing:.03em;color:var(--text-secondary);
@@ -309,13 +307,18 @@ section{position:relative}
 .gallery{display:grid;grid-template-columns:repeat(4,1fr);gap:clamp(.55rem,1vw,.85rem)}
 .g-item{position:relative;aspect-ratio:3/4;border-radius:var(--radius);overflow:hidden;cursor:pointer;background:var(--surface);border:1px solid var(--border)}
 .g-item img{width:100%;height:100%;object-fit:cover;transition:transform .9s var(--ease)}
+.g-item video{width:100%;height:100%;object-fit:cover;display:block}
 .g-item:hover img{transform:scale(1.07)}
 .g-item::after{content:"";position:absolute;inset:0;background:linear-gradient(0deg,rgba(20,22,15,.35),transparent 45%);opacity:0;transition:opacity .4s var(--ease)}
 .g-item:hover::after{opacity:1}
 .g-item.more{display:flex;align-items:center;justify-content:center}
 .g-item.more span{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;background:rgba(20,22,15,.62);color:var(--candle);font-family:var(--font-display);font-size:1.5rem;z-index:2}
+.gallery.video-gallery{grid-template-columns:minmax(0,760px);justify-content:center}
+.g-item.g-video{aspect-ratio:9/16;cursor:default;max-width:430px;justify-self:center;width:100%}
+.g-item.g-video video{transform:rotate(90deg) scale(1.78)}
+.g-item.g-video::after{display:none}
 @media (max-width:900px){.gallery{grid-template-columns:repeat(3,1fr)}}
-@media (max-width:560px){.gallery{grid-template-columns:repeat(2,1fr)}}
+@media (max-width:560px){.gallery{grid-template-columns:repeat(2,1fr)}.gallery.video-gallery{grid-template-columns:1fr}}
 
 /* ---------- About / magic text ---------- */
 .about-grid{display:grid;grid-template-columns:1.05fr .95fr;gap:clamp(2rem,5vw,4.5rem);align-items:center}
@@ -381,10 +384,10 @@ section{position:relative}
 .awards .section-head h2{color:var(--candle)}
 .awards-hint{font-size:.8rem;color:var(--highlight);letter-spacing:.04em;margin-top:.8rem;display:inline-flex;align-items:center;gap:.5rem}
 .awards-hint svg{width:16px;height:16px}
-.awards-carousel{position:relative;display:grid;grid-template-columns:auto minmax(0,420px) auto;align-items:center;justify-content:center;gap:clamp(.6rem,2vw,1rem)}
-.awards-viewport{overflow:hidden;min-width:0;width:100%;max-width:420px}
-.awards-track{display:flex;transition:transform .55s var(--ease);will-change:transform}
-.awards-slide{flex:0 0 100%;min-width:0}
+.awards-carousel{position:relative;display:grid;grid-template-columns:auto minmax(0,1120px) auto;align-items:center;justify-content:center;gap:clamp(.6rem,2vw,1rem)}
+.awards-viewport{overflow:hidden;min-width:0;width:100%;max-width:1120px}
+.awards-track{display:flex;gap:clamp(.8rem,1.4vw,1.2rem);transition:transform .55s var(--ease);will-change:transform}
+.awards-slide{flex:0 0 calc((100% - (clamp(.8rem,1.4vw,1.2rem) * 2)) / 3);min-width:0}
 .awards-arrow{
   width:46px;height:46px;border-radius:50%;border:1px solid var(--border-strong);
   background:rgba(20,22,15,.5);color:var(--candle);display:flex;align-items:center;justify-content:center;
@@ -416,11 +419,6 @@ section{position:relative}
   padding:1.5rem 1.2rem;border-color:rgba(200,169,106,.3);
 }
 .flip-back.has-image{padding:0;background:#111}
-.flip-back .cert-frame{border:1px solid rgba(200,169,106,.4);border-radius:4px;padding:1.4rem 1rem;width:100%;height:100%;display:flex;flex-direction:column;justify-content:center;gap:.5rem}
-.flip-back .cert-logo{font-family:var(--font-display);font-size:1.4rem;letter-spacing:.1em;color:var(--highlight)}
-.flip-back .cert-title{font-family:var(--font-display);font-style:italic;font-size:1.15rem;color:var(--candle)}
-.flip-back .cert-row{font-size:.74rem;color:var(--text-secondary);letter-spacing:.03em}
-.flip-back .cert-sign{font-family:var(--font-display);font-style:italic;font-size:1.1rem;color:var(--leaf);margin-top:.6rem}
 
 /* ---------- Shooting video ---------- */
 .shoot-grid{display:grid;grid-template-columns:1.1fr .9fr;gap:clamp(2rem,4vw,3.5rem);align-items:center}
@@ -467,9 +465,7 @@ section{position:relative}
 /* ---------- Footer ---------- */
 .site-footer{background:#16180f;padding:clamp(3rem,5vw,4.5rem) 0 2rem}
 .footer-top{display:grid;grid-template-columns:1.4fr 1fr 1fr;gap:2rem;padding-bottom:2.5rem;border-bottom:1px solid var(--border)}
-.footer-brand .brand-logo{display:inline-flex;margin-bottom:1.1rem}
-.footer-brand .brand-logo strong{font-size:2.45rem}
-.footer-brand .brand-logo span{font-size:.68rem}
+.footer-brand img{height:64px;margin-bottom:1.1rem}
 .footer-brand p{color:var(--text-secondary);font-size:.9rem;max-width:30em}
 .footer-col h5{font-size:.74rem;letter-spacing:.16em;text-transform:uppercase;color:var(--leaf);margin-bottom:1rem}
 .footer-col a{display:block;color:var(--text-secondary);font-size:.9rem;margin-bottom:.6rem;transition:color .3s var(--ease)}
@@ -522,14 +518,16 @@ section{position:relative}
   .about-figure{max-width:480px}
   .about-figure .badge{left:auto;right:18px}
   .services-grid,.process-grid,.trust-grid{grid-template-columns:repeat(2,1fr)}
+  .awards-carousel{grid-template-columns:auto minmax(0,760px) auto}
+  .awards-viewport{max-width:760px}
+  .awards-slide{flex-basis:calc((100% - clamp(.8rem,1.4vw,1.2rem)) / 2)}
   .bc-tall,.bc-wide,.bc-half{grid-column:span 12;aspect-ratio:16/10}
   .bc-tall{aspect-ratio:3/4}
 }
 @media (max-width:768px){
   .header-inner{height:66px}
-  .brand-logo strong{font-size:1.75rem}
-  .brand-logo span{font-size:.52rem}
-  .footer-brand .brand-logo strong{font-size:2.1rem}
+  .brand img{height:42px}
+  .footer-brand img{height:54px}
   .hero{min-height:auto;padding:110px 0 48px}
   .hero-fan{gap:.5rem}
   .fan-card{width:clamp(78px,28vw,120px)}
@@ -545,6 +543,9 @@ section{position:relative}
   .bc-wide,.bc-half{aspect-ratio:4/3}
   .services-grid,.process-grid,.trust-grid{grid-template-columns:1fr}
   .awards-carousel{grid-template-columns:1fr}
+  .awards-viewport{max-width:420px;margin:0 auto}
+  .awards-track{gap:0}
+  .awards-slide{flex-basis:100%}
   .awards-arrow{position:absolute;top:44%;transform:translateY(-50%);background:rgba(20,22,15,.72)}
   .awards-arrow:hover{transform:translateY(-50%)}
   .awards-prev{left:.35rem}
@@ -565,7 +566,7 @@ section{position:relative}
 <header class="site-header" id="header">
   <div class="container header-inner">
     <a href="#" class="brand" aria-label="Анна, фотограф в Хабаровске, на главную">
-      <span class="brand-logo" aria-hidden="true"><strong>Anna Fink</strong><span>Photographer</span></span>
+      <img src="brand_assets/logo-trim.png" alt="Anna Fink, фотограф" width="159" height="50" />
     </a>
     <nav class="nav-desktop" aria-label="Основная навигация">
       <a href="#works">Работы</a>
@@ -632,7 +633,7 @@ section{position:relative}
     </div>
     <div class="best-grid">
       <article class="best-card bc-tall reveal" data-series="women">
-        <div class="frame"><img src="assets/webp/portrait-women/IMG_4270.webp" data-fallback="assets/web/portrait-women/IMG_4270.jpg" alt="Женский портрет на закате, девушка с веснушками" loading="lazy" decoding="async" /></div>
+        <div class="frame"><img src="assets/webp/portrait-women/IMG_4577.webp" data-fallback="assets/web/portrait-women/IMG_4577.jpg" alt="Женский портрет, главная работа серии" loading="lazy" decoding="async" /></div>
         <div class="overlay">
           <span class="ov-tag">Женский портрет</span>
           <h3>Свет и характер</h3>
@@ -844,7 +845,7 @@ section{position:relative}
   <div class="container">
     <div class="footer-top">
       <div class="footer-brand">
-        <span class="brand-logo" aria-hidden="true"><strong>Anna Fink</strong><span>Photographer</span></span>
+        <img src="brand_assets/logo-trim.png" alt="Anna Fink, фотограф в Хабаровске" width="203" height="64" />
         <p>Анна, фотограф в Хабаровске Женская, мужская, семейная и образная фотосессия, съёмка беременности. Фотосессия как разговор с собой.</p>
       </div>
       <div class="footer-col">
@@ -946,7 +947,7 @@ section{position:relative}
     {
       id:"women", tab:"Женский портрет", title:"Женский портрет", tag:"Портрет",
       desc:"Свет, характер и настоящая женственность: нежная, дерзкая, тихая или сильная.",
-      cover:{folder:"portrait-women", file:"IMG_4270.jpg"},
+      cover:{folder:"portrait-women", file:"IMG_4577.jpg"},
       photos: P("portrait-women",["IMG_4270.jpg","IMG_0305.jpg","IMG_2589.jpg","IMG_0451.jpg","IMG_0557.jpg","IMG_0642.jpg","IMG_1018.jpg","IMG_1082.jpg","IMG_1293.jpg","IMG_2365.jpg","IMG_2449.jpg","IMG_3052.jpg","IMG_3055 1.jpg","IMG_3258.jpg","IMG_3509.jpg","IMG_3730.jpg","IMG_4286.jpg","IMG_4327.jpg","IMG_4552.jpg","IMG_4577.jpg","IMG_4626.jpg","IMG_6778.jpg","IMG_7099.jpg","IMG_7178.jpg","IMG_7318.jpg","IMG_7632.jpg","IMG_8016.jpg"])
     },
     {
@@ -985,6 +986,13 @@ section{position:relative}
       desc:"История двоих: прикосновение, взгляд, тишина между словами.",
       cover:{folder:"lovestory", file:"IMG_6488.jpg"},
       photos: P("lovestory",["IMG_6488.jpg","IMG_6319.jpg","IMG_6355.jpg","IMG_6542.jpg","IMG_6663.jpg"])
+    },
+    {
+      id:"albums", tab:"Фотоальбомы", title:"Фотоальбомы: школа и детский сад", tag:"Видео",
+      desc:"Видео-пример для школьных и детсадовских фотоальбомов: живой ритм, детали и настроение проекта.",
+      cover:{folder:"family", file:"IMG_2290.jpg"},
+      video:"assets/kindergarten.MOV",
+      photos:[]
     }
   ];
 
@@ -992,6 +1000,10 @@ section{position:relative}
   function src(p){ return "assets/webp/" + p.folder + "/" + encodeURIComponent(p.file).replace(/\.(jpe?g)$/i, ".webp"); }
   function achSrc(file){ return "assets/achievements/webp/" + encodeURIComponent(file); }
   function achJpg(file){ return "assets/achievements/jpg/" + encodeURIComponent(file).replace(/\.webp$/i, ".jpg"); }
+  function certSrc(file){ return "assets/achievements/certs/webp/" + encodeURIComponent(file); }
+  function certJpg(file){ return "assets/achievements/certs/jpg/" + encodeURIComponent(file).replace(/\.webp$/i, ".jpg"); }
+  function awardBackSrc(file){ return file.indexOf("35awards")===0 ? certSrc(file) : achSrc(file); }
+  function awardBackJpg(file){ return file.indexOf("35awards")===0 ? certJpg(file) : achJpg(file); }
   function catById(id){ for(var i=0;i<CATEGORIES.length;i++){ if(CATEGORIES[i].id===id) return CATEGORIES[i]; } return null; }
   function altFor(cat,i){ return cat.title + ", кадр " + (i+1); }
   // Shuffle each series so photos appear in a fresh random order on every load (Fisher–Yates).
@@ -1005,7 +1017,7 @@ section{position:relative}
     {icon:"family", title:"Семейная съёмка", who:"Семьи и дети", items:["Игровой формат для детей","На природе или дома","Живые, тёплые кадры"], dur:"1–2 часа", count:"20–50 фото", price:"от 7000 рублей"},
     {icon:"pregnant", title:"Беременность", who:"Будущим мамам", items:["Бережная атмосфера","Подбор образа и красивых тканей","Можно вдвоём или с семьёй"], dur:"1–1,5 часа", count:"15–35 фото", price:"от 6000 рублей"},
     {icon:"art", title:"Образная съёмка", who:"Для смелых идей", items:["Сюжет и художественный образ","Студия, помещение или улица","Кинематографичный свет"], dur:"2–3 часа", count:"15–30 фото", price:"от 6000 рублей"},
-    {icon:"album", title:"Фотоальбомы: школа и детский сад", who:"Для выпускных и групп", items:["Съёмка детей и педагогов","Верстка альбома","Печать и подготовка тиража"], dur:"по проекту", count:"альбом", price:"от 1300 рублей", media:"assets/kindergarten.MOV", featured:true},
+    {icon:"album", title:"Фотоальбомы: школа и детский сад", who:"Для выпускных и групп", items:["Съёмка детей и педагогов","Верстка альбома","Печать и подготовка тиража"], dur:"по проекту", count:"альбом", price:"от 1300 рублей", featured:true},
     {icon:"album", title:"Фотоальбомы индивидуальные", who:"Личная история в печати", items:["Индивидуальная верстка","Премиальные материалы","Подбор кадров под настроение"], dur:"по запросу", count:"индивидуально", price:"цена договорная"}
   ];
   var ICONS = {
@@ -1019,28 +1031,28 @@ section{position:relative}
 
   /* ---------- 35AWARDS flip cards ---------- */
   var AWARDS = [
-    {file:"img-0045.webp", title:"Портрет с цветком лотоса", nom:"Top 7% Contest"},
-    {file:"img-0042.webp", title:"Дети у воды", nom:"Top 5% Children by the Water"},
-    {file:"img-0039.webp", title:"Портрет при свечах", nom:"Top 9% Contest", cert:"img-6290.webp"},
-    {file:"img-0049.webp", title:"Движение и танец", nom:"Top 20% Motion Dance", cert:"img-6288.webp"},
-    {file:"img-0040.webp", title:"Ожидание", nom:"Top 14% Pregnant Contest"},
-    {file:"img-0044.webp", title:"Семейная нежность", nom:"Top 9% Family Contest"},
-    {file:"img-0048.webp", title:"Детский портрет на закате", nom:"Top 15% Contest"},
+    {file:"img-0045.webp", title:"Портрет с цветком лотоса", nom:"Top 7% Contest", cert:"35awards2022.webp"},
+    {file:"img-0042.webp", title:"Дети у воды", nom:"Top 5% Children by the Water", cert:"35awards_727.webp"},
+    {file:"img-0039.webp", title:"Портрет при свечах", nom:"Top 9% Contest", cert:"35awards_710.webp"},
+    {file:"img-0049.webp", title:"Движение и танец", nom:"Top 20% Motion Dance", cert:"35awards_564.webp"},
+    {file:"img-0040.webp", title:"Ожидание", nom:"Top 14% Pregnant Contest", cert:"35awards2020.webp"},
+    {file:"img-0044.webp", title:"Семейная нежность", nom:"Top 9% Family Contest", cert:"35awards2019.webp"},
+    {file:"img-0048.webp", title:"Детский портрет на закате", nom:"Top 15% Contest", cert:"35awards_580.webp"},
     {file:"img-2111.webp", title:"Женский цветной портрет", nom:"Top 30% Female Color Portrait", cert:"img-2110.webp"},
-    {file:"img-0036.webp", title:"Черно-белое движение", nom:"Top 5% Black & White Motion"},
+    {file:"img-0036.webp", title:"Черно-белое движение", nom:"Top 5% Black & White Motion", cert:"35awards_578.webp"},
     {file:"img-0043.webp", title:"Портрет с шляпой", nom:"Top 4% Woman with Hat", cert:"img-6292.webp"},
-    {file:"img-0047.webp", title:"Питомец", nom:"Top 10% Pets 2021", cert:"img-6066.webp"},
-    {file:"img-3436.webp", title:"Nude", nom:"Top 300 Nude Nomination"},
-    {file:"img-8017.webp", title:"Прыжок", nom:"Top 20% Motion Dance", cert:"img-8018.webp"},
-    {file:"img-e6833.webp", title:"Новорождённый", nom:"Top 24% Newborn 2020"},
-    {file:"img-4208.webp", title:"Семейный кадр", nom:"Family Contest"},
-    {file:"img-0046.webp", title:"Детский портрет у ёлки", nom:"Top 15% Contest"},
-    {file:"img-2969.webp", title:"Сертификат 35AWARDS", nom:"International Photography Award"}
+    {file:"img-0047.webp", title:"Питомец", nom:"Top 10% Pets 2021", cert:"35awards_571.webp"},
+    {file:"img-3436.webp", title:"Nude", nom:"Top 300 Nude Nomination", cert:"35awards2022.webp"},
+    {file:"img-8017.webp", title:"Прыжок", nom:"Top 20% Motion Dance", cert:"35awards_564.webp"},
+    {file:"img-e6833.webp", title:"Новорождённый", nom:"Top 24% Newborn 2020", cert:"35awards_559.webp"},
+    {file:"img-4208.webp", title:"Семейный кадр", nom:"Family Contest", cert:"35awards2019.webp"},
+    {file:"img-0046.webp", title:"Детский портрет у ёлки", nom:"Top 15% Contest", cert:"35awards_580.webp"},
+    {file:"img-2969.webp", title:"Сертификат 35AWARDS", nom:"International Photography Award", cert:"35awards2022.webp"}
   ];
 
   /* ---------- Build hero fan ---------- */
   var heroFan = document.getElementById("heroFan");
-  CATEGORIES.forEach(function(cat){
+  CATEGORIES.filter(function(cat){ return !cat.video; }).forEach(function(cat){
     var fig = document.createElement("figure");
     fig.className = "fan-card";
     fig.setAttribute("data-series", cat.id);
@@ -1116,11 +1128,21 @@ section{position:relative}
     head.className = "cat-head";
     head.innerHTML =
       '<div class="ch-text"><h3>'+cat.title+'</h3><p>'+cat.desc+'</p></div>'+
-      '<button class="btn btn-ghost ch-cta" data-series="'+cat.id+'">Открыть серию · '+cat.photos.length+' фото</button>';
+      (cat.video
+        ? '<a class="btn btn-ghost ch-cta" href="#contacts">Обсудить фотоальбом</a>'
+        : '<button class="btn btn-ghost ch-cta" data-series="'+cat.id+'">Открыть серию · '+cat.photos.length+' фото</button>');
     grid.appendChild(head);
 
     var gal = document.createElement("div");
-    gal.className = "gallery";
+    gal.className = "gallery" + (cat.video ? " video-gallery" : "");
+    if(cat.video){
+      var videoItem = document.createElement("div");
+      videoItem.className = "g-item g-video";
+      videoItem.innerHTML = '<video autoplay muted loop playsinline preload="metadata" controls><source src="'+cat.video+'"></video>';
+      gal.appendChild(videoItem);
+      grid.appendChild(gal);
+      return;
+    }
     var shown = Math.min(cat.photos.length, MAX_THUMBS);
     for(var i=0;i<shown;i++){
       var p = cat.photos[i];
@@ -1155,7 +1177,7 @@ section{position:relative}
     var el = document.createElement("article");
     el.className = "service reveal" + (s.featured?" featured":"");
     var lis = s.items.map(function(i){return "<li>"+i+"</li>";}).join("");
-    var media = s.media ? '<div class="service-media"><video autoplay muted loop playsinline preload="metadata"><source src="'+s.media+'"></video></div>' : "";
+    var media = "";
     el.innerHTML =
       '<svg class="s-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">'+ICONS[s.icon]+'</svg>'+
       media+
@@ -1182,15 +1204,7 @@ section{position:relative}
     card.innerHTML =
       '<div class="flip-inner">'+
         '<div class="flip-face flip-front"><img src="'+achSrc(a.file)+'" data-fallback="'+achJpg(a.file)+'" alt="'+a.title+', конкурсная работа 35AWARDS" loading="lazy" decoding="async"><span class="ribbon">35AWARDS</span></div>'+
-        (a.cert
-          ? '<div class="flip-face flip-back has-image"><img src="'+achSrc(a.cert)+'" data-fallback="'+achJpg(a.cert)+'" alt="Сертификат 35AWARDS: '+a.nom+'" loading="lazy" decoding="async"></div>'
-          : '<div class="flip-face flip-back"><div class="cert-frame">'+
-              '<div class="cert-logo">35AWARDS</div>'+
-              '<div class="cert-title">«'+a.title+'»</div>'+
-              '<div class="cert-row">Номинация: '+a.nom+'</div>'+
-              '<div class="cert-row">Скриншот подготовлен для сайта</div>'+
-              '<div class="cert-sign">Anna Fink</div>'+
-            '</div></div>')+
+        '<div class="flip-face flip-back has-image"><img src="'+awardBackSrc(a.cert)+'" data-fallback="'+awardBackJpg(a.cert)+'" alt="Сертификат 35AWARDS: '+a.nom+'" loading="lazy" decoding="async"></div>'+
       '</div>';
     var inner = card.querySelector(".flip-inner");
     function toggle(){ card.classList.toggle("flipped"); }
@@ -1208,9 +1222,16 @@ section{position:relative}
   });
   var awardSlides = Array.prototype.slice.call(awardsTrack.children);
   var awardDotEls = Array.prototype.slice.call(awardsDots.children);
+  function visibleAwards(){
+    if(window.matchMedia("(max-width: 560px)").matches) return 1;
+    if(window.matchMedia("(max-width: 1024px)").matches) return 2;
+    return 3;
+  }
   function setAward(i){
-    var max = AWARDS.length;
-    awardsIndex = (i + max) % max;
+    var maxStart = Math.max(0, AWARDS.length - visibleAwards());
+    if(i < 0) awardsIndex = maxStart;
+    else if(i > maxStart) awardsIndex = 0;
+    else awardsIndex = i;
     var slide = awardSlides[awardsIndex];
     if(!slide) return;
     var gap = parseFloat(getComputedStyle(awardsTrack).gap) || 0;
@@ -1228,6 +1249,12 @@ section{position:relative}
     if(e.key==="ArrowRight"){ e.preventDefault(); moveAward(1); }
   });
   setAward(0);
+
+  var shootingVideo = document.querySelector(".shoot-video video");
+  if(shootingVideo){
+    shootingVideo.playbackRate = 1.45;
+    shootingVideo.defaultPlaybackRate = 1.45;
+  }
 
   /* ---------- Contacts ---------- */
   var cb = document.getElementById("contactButtons");
