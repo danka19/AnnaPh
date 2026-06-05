@@ -166,6 +166,9 @@ Verify visually **after every section and every change round** — not once at t
 
 Rules:
 - Verify **each section individually** (hero, works, portfolio, about, services, shooting, process, trust, awards, contacts, footer), plus the global header/nav and footer, at **one desktop and one mobile width**.
+- **Crop each section to its native resolution and look at the actual content — never judge a section from a downscaled full-page slice.** A whole-page screenshot scaled to ~360px hides sizing bugs (thumbnails squeezed into a grid cell, fixed-px elements that don't scale). Crop the real pixels and check element sizes, e.g. that gallery thumbnails are large and fill their row.
+- **Also check at a large viewport (≈2560px wide).** Bugs from fixed-size or wrongly-nested grids only show on big screens. If an element looks "tiny and static" on 2K, find what constrains its size (a parent grid track, a `max-width`, a fixed `px`).
+- Switch interactive state before capturing: portfolio tabs (`?qa=1&tab=<id>`), awards flip (`?qa=1&flip`), lightbox (`?qa=1&lb=<id>`). Don't assume the default tab/state represents the whole section.
 - Inspect **brand assets at the pixel level before using them** (dimensions, transparent padding, aspect ratio). A square PNG with large transparent margins will render tiny — trim it first. Never trust an asset's apparent size; measure it.
 - After any text change, re-read the rendered section image to confirm no clipping/overflow and that wording is correct.
 - Re-screenshot after each fix. Two passes minimum on anything visual.
