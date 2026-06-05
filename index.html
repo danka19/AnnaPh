@@ -21,9 +21,11 @@
 <meta name="twitter:card" content="summary_large_image" />
 
 <link rel="icon" href="brand_assets/logo.png" />
-<link rel="preconnect" href="https://fonts.googleapis.com" />
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Manrope:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+<!-- Self-hosted fonts (no external requests). Preload the key above-the-fold faces. -->
+<link rel="preload" href="assets/fonts/CormorantGaramond-500-normal-cyrillic.woff2" as="font" type="font/woff2" crossorigin />
+<link rel="preload" href="assets/fonts/Manrope-400-normal-cyrillic.woff2" as="font" type="font/woff2" crossorigin />
+<link rel="preload" href="assets/fonts/Manrope-600-normal-cyrillic.woff2" as="font" type="font/woff2" crossorigin />
+<link rel="stylesheet" href="assets/fonts/fonts.css" />
 
 <style>
 :root{
@@ -286,7 +288,8 @@ section{position:relative}
 .tab:hover{color:var(--candle);border-color:var(--candle)}
 .tab.active{background:var(--coral);color:var(--candle);border-color:var(--coral)}
 
-.series-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(min(100%,320px),1fr));gap:clamp(1rem,2vw,1.6rem)}
+/* Single-column container: category head on top, gallery full-width below (so thumbnails are large, not squeezed into a grid cell). */
+.series-grid{display:block}
 .series-card{
   border-radius:var(--radius);overflow:hidden;background:var(--surface);
   border:1px solid var(--border);box-shadow:var(--shadow-raised);cursor:pointer;
@@ -323,7 +326,7 @@ section{position:relative}
 .g-item.more{display:flex;align-items:center;justify-content:center}
 .g-item.more span{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;background:rgba(20,22,15,.62);color:var(--candle);font-family:var(--font-display);font-size:1.5rem;z-index:2}
 .gallery.video-gallery{grid-template-columns:minmax(0,760px);justify-content:center}
-.g-item.g-video{aspect-ratio:9/16;cursor:default;max-width:430px;justify-self:center;width:100%;background:#000}
+.g-item.g-video{aspect-ratio:16/9;cursor:default;max-width:760px;justify-self:center;width:100%;background:#000}
 .g-item.g-video video{width:100%;height:100%;object-fit:cover}
 .g-item.g-video::after{display:none}
 @media (max-width:900px){.gallery{grid-template-columns:repeat(3,1fr)}}
@@ -1024,8 +1027,8 @@ section{position:relative}
   function achJpg(file){ return "assets/achievements/jpg/" + encodeURIComponent(file).replace(/\.webp$/i, ".jpg"); }
   function certSrc(file){ return "assets/achievements/certs/webp/" + encodeURIComponent(file); }
   function certJpg(file){ return "assets/achievements/certs/jpg/" + encodeURIComponent(file).replace(/\.webp$/i, ".jpg"); }
-  function awardBackSrc(file){ return file.indexOf("35awards")===0 ? certSrc(file) : achSrc(file); }
-  function awardBackJpg(file){ return file.indexOf("35awards")===0 ? certJpg(file) : achJpg(file); }
+  function awardBackSrc(file){ return certSrc(file); }
+  function awardBackJpg(file){ return certJpg(file); }
   function catById(id){ for(var i=0;i<CATEGORIES.length;i++){ if(CATEGORIES[i].id===id) return CATEGORIES[i]; } return null; }
   function altFor(cat,i){ return cat.title + ", кадр " + (i+1); }
   // Shuffle each series so photos appear in a fresh random order on every load (Fisher–Yates).
@@ -1075,15 +1078,24 @@ section{position:relative}
   };
 
   /* ---------- 35AWARDS flip cards ---------- */
-  // Each card pairs a competition photo with the certificate that matches its
-  // actual 35AWARDS nomination (the laurel badge burned into every photo).
+  // Each card: a competition photo (front, with its 35AWARDS laurel badge) and the
+  // matching certificate (back). The first 8 are exact thematic matches; the last 6
+  // pair a themed photo with the annual participation certificate of the same period.
   var AWARDS = [
-    {file:"img-2111.webp", title:"Женский цветной портрет", nom:"Женский цветной портрет · TOP 30%", cert:"img-2110.webp"},
-    {file:"img-0043.webp", title:"Взрослый студийный портрет", nom:"Взрослый студийный портрет · TOP 4%", cert:"35awards_710.webp"},
-    {file:"img-e6833.webp", title:"Новорождённые", nom:"Новорождённые 2020 · TOP 24%", cert:"35awards_559.webp"},
-    {file:"img-0049.webp", title:"Движение: танец", nom:"Движение: танец · TOP 20%", cert:"35awards_564.webp"},
-    {file:"img-0048.webp", title:"Дети и осень", nom:"Дети и осень · TOP 15%", cert:"35awards_580.webp"},
-    {file:"img-0036.webp", title:"Чёрно-белое: движение", nom:"Чёрно-белое: движение · TOP 5%", cert:"35awards_578.webp"}
+    {file:"img-2111.webp", title:"Женский цветной портрет", nom:"Женский цветной портрет · TOP 30%", cert:"cert-female-color.webp"},
+    {file:"img-0043.webp", title:"Взрослый студийный портрет", nom:"Взрослый студийный портрет · TOP 4%", cert:"cert-adult-studio.webp"},
+    {file:"img-e6833.webp", title:"Новорождённые", nom:"Новорождённые 2020 · TOP 24%", cert:"cert-newborn.webp"},
+    {file:"img-0049.webp", title:"Движение: танец", nom:"Движение: танец · TOP 20%", cert:"cert-dance.webp"},
+    {file:"img-0048.webp", title:"Дети и осень", nom:"Дети и осень · TOP 15%", cert:"cert-children-autumn.webp"},
+    {file:"img-0036.webp", title:"Чёрно-белое: движение", nom:"Чёрно-белое: движение · TOP 5%", cert:"cert-bw-motion.webp"},
+    {file:"img-0047.webp", title:"Домашние животные", nom:"Домашние животные · TOP 10%", cert:"cert-pets.webp"},
+    {file:"img-3436.webp", title:"Nude", nom:"Nude · TOP 300", cert:"cert-2022-nude.webp"},
+    {file:"img-0044.webp", title:"Семейный конкурс", nom:"Семейный конкурс · TOP 9%", cert:"cert-2019.webp"},
+    {file:"img-0042.webp", title:"Дети у воды", nom:"Дети у воды · TOP 5%", cert:"cert-2019.webp"},
+    {file:"img-0040.webp", title:"Беременность", nom:"Беременность · TOP 14%", cert:"cert-2020.webp"},
+    {file:"img-0046.webp", title:"Новогодние истории", nom:"Новогодние истории 2021 · TOP 15%", cert:"cert-2020.webp"},
+    {file:"img-0045.webp", title:"Портрет с цветами", nom:"Женский портрет с цветами · TOP 7%", cert:"cert-2022.webp"},
+    {file:"img-0039.webp", title:"Костюмированный портрет", nom:"Костюмированный женский портрет · TOP 9%", cert:"cert-2022.webp"}
   ];
 
   /* ---------- Build hero fan ---------- */
@@ -1447,6 +1459,9 @@ section{position:relative}
     }
     var tm = window.location.search.match(/[?&]tab=([a-z]+)/);
     if(tm){ setTab(tm[1]); }
+    if(/[?&]flip\b/.test(window.location.search)){
+      Array.prototype.slice.call(document.querySelectorAll(".flip")).forEach(function(f){ f.classList.add("flipped"); });
+    }
   }
 })();
 </script>
