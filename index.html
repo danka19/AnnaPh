@@ -173,7 +173,19 @@ h1,h2,h3{font-family:var(--font-display);font-weight:500;line-height:1.05;letter
     linear-gradient(0deg,rgba(20,22,15,.95) 2%,rgba(20,22,15,0) 34%);
 }
 .hero .container{position:relative;z-index:2;width:100%}
-.hero-content{max-width:660px}
+.hero-content{max-width:620px}
+/* Hero layout: text + CTA on the left, intro video on the right (desktop); stacked on mobile (video under the buttons). */
+.hero-layout{display:grid;grid-template-columns:1fr;gap:clamp(1.4rem,3vw,2.6rem);align-items:center}
+.hero-video{
+  position:relative;width:100%;max-width:280px;margin:.4rem auto 0;
+  aspect-ratio:9/16;border-radius:var(--radius);overflow:hidden;
+  background:#000;border:1px solid var(--border-strong);box-shadow:var(--shadow-overlay);
+}
+.hero-video video{width:100%;height:100%;object-fit:cover;display:block}
+@media(min-width:880px){
+  .hero-layout{grid-template-columns:minmax(0,1fr) clamp(280px,24vw,340px)}
+  .hero-video{max-width:none;margin:0}
+}
 .hero-kicker{margin-bottom:1.3rem}
 .hero h1{
   font-size:clamp(2.5rem,6vw,4.6rem);font-weight:500;color:var(--candle);
@@ -239,10 +251,9 @@ section{position:relative}
 .band-paper .section-head p{color:var(--ink-soft)}
 
 /* Hide JS-animated hero pieces before first paint (only when JS is active) to avoid a flash of the final state. */
-.js .hero-content [data-seq]{opacity:0}
-.js .hero-fan .fan-card{opacity:0}
+.js .hero-layout [data-seq]{opacity:0}
 @media (prefers-reduced-motion:reduce){
-  .js .hero-content [data-seq],.js .hero-fan .fan-card{opacity:1}
+  .js .hero-layout [data-seq]{opacity:1}
 }
 
 /* Reveal on scroll */
@@ -448,7 +459,7 @@ section{position:relative}
 /* ---------- Shooting video ---------- */
 .shoot-grid{display:grid;grid-template-columns:1.1fr .9fr;gap:clamp(2rem,4vw,3.5rem);align-items:center}
 .shoot-video{position:relative;border-radius:var(--radius);overflow:hidden;box-shadow:var(--shadow-overlay);aspect-ratio:9/12;background:#000}
-.shoot-video video{width:100%;height:100%;object-fit:cover;display:block}
+.shoot-video video,.shoot-video img{width:100%;height:100%;object-fit:cover;display:block}
 .shoot-video .grain{position:absolute;inset:0;background:linear-gradient(0deg,rgba(20,22,15,.4),transparent 40%);pointer-events:none}
 .shoot-captions{display:flex;flex-direction:column;gap:1.4rem;margin-top:2rem}
 .shoot-cap{display:flex;gap:1rem;align-items:flex-start}
@@ -629,7 +640,7 @@ section{position:relative}
       <img src="assets/background_photo_1-hero.jpg" alt="Женский портрет с цветком лотоса, авторская работа Анны, отмеченная в конкурсе" width="1700" height="2550" fetchpriority="high" decoding="async" />
     </picture>
   </div>
-  <div class="container">
+  <div class="container hero-layout">
     <div class="hero-content">
       <h1 data-seq="1"><span class="hero-city">Фотограф в Хабаровске</span> <span class="hero-main"><em>Портретные</em>, семейные и образные съёмки</span></h1>
       <p class="hero-sub" data-seq="2">Привет, я Анна. Обычная «девочка», умеющая видеть красоту. И все девочки на моих фото тоже «обычные», ни одной модели. Просто я люблю фотографировать женственность — такую разную: нежную, дерзкую, милую, сексуальную, строгую… <em>а какая сегодня ты?</em></p>
@@ -639,6 +650,11 @@ section{position:relative}
         <a href="#portfolio" class="btn btn-ghost">Посмотреть работы</a>
       </div>
     </div>
+    <figure class="hero-video" data-seq="5" aria-label="Видео: как проходит съёмка">
+      <video autoplay muted loop playsinline preload="metadata" poster="assets/webp/portrait-women/IMG_2589.webp">
+        <source src="assets/best_works_videoForGif.mp4" type="video/mp4" />
+      </video>
+    </figure>
   </div>
 </section>
 
@@ -701,9 +717,7 @@ section{position:relative}
 <section class="band band-dark" id="shooting">
   <div class="container shoot-grid">
     <div class="shoot-video reveal">
-      <video autoplay muted loop playsinline preload="metadata" poster="assets/webp/portrait-women/IMG_2589.webp" aria-label="Видео: как проходит съёмка">
-        <source src="assets/best_works_videoForGif.mp4" type="video/mp4" />
-      </video>
+      <img src="assets/webp/portrait-women/IMG_7178.webp" data-fallback="assets/web/portrait-women/IMG_7178.jpg" alt="Женственный портрет на съёмке, авторская работа Анны" loading="lazy" decoding="async" />
       <div class="grain"></div>
     </div>
     <div class="shoot-copy reveal">
@@ -1039,7 +1053,7 @@ section{position:relative}
 
   /* ---------- Hero text sequence ---------- */
   (function heroSeq(){
-    var els = document.querySelectorAll(".hero-content [data-seq]");
+    var els = document.querySelectorAll(".hero-layout [data-seq]");
     els.forEach(function(el){ el.style.opacity="0"; el.style.transform="translateY(18px)"; });
     if(reduceMotion){
       els.forEach(function(el){ el.style.opacity="1"; el.style.transform="none"; });
@@ -1201,10 +1215,13 @@ section{position:relative}
   });
   setAward(0);
 
-  var shootingVideo = document.querySelector(".shoot-video video");
-  if(shootingVideo){
-    shootingVideo.playbackRate = 1.0;
-    shootingVideo.defaultPlaybackRate = 1.0;
+  var heroVideo = document.querySelector(".hero-video video");
+  if(heroVideo){
+    heroVideo.playbackRate = 1.0;
+    heroVideo.defaultPlaybackRate = 1.0;
+    // Autoplay can be deferred until the element is in view; nudge it.
+    var tryPlay = function(){ var p = heroVideo.play(); if(p && p.catch) p.catch(function(){}); };
+    if(heroVideo.readyState >= 2) tryPlay(); else heroVideo.addEventListener("loadeddata", tryPlay, {once:true});
   }
 
   /* ---------- Contacts ---------- */
