@@ -159,32 +159,35 @@ h1,h2,h3{font-family:var(--font-display);font-weight:500;line-height:1.05;letter
 .mobile-menu a:hover{color:var(--highlight)}
 
 /* ---------- Hero ---------- */
-.hero{
-  position:relative;min-height:100svh;display:flex;align-items:center;
-  padding:120px 0 56px;overflow:hidden;
-}
+.hero{position:relative;min-height:100svh;display:flex;flex-direction:column;overflow:hidden}
+.hero-stage{position:relative;flex:1 0 auto;min-height:clamp(540px,88svh,1040px);display:flex;align-items:center;padding:clamp(110px,14vh,150px) 0 clamp(1.4rem,3vh,2.4rem)}
 .hero-bg{position:absolute;inset:0;z-index:0}
 .hero-bg picture{display:block;width:100%;height:100%}
-.hero-bg img{width:100%;height:100%;object-fit:cover;object-position:50% 22%}
+.hero-bg img{width:100%;height:100%;object-fit:cover;object-position:58% 34%}
 .hero-bg::after{
   content:"";position:absolute;inset:0;
   background:
-    linear-gradient(90deg,rgba(20,22,15,.92) 0%,rgba(20,22,15,.72) 38%,rgba(20,22,15,.32) 70%,rgba(20,22,15,.55) 100%),
-    linear-gradient(0deg,rgba(20,22,15,.95) 2%,rgba(20,22,15,0) 34%);
+    linear-gradient(90deg,rgba(20,22,15,.92) 0%,rgba(20,22,15,.6) 42%,rgba(20,22,15,.18) 72%,rgba(20,22,15,.4) 100%),
+    linear-gradient(0deg,rgba(20,22,15,.96) 0%,rgba(20,22,15,0) 40%);
 }
-.hero .container{position:relative;z-index:2;width:100%}
+.hero-stage .container{position:relative;z-index:2;width:100%}
 .hero-content{max-width:620px}
-/* Hero layout: text + CTA on the left, intro video on the right (desktop); stacked on mobile (video under the buttons). */
-.hero-layout{display:grid;grid-template-columns:1fr;gap:clamp(1.4rem,3vw,2.6rem);align-items:center}
+/* Bottom band of the hero: tagline + CTA on the left, intro video opposite on the right. */
+.hero-foot{position:relative;z-index:3;background:var(--background);border-top:1px solid var(--border)}
+.hero-foot-grid{display:grid;grid-template-columns:1fr;gap:clamp(1.3rem,3vw,2rem);align-items:center;padding:clamp(1.5rem,3vw,2.2rem) 0 clamp(1.8rem,3.5vw,2.8rem)}
+.hero-actions{display:flex;flex-direction:column;gap:1.1rem;align-items:flex-start}
+.hero-actions .hero-line{margin:0}
+.hero-actions .hero-cta{margin:0}
 .hero-video{
-  position:relative;width:100%;max-width:320px;margin:.4rem auto 0;
+  position:relative;width:100%;max-width:230px;margin-inline:auto;
   aspect-ratio:9/16;border-radius:var(--radius);overflow:hidden;
   background:#000;border:1px solid var(--border-strong);box-shadow:var(--shadow-overlay);
 }
 .hero-video video{width:100%;height:100%;object-fit:cover;display:block}
 @media(min-width:880px){
-  .hero-layout{grid-template-columns:minmax(0,1fr) clamp(255px,22vw,310px);min-height:calc(100svh - 184px);align-items:center}
-  .hero-video{align-self:end;max-width:none;max-height:58svh;margin:0}
+  .hero-foot-grid{grid-template-columns:auto auto;justify-content:center;gap:clamp(2.5rem,6vw,5.5rem)}
+  .hero-actions{align-items:flex-start}
+  .hero-video{width:clamp(185px,17vw,220px);max-width:none;margin:0}
 }
 .hero-kicker{margin-bottom:1.3rem}
 .hero h1{
@@ -251,9 +254,9 @@ section{position:relative}
 .band-paper .section-head p{color:var(--ink-soft)}
 
 /* Hide JS-animated hero pieces before first paint (only when JS is active) to avoid a flash of the final state. */
-.js .hero-layout [data-seq]{opacity:0}
+.js .hero [data-seq]{opacity:0}
 @media (prefers-reduced-motion:reduce){
-  .js .hero-layout [data-seq]{opacity:1}
+  .js .hero [data-seq]{opacity:1}
 }
 
 /* Reveal on scroll */
@@ -634,27 +637,35 @@ section{position:relative}
 <main>
 <!-- ============ HERO ============ -->
 <section class="hero" id="top">
-  <div class="hero-bg">
-    <picture>
-      <source srcset="assets/background_photo_1-hero.webp" type="image/webp" />
-      <img src="assets/background_photo_1-hero.jpg" alt="Женский портрет с цветком лотоса, авторская работа Анны, отмеченная в конкурсе" width="1700" height="2550" fetchpriority="high" decoding="async" />
-    </picture>
-  </div>
-  <div class="container hero-layout">
-    <div class="hero-content">
-      <h1 data-seq="1"><span class="hero-city">Фотограф в Хабаровске</span> <span class="hero-main"><em>Портретные</em>, семейные и образные съёмки</span></h1>
-      <p class="hero-sub" data-seq="2">Привет, я Анна. Обычная «девочка», умеющая видеть красоту. И все девочки на моих фото тоже «обычные», ни одной модели. Просто я люблю фотографировать женственность — такую разную: нежную, дерзкую, милую, сексуальную, строгую… <em>а какая сегодня ты?</em></p>
-      <p class="hero-line" data-seq="3">Твоя лучшая фотосессия начинается здесь</p>
-      <div class="hero-cta" data-seq="4">
-        <a href="#contacts" class="btn btn-primary">Записаться на съёмку</a>
-        <a href="#portfolio" class="btn btn-ghost">Посмотреть работы</a>
+  <div class="hero-stage">
+    <div class="hero-bg">
+      <picture>
+        <source srcset="assets/background_photo_1-hero.webp" type="image/webp" />
+        <img src="assets/background_photo_1-hero.jpg" alt="Женский портрет с цветком лотоса, авторская работа Анны, отмеченная в конкурсе" width="1700" height="2550" fetchpriority="high" decoding="async" />
+      </picture>
+    </div>
+    <div class="container">
+      <div class="hero-content">
+        <h1 data-seq="1"><span class="hero-city">Фотограф в Хабаровске</span> <span class="hero-main"><em>Портретные</em>, семейные и образные съёмки</span></h1>
+        <p class="hero-sub" data-seq="2">Привет, я Анна. Обычная «девочка», умеющая видеть красоту. И все девочки на моих фото тоже «обычные», ни одной модели. Просто я люблю фотографировать женственность — такую разную: нежную, дерзкую, милую, сексуальную, строгую… <em>а какая сегодня ты?</em></p>
       </div>
     </div>
-    <figure class="hero-video" data-seq="5" aria-label="Видео: как проходит съёмка">
-      <video autoplay muted loop playsinline preload="metadata" poster="assets/webp/portrait-women/IMG_2589.webp">
-        <source src="assets/best_works_videoForGif.mp4" type="video/mp4" />
-      </video>
-    </figure>
+  </div>
+  <div class="hero-foot">
+    <div class="container hero-foot-grid">
+      <div class="hero-actions" data-seq="3">
+        <p class="hero-line">Твоя лучшая фотосессия начинается здесь</p>
+        <div class="hero-cta">
+          <a href="#contacts" class="btn btn-primary">Записаться на съёмку</a>
+          <a href="#portfolio" class="btn btn-ghost">Посмотреть работы</a>
+        </div>
+      </div>
+      <figure class="hero-video" data-seq="4" aria-label="Видео: как проходит съёмка">
+        <video autoplay muted loop playsinline preload="metadata" poster="assets/webp/portrait-women/IMG_2589.webp">
+          <source src="assets/best_works_videoForGif.mp4" type="video/mp4" />
+        </video>
+      </figure>
+    </div>
   </div>
 </section>
 
@@ -1053,7 +1064,7 @@ section{position:relative}
 
   /* ---------- Hero text sequence ---------- */
   (function heroSeq(){
-    var els = document.querySelectorAll(".hero-layout [data-seq]");
+    var els = document.querySelectorAll(".hero [data-seq]");
     els.forEach(function(el){ el.style.opacity="0"; el.style.transform="translateY(18px)"; });
     if(reduceMotion){
       els.forEach(function(el){ el.style.opacity="1"; el.style.transform="none"; });
