@@ -175,7 +175,27 @@ Rules:
 
 ### Local capture recipe on this machine (Windows)
 
-Serve the static site from the repository root with any local HTTP server, then use headless Chrome at `C:\Program Files\Google\Chrome\Application\chrome.exe`.
+Serve the static site from the repository root with any local HTTP server, then capture screenshots.
+
+**Use Playwright for anything that depends on viewport height (`vh`/`svh`/`dvh`) — the hero, sticky/pinned elements, full-screen sections.** The headless Chrome `--screenshot` CLI resolves viewport-height units to the WRONG value (smaller than the screenshot surface), so a `100svh`/`100dvh` hero looks broken (strip mid-page, clipped buttons) even when the CSS is correct. Playwright sets a real layout viewport via CDP, so the units resolve exactly like a real browser. It can drive the already-installed Chrome with `channel="chrome"` (no extra browser download):
+
+```
+pip install playwright
+python -c "
+from playwright.sync_api import sync_playwright
+with sync_playwright() as p:
+    b=p.chromium.launch(channel='chrome')
+    pg=b.new_page(viewport={'width':1440,'height':900})   # real viewport: svh/dvh == 900
+    pg.goto('http://127.0.0.1:8123/', wait_until='load'); pg.wait_for_timeout(2500)
+    pg.screenshot(path=r'%TEMP%/annashots/desk.png')       # viewport-only by default
+    # measure instead of guessing pixels:
+    print(pg.evaluate('()=>({innerH:innerHeight, marqBottom:document.querySelector(\".hero-marquee\").getBoundingClientRect().bottom})'))
+    b.close()
+"
+```
+Drive interactive state with Playwright too (`pg.locator('#process').scroll_into_view_if_needed()`, click tabs, `pg.evaluate(...)` to read computed rects). Reading `getBoundingClientRect()` / `getComputedStyle` is more reliable than eyeballing crops.
+
+The raw headless Chrome CLI (below) is fine for sections that DON'T depend on viewport height. **Do not trust `?qa=1` for the hero** — QA mode caps hero height, which hides real-height bugs.
 
 Environment gotchas (these have actually broken captures here):
 - **Screenshot output path must contain NO spaces.** Chrome reads a space as a second "target" and fails with `Multiple targets are not supported`. Write raw headless output to a space-free dir (e.g. `%TEMP%\annashots`), then copy reviewed/cropped artifacts into `temporary screenshots/` when they are useful for comparison.
