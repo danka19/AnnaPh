@@ -172,23 +172,34 @@ h1,h2,h3{font-family:var(--font-display);font-weight:500;line-height:1.05;letter
 }
 .hero-stage .container{position:relative;z-index:2;width:100%}
 .hero-content{max-width:620px}
-/* Bottom band of the hero: tagline + CTA on the left, intro video opposite on the right. */
-.hero-foot{position:relative;z-index:3;background:var(--background);border-top:1px solid var(--border)}
-.hero-foot-grid{display:grid;grid-template-columns:1fr;gap:clamp(1.3rem,3vw,2rem);align-items:center;padding:clamp(1.5rem,3vw,2.2rem) 0 clamp(1.8rem,3.5vw,2.8rem)}
 .hero-actions{display:flex;flex-direction:column;gap:1.1rem;align-items:flex-start}
 .hero-actions .hero-line{margin:0}
 .hero-actions .hero-cta{margin:0}
+.hero-actions--over{display:none}
+.hero-marquee{display:none}
+
+/* Mobile: keep the intro video in its band under the photo (tagline + buttons + video). */
+.hero-foot{position:relative;z-index:3;background:var(--background);border-top:1px solid var(--border)}
+.hero-foot .container{display:flex;flex-direction:column;gap:1.4rem;align-items:flex-start;padding-top:clamp(1.5rem,5vw,2rem);padding-bottom:clamp(1.8rem,6vw,2.6rem)}
 .hero-video{
-  position:relative;width:100%;max-width:280px;margin-inline:auto;
+  position:relative;width:100%;max-width:300px;margin-inline:auto;
   aspect-ratio:9/16;border-radius:var(--radius);overflow:hidden;
   background:#000;border:1px solid var(--border-strong);box-shadow:var(--shadow-overlay);
 }
 .hero-video video{width:100%;height:100%;object-fit:cover;display:block}
-@media(min-width:880px){
-  .hero-foot-grid{grid-template-columns:auto auto;justify-content:center;gap:clamp(2.5rem,6vw,5rem)}
-  .hero-actions{align-items:flex-start}
-  .hero-video{width:clamp(220px,20vw,265px);max-width:none;margin:0}
+
+/* Desktop / tablet: full photo on top, a running photo strip pinned to the very bottom (no video). */
+@media(min-width:768px){
+  .hero{height:100svh;min-height:0;display:block}
+  .hero-stage{position:absolute;inset:0 0 150px 0;min-height:0;flex:none}
+  .hero-foot{display:none}
+  .hero-actions--over{display:flex}
+  .hero-marquee{display:block;position:absolute;left:0;right:0;bottom:0;height:150px;overflow:hidden;background:var(--background);border-top:1px solid var(--border);z-index:3}
+  .marquee-track{display:flex;height:100%;width:max-content;animation:marquee-run 45s linear infinite}
+  .marquee-track img{height:150px;width:auto;display:block;margin-right:8px}
 }
+@keyframes marquee-run{from{transform:translateX(-50%)}to{transform:translateX(0)}}
+@media(prefers-reduced-motion:reduce){.marquee-track{animation:none}}
 .hero-kicker{margin-bottom:1.3rem}
 .hero h1{
   font-size:clamp(2.5rem,6vw,4.6rem);font-weight:500;color:var(--candle);
@@ -648,12 +659,23 @@ section{position:relative}
       <div class="hero-content">
         <h1 data-seq="1"><span class="hero-city">Фотограф в Хабаровске</span> <span class="hero-main"><em>Портретные</em>, семейные и образные съёмки</span></h1>
         <p class="hero-sub" data-seq="2">Привет, я Анна. Обычная «девочка», умеющая видеть красоту. И все девочки на моих фото тоже «обычные», ни одной модели. Просто я люблю фотографировать женственность — такую разную: нежную, дерзкую, милую, сексуальную, строгую… <em>а какая сегодня ты?</em></p>
+        <!-- Desktop/tablet: tagline + buttons sit under the text, over the photo -->
+        <div class="hero-actions hero-actions--over" data-seq="3">
+          <p class="hero-line">Твоя лучшая фотосессия начинается здесь</p>
+          <div class="hero-cta">
+            <a href="#contacts" class="btn btn-primary">Записаться на съёмку</a>
+            <a href="#portfolio" class="btn btn-ghost">Посмотреть работы</a>
+          </div>
+        </div>
       </div>
     </div>
+    <!-- Desktop/tablet only: running photo strip pinned to the bottom, photo sits tight above it -->
+    <div class="hero-marquee" id="heroMarquee" aria-hidden="true"></div>
   </div>
+  <!-- Mobile only: tagline + buttons + intro video (kept on phones) -->
   <div class="hero-foot">
-    <div class="container hero-foot-grid">
-      <div class="hero-actions" data-seq="3">
+    <div class="container">
+      <div class="hero-actions hero-actions--band" data-seq="3">
         <p class="hero-line">Твоя лучшая фотосессия начинается здесь</p>
         <div class="hero-cta">
           <a href="#contacts" class="btn btn-primary">Записаться на съёмку</a>
@@ -1232,6 +1254,20 @@ section{position:relative}
     // Autoplay can be deferred until the element is in view; nudge it.
     var tryPlay = function(){ var p = heroVideo.play(); if(p && p.catch) p.catch(function(){}); };
     if(heroVideo.readyState >= 2) tryPlay(); else heroVideo.addEventListener("loadeddata", tryPlay, {once:true});
+  }
+
+  /* ---------- Hero running photo strip (desktop/tablet) ----------
+     Add more variety by dropping files into assets/marquee/{webp,jpg}/ and
+     listing their names below. */
+  var heroMarquee = document.getElementById("heroMarquee");
+  if(heroMarquee){
+    var MARQUEE = ["img_4270","img_0305","img_0451","img_0642","img_1018","img_1293","img_2365","img_3258","img_3730","img_4577","img_7099","img_7318"];
+    function mqImg(name){ return '<img src="assets/marquee/webp/'+name+'.webp" data-fallback="assets/marquee/jpg/'+name+'.jpg" alt="" loading="lazy" decoding="async">'; }
+    var mqHtml = MARQUEE.map(mqImg).join("");
+    var track = document.createElement("div");
+    track.className = "marquee-track";
+    track.innerHTML = mqHtml + mqHtml; // two identical sets → seamless loop
+    heroMarquee.appendChild(track);
   }
 
   /* ---------- Contacts ---------- */
