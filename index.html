@@ -160,10 +160,10 @@ h1,h2,h3{font-family:var(--font-display);font-weight:500;line-height:1.05;letter
 
 /* ---------- Hero ---------- */
 .hero{position:relative;min-height:100svh;display:flex;flex-direction:column;overflow:hidden}
-.hero-stage{position:relative;flex:1 0 auto;min-height:clamp(540px,88svh,1040px);display:flex;align-items:center;padding:clamp(110px,14vh,150px) 0 clamp(1.4rem,3vh,2.4rem)}
+.hero-stage{position:relative;flex:1 0 auto;min-height:clamp(540px,90svh,1100px);display:flex;align-items:center;padding:clamp(110px,14vh,150px) 0 clamp(1.6rem,4vh,2.8rem)}
 .hero-bg{position:absolute;inset:0;z-index:0}
 .hero-bg picture{display:block;width:100%;height:100%}
-.hero-bg img{width:100%;height:100%;object-fit:cover;object-position:58% 34%}
+.hero-bg img{width:100%;height:100%;object-fit:cover;object-position:58% 30%}
 .hero-bg::after{
   content:"";position:absolute;inset:0;
   background:
@@ -175,12 +175,11 @@ h1,h2,h3{font-family:var(--font-display);font-weight:500;line-height:1.05;letter
 .hero-actions{display:flex;flex-direction:column;gap:1.1rem;align-items:flex-start}
 .hero-actions .hero-line{margin:0}
 .hero-actions .hero-cta{margin:0}
-.hero-actions--over{display:none}
 .hero-marquee{display:none}
 
-/* Mobile: keep the intro video in its band under the photo (tagline + buttons + video). */
+/* Mobile: intro video kept under the photo (tagline + buttons stay over the photo). */
 .hero-foot{position:relative;z-index:3;background:var(--background);border-top:1px solid var(--border)}
-.hero-foot .container{display:flex;flex-direction:column;gap:1.4rem;align-items:flex-start;padding-top:clamp(1.5rem,5vw,2rem);padding-bottom:clamp(1.8rem,6vw,2.6rem)}
+.hero-foot .container{display:flex;justify-content:center;padding-top:clamp(1.5rem,5vw,2rem);padding-bottom:clamp(1.8rem,6vw,2.6rem)}
 .hero-video{
   position:relative;width:100%;max-width:300px;margin-inline:auto;
   aspect-ratio:9/16;border-radius:var(--radius);overflow:hidden;
@@ -188,13 +187,13 @@ h1,h2,h3{font-family:var(--font-display);font-weight:500;line-height:1.05;letter
 }
 .hero-video video{width:100%;height:100%;object-fit:cover;display:block}
 
-/* Desktop / tablet: full photo on top, a running photo strip pinned to the very bottom (no video). */
+/* Desktop / tablet: photo fills the top, running strip pinned to the very bottom (no video).
+   Flex column: stage grows to fill, the strip is the last child → always flush at the bottom. */
 @media(min-width:768px){
-  .hero{height:100svh;min-height:0;display:block}
-  .hero-stage{position:absolute;inset:0 0 150px 0;min-height:0;flex:none}
+  .hero{height:100dvh;min-height:0}
+  .hero-stage{flex:1 1 auto;min-height:0}
   .hero-foot{display:none}
-  .hero-actions--over{display:flex}
-  .hero-marquee{display:block;position:absolute;left:0;right:0;bottom:0;height:150px;overflow:hidden;background:var(--background);border-top:1px solid var(--border);z-index:3}
+  .hero-marquee{display:block;flex:0 0 150px;height:150px;overflow:hidden;background:var(--background);border-top:1px solid var(--border);z-index:3}
   .marquee-track{display:flex;height:100%;width:max-content;animation:marquee-run 45s linear infinite}
   .marquee-track img{height:150px;width:auto;display:block;margin-right:8px}
 }
@@ -482,7 +481,7 @@ section{position:relative}
 .shoot-cap p{font-size:.88rem;color:var(--text-secondary)}
 
 /* ---------- Process ---------- */
-.process-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:clamp(1rem,2vw,1.6rem);counter-reset:step}
+.process-grid{display:grid;grid-template-columns:repeat(5,1fr);gap:clamp(1rem,2vw,1.6rem);counter-reset:step}
 .step{position:relative;padding-top:2.4rem}
 .step::before{
   counter-increment:step;content:"0" counter(step);
@@ -578,9 +577,7 @@ section{position:relative}
   .header-inner{height:66px}
   .brand img{height:42px}
   .footer-brand img{height:54px}
-  .hero{min-height:auto;padding:110px 0 48px}
-  .hero-fan{gap:.5rem}
-  .fan-card{width:clamp(78px,28vw,120px)}
+  .hero{min-height:auto}
   .principles{grid-template-columns:1fr}
   .footer-top{grid-template-columns:1fr;gap:2rem}
   .lb-bar .lb-title{font-size:1.1rem;max-width:55vw;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
@@ -659,8 +656,7 @@ section{position:relative}
       <div class="hero-content">
         <h1 data-seq="1"><span class="hero-city">Фотограф в Хабаровске</span> <span class="hero-main"><em>Портретные</em>, семейные и образные съёмки</span></h1>
         <p class="hero-sub" data-seq="2">Привет, я Анна. Обычная «девочка», умеющая видеть красоту. И все девочки на моих фото тоже «обычные», ни одной модели. Просто я люблю фотографировать женственность — такую разную: нежную, дерзкую, милую, сексуальную, строгую… <em>а какая сегодня ты?</em></p>
-        <!-- Desktop/tablet: tagline + buttons sit under the text, over the photo -->
-        <div class="hero-actions hero-actions--over" data-seq="3">
+        <div class="hero-actions" data-seq="3">
           <p class="hero-line">Твоя лучшая фотосессия начинается здесь</p>
           <div class="hero-cta">
             <a href="#contacts" class="btn btn-primary">Записаться на съёмку</a>
@@ -669,19 +665,12 @@ section{position:relative}
         </div>
       </div>
     </div>
-    <!-- Desktop/tablet only: running photo strip pinned to the bottom, photo sits tight above it -->
-    <div class="hero-marquee" id="heroMarquee" aria-hidden="true"></div>
   </div>
-  <!-- Mobile only: tagline + buttons + intro video (kept on phones) -->
+  <!-- Desktop/tablet only: running photo strip pinned to the bottom, photo sits tight above it -->
+  <div class="hero-marquee" id="heroMarquee" aria-hidden="true"></div>
+  <!-- Mobile only: intro video kept under the photo -->
   <div class="hero-foot">
     <div class="container">
-      <div class="hero-actions hero-actions--band" data-seq="3">
-        <p class="hero-line">Твоя лучшая фотосессия начинается здесь</p>
-        <div class="hero-cta">
-          <a href="#contacts" class="btn btn-primary">Записаться на съёмку</a>
-          <a href="#portfolio" class="btn btn-ghost">Посмотреть работы</a>
-        </div>
-      </div>
       <figure class="hero-video" data-seq="4" aria-label="Видео: как проходит съёмка">
         <video autoplay muted loop playsinline preload="metadata" poster="assets/webp/portrait-women/IMG_2589.webp">
           <source src="assets/best_works_videoForGif.mp4" type="video/mp4" />
@@ -778,6 +767,7 @@ section{position:relative}
       <div class="step reveal"><div class="line"></div><h4>Знакомство</h4><p>Обсуждаем идею, настроение и формат. Без давления, просто разговор.</p></div>
       <div class="step reveal"><div class="line"></div><h4>Образ и место</h4><p>Подбираем образ и локацию: студия, улица, природа, кафе. Если нужна помощь в выборе образа, провожу небольшой тест, на основе которого ты точно определишься. Показывай референсы.</p></div>
       <div class="step reveal"><div class="line"></div><h4>Дата и время</h4><p>Бронируем дату — и остаётся только ждать съёмку в предвкушении.</p></div>
+      <div class="step reveal"><div class="line"></div><h4>Спокойная съёмка</h4><p>Снимаем в комфортном темпе, я направляю на каждом кадре.</p></div>
       <div class="step reveal"><div class="line"></div><h4>Готовые кадры</h4><p>Отбираю лучшие кадры. Деликатная ретушь есть на всех фотографиях, а самые удачные портреты ретуширую более детально. Свой большой красивый портрет ты сможешь повесить на стене.</p></div>
     </div>
   </div>
