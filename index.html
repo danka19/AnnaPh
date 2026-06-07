@@ -179,9 +179,9 @@ h1,h2,h3{font-family:var(--font-display);font-weight:500;line-height:1.05;letter
 
 /* Mobile: intro video kept under the photo (tagline + buttons stay over the photo). */
 .hero-foot{position:relative;z-index:3;background:var(--background);border-top:1px solid var(--border)}
-.hero-foot .container{display:flex;justify-content:center;padding-top:clamp(1.5rem,5vw,2rem);padding-bottom:clamp(1.8rem,6vw,2.6rem)}
+.hero-foot .container{display:flex;justify-content:center;padding-block:clamp(1.6rem,5vw,2.1rem)}
 .hero-video{
-  position:relative;width:100%;max-width:300px;margin-inline:auto;
+  position:relative;width:100%;max-width:360px;margin-inline:auto;
   aspect-ratio:9/16;border-radius:var(--radius);overflow:hidden;
   background:#000;border:1px solid var(--border-strong);box-shadow:var(--shadow-overlay);
 }
@@ -199,6 +199,14 @@ h1,h2,h3{font-family:var(--font-display);font-weight:500;line-height:1.05;letter
 }
 @keyframes marquee-run{from{transform:translateX(-50%)}to{transform:translateX(0)}}
 @media(prefers-reduced-motion:reduce){.marquee-track{animation:none}}
+
+/* Phones: shorter photo with the face higher (text sits below it, not over the face),
+   so the hero ends sooner and the video peeks under it. */
+@media(max-width:767px){
+  .hero-stage{align-items:flex-end;min-height:clamp(430px,60svh,600px)}
+  .hero-bg img{object-position:72% 18%}
+  .hero-bg::after{background:linear-gradient(0deg,rgba(20,22,15,.95) 0%,rgba(20,22,15,.55) 30%,rgba(20,22,15,0) 62%)}
+}
 .hero-kicker{margin-bottom:1.3rem}
 .hero h1{
   font-size:clamp(2.5rem,6vw,4.6rem);font-weight:500;color:var(--candle);
@@ -1253,10 +1261,17 @@ section{position:relative}
   if(heroMarquee){
     var MARQUEE = ["img_4270","img_0305","img_0451","img_0642","img_1018","img_1293","img_2365","img_3258","img_3730","img_4577","img_7099","img_7318"];
     function mqImg(name){ return '<img src="assets/marquee/webp/'+name+'.webp" data-fallback="assets/marquee/jpg/'+name+'.jpg" alt="" loading="lazy" decoding="async">'; }
-    var mqHtml = MARQUEE.map(mqImg).join("");
+    var base = MARQUEE.map(mqImg).join("");
+    // Repeat enough that ONE half of the track is wider than the screen, so the
+    // strip always fills edge-to-edge while it loops (translateX -50% → 0).
+    var estSetW = MARQUEE.length * 120; // ~px for one set of 150px-tall portraits
+    var screenW = Math.max(window.innerWidth||0, (window.screen&&screen.width)||0, 1440);
+    var repeats = Math.max(2, Math.ceil((screenW + estSetW) / estSetW));
+    var half = ""; for(var i=0;i<repeats;i++){ half += base; }
     var track = document.createElement("div");
     track.className = "marquee-track";
-    track.innerHTML = mqHtml + mqHtml; // two identical sets → seamless loop
+    track.innerHTML = half + half; // two identical halves → seamless loop
+    track.style.animationDuration = ((repeats * estSetW) / 55) + "s"; // ~55 px/s constant speed
     heroMarquee.appendChild(track);
   }
 
