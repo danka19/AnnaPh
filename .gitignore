@@ -1,6 +1,7 @@
 node_modules/
 dist/
 build/
+source_assets/originals/
 .claude/
 temporary screenshots/*
 !temporary screenshots/README.md
