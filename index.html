@@ -978,13 +978,16 @@ section{position:relative}
       photos: []
     },
     {
-      id:"family", tab:"Семейная & Дети", title:"Семейная & Дети", tag:"Семья",
-      desc:"Тёплые живые кадры о близости. Семья и дети без постановочной скованности.",
+      id:"family", tab:"Семья", title:"Семейная съёмка", tag:"Семья",
+      desc:"Тёплые живые кадры о близости. Семейная история без постановочной скованности.",
       cover:{folder:"family", file:"IMG_2290.jpg"},
-      photos: [].concat(
-        P("family",["IMG_2290.jpg","IMG_1867.jpg","IMG_1904.jpg","IMG_1986.jpg","IMG_2212.jpg","IMG_2385.jpg","IMG_2503.jpg","IMG_2535.jpg","IMG_2794.jpg"]),
-        P("children",["IMG_1865.jpg","IMG_0633.jpg","IMG_0924.jpg","IMG_0993.jpg","IMG_1110.jpg","IMG_1879.jpg","IMG_2606.jpg","IMG_2875.jpg","IMG_4968.jpg","IMG_6223.jpg","IMG_6995.jpg","IMG_7650.jpg","IMG_8100.jpg","IMG_8588.jpg","IMG_8983.jpg","_MG_3897.jpg","DPP_10006.JPG","DPP_20114.JPG","К001.jpg"])
-      )
+      photos: P("family",["IMG_2290.jpg","IMG_1867.jpg","IMG_1904.jpg","IMG_1986.jpg","IMG_2212.jpg","IMG_2385.jpg","IMG_2503.jpg","IMG_2535.jpg","IMG_2794.jpg"])
+    },
+    {
+      id:"children", tab:"Дети", title:"Детская съёмка", tag:"Дети",
+      desc:"Детские портреты: живые эмоции, движение и характер.",
+      cover:{folder:"children", file:"IMG_1865.jpg"},
+      photos: P("children",["IMG_1865.jpg","IMG_0633.jpg","IMG_0924.jpg","IMG_0993.jpg","IMG_1110.jpg","IMG_1879.jpg","IMG_2606.jpg","IMG_2875.jpg","IMG_4968.jpg","IMG_6223.jpg","IMG_6995.jpg","IMG_7650.jpg","IMG_8100.jpg","IMG_8588.jpg","IMG_8983.jpg","_MG_3897.jpg","DPP_10006.JPG","DPP_20114.JPG","К001.jpg"])
     },
     {
       id:"pregnancy", tab:"Беременность", title:"Беременность", tag:"Ожидание",
