@@ -492,6 +492,8 @@ section{position:relative}
   position:absolute;top:-.4rem;left:0;line-height:1;
 }
 .step .line{height:1px;background:var(--border-strong);margin-bottom:1.1rem}
+/* The old-style 1 and 2 have no descenders; lower them to cross the rule too. */
+.step:nth-child(-n+2)::before{transform:translateY(.65rem)}
 .step h4{font-size:1.35rem;font-family:var(--font-display);color:var(--candle);font-weight:600;margin-bottom:.5rem}
 .step p{font-size:.88rem;color:var(--text-secondary)}
 
