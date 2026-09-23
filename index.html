@@ -557,6 +557,11 @@ section{position:relative}
 .lb-thumb img{width:100%;height:100%;object-fit:cover}
 .lb-thumb.active{opacity:1;border-color:var(--highlight)}
 .lb-end-cta{display:none;justify-content:center;margin-top:.4rem}
+.lb-img-wrap{cursor:zoom-in}
+.lb-zoom{position:fixed;inset:0;z-index:10;width:100%;height:100dvh;padding:8px;background:rgba(0,0,0,.99);cursor:zoom-out}
+.lb-zoom[hidden]{display:none}
+.lb-zoom img{width:100%;height:100%;object-fit:contain}
+@media(max-width:767px){.lb-img-wrap{cursor:default}}
 
 /* ---------- Responsive ---------- */
 @media (max-width:1100px){
@@ -885,7 +890,7 @@ section{position:relative}
     <button class="lb-nav lb-prev" id="lbPrev" aria-label="Предыдущее фото">
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M15 6l-6 6 6 6"/></svg>
     </button>
-    <div class="lb-img-wrap"><img id="lbImg" alt="" /></div>
+    <button class="lb-img-wrap" id="lbExpand" type="button" aria-label="Увеличить фотографию"><img id="lbImg" alt="" /></button>
     <button class="lb-nav lb-next" id="lbNext" aria-label="Следующее фото">
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 6l6 6-6 6"/></svg>
     </button>
@@ -895,6 +900,7 @@ section{position:relative}
     <div class="lb-end-cta" id="lbEndCta"><a href="#contacts" class="btn btn-primary" id="lbCtaBtn">Хочу похожую съёмку</a></div>
     <div class="lb-thumbs" id="lbThumbs"></div>
   </div>
+  <button class="lb-zoom" id="lbZoom" type="button" aria-label="Вернуться к галерее" hidden><img id="lbZoomImg" alt="" /></button>
 </div>
 
 <!-- ============ JSON-LD ============ -->
@@ -1272,6 +1278,30 @@ section{position:relative}
   var lbEndCta = document.getElementById("lbEndCta");
   var current = {cat:null, idx:0};
   var lastFocus = null;
+  var lbExpand = document.getElementById("lbExpand");
+  var lbZoom = document.getElementById("lbZoom");
+  var zoomImage = document.getElementById("lbZoomImg");
+  var desktopGallery = window.matchMedia("(min-width:768px)");
+  function closeZoom(){
+    lbZoom.hidden = true;
+    Array.from(lb.children).forEach(function(el){ el.inert = false; });
+    lbExpand.focus();
+  }
+  function syncExpand(){
+    if(!desktopGallery.matches && !lbZoom.hidden) closeZoom();
+    lbExpand.disabled = !desktopGallery.matches;
+  }
+  syncExpand();
+  desktopGallery.addEventListener("change", syncExpand);
+  lbExpand.addEventListener("click", function(){
+    if(!desktopGallery.matches) return;
+    zoomImage.src = lbImg.currentSrc || lbImg.src;
+    zoomImage.alt = lbImg.alt;
+    Array.from(lb.children).forEach(function(el){ if(el!==lbZoom) el.inert = true; });
+    lbZoom.hidden = false;
+    lbZoom.focus();
+  });
+  lbZoom.addEventListener("click", closeZoom);
 
   function openSeries(catId, startIdx){
     var cat = catById(catId); if(!cat) return;
@@ -1306,6 +1336,7 @@ section{position:relative}
     lbEndCta.style.display = (current.idx===n-1) ? "flex" : "none";
   }
   function closeLb(){
+    if(!lbZoom.hidden) closeZoom();
     lb.classList.remove("open");
     document.body.style.overflow="";
     if(lastFocus) lastFocus.focus();
@@ -1317,6 +1348,17 @@ section{position:relative}
   lb.addEventListener("click", function(e){ if(e.target===lb || e.target.classList.contains("lb-stage")) closeLb(); });
   document.addEventListener("keydown", function(e){
     if(!lb.classList.contains("open")) return;
+    if(!lbZoom.hidden){
+      if(e.key==="Escape"){ e.preventDefault(); closeZoom(); }
+      if(e.key==="Tab"){ e.preventDefault(); lbZoom.focus(); }
+      return;
+    }
+    if(e.key==="Tab"){
+      var focusable = Array.from(lb.querySelectorAll('button:not(:disabled),a[href]')).filter(function(el){ return el.getClientRects().length && !el.closest('[hidden]'); });
+      var first = focusable[0], last = focusable[focusable.length-1];
+      if(e.shiftKey && document.activeElement===first){ e.preventDefault(); last.focus(); }
+      else if(!e.shiftKey && document.activeElement===last){ e.preventDefault(); first.focus(); }
+    }
     if(e.key==="Escape") closeLb();
     else if(e.key==="ArrowLeft") show(current.idx-1);
     else if(e.key==="ArrowRight") show(current.idx+1);
