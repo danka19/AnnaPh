@@ -1,0 +1,996 @@
+{
+  "category": "children",
+  "source": "https://disk.yandex.ru/d/H7SUZl704ng5IQ/НОВОЕ",
+  "mode": "append_deduplicated",
+  "gallery_count": 38,
+  "files": [
+    {
+      "category": "children",
+      "original": "source_assets\\originals\\children\\2026-09-24\\Ann_100038.jpg",
+      "source_path": "/НОВОЕ/дети/Ann_100038.jpg",
+      "md5": "45ef91c24c38e2edff013889fcba094c",
+      "bytes": 5729923,
+      "original_sha256": "22774c5faab9508c28c1581147b8c290ebd892d2705aca73912211d268edb86c",
+      "same_as_existing": null,
+      "photo": {
+        "folder": "children",
+        "file": "new-20260924-ann-100038-45ef91c2.jpg"
+      },
+      "jpg": "assets/web/children/new-20260924-ann-100038-45ef91c2.jpg",
+      "webp": "assets/webp/children/new-20260924-ann-100038-45ef91c2.webp",
+      "source_dimensions": [
+        4752,
+        3168
+      ],
+      "web_dimensions": [
+        1600,
+        1067
+      ],
+      "icc_converted": true,
+      "jpg_bytes": 251737,
+      "webp_bytes": 95576
+    },
+    {
+      "category": "children",
+      "original": "source_assets\\originals\\children\\2026-09-24\\DPP_10006.JPG",
+      "source_path": "/НОВОЕ/дети/DPP_10006.JPG",
+      "md5": "9442a77e11002bb6fff86d00dbbcd3fb",
+      "bytes": 7733089,
+      "original_sha256": "e3ee7672b2d45f85195ca9836fb2faf788d3c2c3a2861e1621774c8867161a77",
+      "same_as_existing": "assets/web/children/DPP_10006.JPG",
+      "photo": {
+        "folder": "children",
+        "file": "DPP_10006.JPG"
+      },
+      "jpg": "assets/web/children/DPP_10006.JPG",
+      "webp": "assets/webp/children/DPP_10006.webp",
+      "source_dimensions": [
+        3168,
+        4752
+      ],
+      "web_dimensions": [
+        1067,
+        1600
+      ],
+      "icc_converted": true,
+      "jpg_bytes": 200296,
+      "webp_bytes": 72036
+    },
+    {
+      "category": "children",
+      "original": "source_assets\\originals\\children\\2026-09-24\\DPP_20114.JPG",
+      "source_path": "/НОВОЕ/дети/DPP_20114.JPG",
+      "md5": "b1f857e8786ccbff79329988f4fb8146",
+      "bytes": 11973563,
+      "original_sha256": "bf7e4439b9fd93e49a8536a82ed23e4adb4957ef0b1348b038bf159ff625f2a3",
+      "same_as_existing": "assets/web/children/DPP_20114.JPG",
+      "photo": {
+        "folder": "children",
+        "file": "DPP_20114.JPG"
+      },
+      "jpg": "assets/web/children/DPP_20114.JPG",
+      "webp": "assets/webp/children/DPP_20114.webp",
+      "source_dimensions": [
+        3168,
+        4752
+      ],
+      "web_dimensions": [
+        1067,
+        1600
+      ],
+      "icc_converted": true,
+      "jpg_bytes": 354841,
+      "webp_bytes": 197340
+    },
+    {
+      "category": "children",
+      "original": "source_assets\\originals\\children\\2026-09-24\\IMG_0633.jpg",
+      "source_path": "/НОВОЕ/дети/IMG_0633.jpg",
+      "md5": "963bf3bc1efdaddeab3cacc2d0a42dc8",
+      "bytes": 1786566,
+      "original_sha256": "56f33b08c9ed48378789674fbd278a2c97f324a7599804ca98df035f2c7f071e",
+      "same_as_existing": "assets/web/children/IMG_0633.jpg",
+      "photo": {
+        "folder": "children",
+        "file": "IMG_0633.jpg"
+      },
+      "jpg": "assets/web/children/IMG_0633.jpg",
+      "webp": "assets/webp/children/IMG_0633.webp",
+      "source_dimensions": [
+        2314,
+        3472
+      ],
+      "web_dimensions": [
+        1066,
+        1600
+      ],
+      "icc_converted": true,
+      "jpg_bytes": 284397,
+      "webp_bytes": 137814
+    },
+    {
+      "category": "children",
+      "original": "source_assets\\originals\\children\\2026-09-24\\IMG_0924.jpg",
+      "source_path": "/НОВОЕ/дети/IMG_0924.jpg",
+      "md5": "502031036692556e39b622f2ad7f82fa",
+      "bytes": 8246320,
+      "original_sha256": "8546ca843e547ab96d282b7ce184345e145e19be32963665a9d274c661946b35",
+      "same_as_existing": "assets/web/children/IMG_0924.jpg",
+      "photo": {
+        "folder": "children",
+        "file": "IMG_0924.jpg"
+      },
+      "jpg": "assets/web/children/IMG_0924.jpg",
+      "webp": "assets/webp/children/IMG_0924.webp",
+      "source_dimensions": [
+        4160,
+        6240
+      ],
+      "web_dimensions": [
+        1067,
+        1600
+      ],
+      "icc_converted": true,
+      "jpg_bytes": 161271,
+      "webp_bytes": 56862
+    },
+    {
+      "category": "children",
+      "original": "source_assets\\originals\\children\\2026-09-24\\IMG_0993.jpg",
+      "source_path": "/НОВОЕ/дети/IMG_0993.jpg",
+      "md5": "4c869d35d92aaf3f159e79bd20c83f7c",
+      "bytes": 2793539,
+      "original_sha256": "9233dd0c1263e1230cce816b4c769e587575fc7dfe5eed39235e85bb7f2d762d",
+      "same_as_existing": "assets/web/children/IMG_0993.jpg",
+      "photo": {
+        "folder": "children",
+        "file": "IMG_0993.jpg"
+      },
+      "jpg": "assets/web/children/IMG_0993.jpg",
+      "webp": "assets/webp/children/IMG_0993.webp",
+      "source_dimensions": [
+        2738,
+        4108
+      ],
+      "web_dimensions": [
+        1066,
+        1600
+      ],
+      "icc_converted": false,
+      "jpg_bytes": 279064,
+      "webp_bytes": 134758
+    },
+    {
+      "category": "children",
+      "original": "source_assets\\originals\\children\\2026-09-24\\IMG_1065.jpg",
+      "source_path": "/НОВОЕ/дети/IMG_1065.jpg",
+      "md5": "879acff448cfa09f9771d9ab189d09e8",
+      "bytes": 4775288,
+      "original_sha256": "c1689f2177e5b921e7eba46cfcacae3625c7769cc0bf2b18dbb09b29281d7a6b",
+      "same_as_existing": null,
+      "photo": {
+        "folder": "children",
+        "file": "new-20260924-img-1065-879acff4.jpg"
+      },
+      "jpg": "assets/web/children/new-20260924-img-1065-879acff4.jpg",
+      "webp": "assets/webp/children/new-20260924-img-1065-879acff4.webp",
+      "source_dimensions": [
+        3399,
+        5099
+      ],
+      "web_dimensions": [
+        1067,
+        1600
+      ],
+      "icc_converted": true,
+      "jpg_bytes": 264563,
+      "webp_bytes": 117860
+    },
+    {
+      "category": "children",
+      "original": "source_assets\\originals\\children\\2026-09-24\\IMG_1110.jpg",
+      "source_path": "/НОВОЕ/дети/IMG_1110.jpg",
+      "md5": "76bf3d1c719241ffbf46b65abd33a403",
+      "bytes": 6965921,
+      "original_sha256": "d56716d0cb7fa60d4f7d92dbd5b945e85944eedde58bd10855283604ea5f5a9b",
+      "same_as_existing": "assets/web/children/IMG_1110.jpg",
+      "photo": {
+        "folder": "children",
+        "file": "IMG_1110.jpg"
+      },
+      "jpg": "assets/web/children/IMG_1110.jpg",
+      "webp": "assets/webp/children/IMG_1110.webp",
+      "source_dimensions": [
+        4160,
+        6240
+      ],
+      "web_dimensions": [
+        1067,
+        1600
+      ],
+      "icc_converted": true,
+      "jpg_bytes": 182474,
+      "webp_bytes": 63840
+    },
+    {
+      "category": "children",
+      "original": "source_assets\\originals\\children\\2026-09-24\\IMG_1865.jpg",
+      "source_path": "/НОВОЕ/дети/IMG_1865.jpg",
+      "md5": "59832d3317127539eb9f7681e6e30110",
+      "bytes": 10106861,
+      "original_sha256": "407c69da7ad81adeeb689587c75986c1b59e78bc0501d9212641495e1e6d87e5",
+      "same_as_existing": "assets/web/children/IMG_1865.jpg",
+      "photo": {
+        "folder": "children",
+        "file": "IMG_1865.jpg"
+      },
+      "jpg": "assets/web/children/IMG_1865.jpg",
+      "webp": "assets/webp/children/IMG_1865.webp",
+      "source_dimensions": [
+        3601,
+        5402
+      ],
+      "web_dimensions": [
+        1067,
+        1600
+      ],
+      "icc_converted": true,
+      "jpg_bytes": 431547,
+      "webp_bytes": 300136
+    },
+    {
+      "category": "children",
+      "original": "source_assets\\originals\\children\\2026-09-24\\IMG_1879.jpg",
+      "source_path": "/НОВОЕ/дети/IMG_1879.jpg",
+      "md5": "cef0ea0c7f58f72bd004039d32d3282c",
+      "bytes": 6189776,
+      "original_sha256": "88fa10d52071598829e23b14e8586a71350bc5a4c9132677ad58299c87d2dd5e",
+      "same_as_existing": "assets/web/children/IMG_1879.jpg",
+      "photo": {
+        "folder": "children",
+        "file": "IMG_1879.jpg"
+      },
+      "jpg": "assets/web/children/IMG_1879.jpg",
+      "webp": "assets/webp/children/IMG_1879.webp",
+      "source_dimensions": [
+        5743,
+        3829
+      ],
+      "web_dimensions": [
+        1600,
+        1067
+      ],
+      "icc_converted": true,
+      "jpg_bytes": 394262,
+      "webp_bytes": 216216
+    },
+    {
+      "category": "children",
+      "original": "source_assets\\originals\\children\\2026-09-24\\IMG_2304.jpg",
+      "source_path": "/НОВОЕ/дети/IMG_2304.jpg",
+      "md5": "556c3ae912e39e18534b4d15e64572a9",
+      "bytes": 1569655,
+      "original_sha256": "c710decf1fd22de91057d03232fa12095991dd596ef13ef1491be95dc4fe5625",
+      "same_as_existing": null,
+      "photo": {
+        "folder": "children",
+        "file": "new-20260924-img-2304-556c3ae9.jpg"
+      },
+      "jpg": "assets/web/children/new-20260924-img-2304-556c3ae9.jpg",
+      "webp": "assets/webp/children/new-20260924-img-2304-556c3ae9.webp",
+      "source_dimensions": [
+        2827,
+        4241
+      ],
+      "web_dimensions": [
+        1067,
+        1600
+      ],
+      "icc_converted": false,
+      "jpg_bytes": 234044,
+      "webp_bytes": 107168
+    },
+    {
+      "category": "children",
+      "original": "source_assets\\originals\\children\\2026-09-24\\IMG_2452.jpg",
+      "source_path": "/НОВОЕ/дети/IMG_2452.jpg",
+      "md5": "01c810d24f9b5029ea0361e527844e95",
+      "bytes": 14870300,
+      "original_sha256": "af5732f24ad5690788269ed7689372017e56fa491728f73005ebd6ec3da9e707",
+      "same_as_existing": null,
+      "photo": {
+        "folder": "children",
+        "file": "new-20260924-img-2452-01c810d2.jpg"
+      },
+      "jpg": "assets/web/children/new-20260924-img-2452-01c810d2.jpg",
+      "webp": "assets/webp/children/new-20260924-img-2452-01c810d2.webp",
+      "source_dimensions": [
+        4097,
+        6145
+      ],
+      "web_dimensions": [
+        1067,
+        1600
+      ],
+      "icc_converted": true,
+      "jpg_bytes": 212942,
+      "webp_bytes": 92208
+    },
+    {
+      "category": "children",
+      "original": "source_assets\\originals\\children\\2026-09-24\\IMG_2606.jpg",
+      "source_path": "/НОВОЕ/дети/IMG_2606.jpg",
+      "md5": "214690198793b00c51248668f29cb77c",
+      "bytes": 2196595,
+      "original_sha256": "b8172e8d759ace38cc00c0d3b99723793a6c38d3f301619b3aae349e56d0f0fc",
+      "same_as_existing": "assets/web/children/IMG_2606.jpg",
+      "photo": {
+        "folder": "children",
+        "file": "IMG_2606.jpg"
+      },
+      "jpg": "assets/web/children/IMG_2606.jpg",
+      "webp": "assets/webp/children/IMG_2606.webp",
+      "source_dimensions": [
+        2650,
+        3429
+      ],
+      "web_dimensions": [
+        1237,
+        1600
+      ],
+      "icc_converted": true,
+      "jpg_bytes": 284104,
+      "webp_bytes": 125350
+    },
+    {
+      "category": "children",
+      "original": "source_assets\\originals\\children\\2026-09-24\\IMG_2766.jpg",
+      "source_path": "/НОВОЕ/дети/IMG_2766.jpg",
+      "md5": "9a1443c00c90ec698b7988dd08ba3246",
+      "bytes": 5502921,
+      "original_sha256": "0b3ce084059ada74e74d18d5c2966e237e74c1a2de56c4e735497782ce1b1714",
+      "same_as_existing": null,
+      "photo": {
+        "folder": "children",
+        "file": "new-20260924-img-2766-9a1443c0.jpg"
+      },
+      "jpg": "assets/web/children/new-20260924-img-2766-9a1443c0.jpg",
+      "webp": "assets/webp/children/new-20260924-img-2766-9a1443c0.webp",
+      "source_dimensions": [
+        4035,
+        6053
+      ],
+      "web_dimensions": [
+        1067,
+        1600
+      ],
+      "icc_converted": true,
+      "jpg_bytes": 346393,
+      "webp_bytes": 193076
+    },
+    {
+      "category": "children",
+      "original": "source_assets\\originals\\children\\2026-09-24\\IMG_2875.jpg",
+      "source_path": "/НОВОЕ/дети/IMG_2875.jpg",
+      "md5": "b3c4e65e5fc4158a3b4b7c1a9df4450a",
+      "bytes": 9512207,
+      "original_sha256": "db1a2d47dbfc2f1dcbb690ef76d11fbf79bd9308fe3989c54143daf58342af2c",
+      "same_as_existing": "assets/web/children/IMG_2875.jpg",
+      "photo": {
+        "folder": "children",
+        "file": "IMG_2875.jpg"
+      },
+      "jpg": "assets/web/children/IMG_2875.jpg",
+      "webp": "assets/webp/children/IMG_2875.webp",
+      "source_dimensions": [
+        4160,
+        6240
+      ],
+      "web_dimensions": [
+        1067,
+        1600
+      ],
+      "icc_converted": true,
+      "jpg_bytes": 227444,
+      "webp_bytes": 99324
+    },
+    {
+      "category": "children",
+      "original": "source_assets\\originals\\children\\2026-09-24\\IMG_2932.jpg",
+      "source_path": "/НОВОЕ/дети/IMG_2932.jpg",
+      "md5": "5af319f2b45109d0ac7b13d8350c4589",
+      "bytes": 4739175,
+      "original_sha256": "5f8fae757efe10320f7e0788a0b29da48522e4657666951e6ff12df3854ca1bb",
+      "same_as_existing": null,
+      "photo": {
+        "folder": "children",
+        "file": "new-20260924-img-2932-5af319f2.jpg"
+      },
+      "jpg": "assets/web/children/new-20260924-img-2932-5af319f2.jpg",
+      "webp": "assets/webp/children/new-20260924-img-2932-5af319f2.webp",
+      "source_dimensions": [
+        3699,
+        5548
+      ],
+      "web_dimensions": [
+        1067,
+        1600
+      ],
+      "icc_converted": true,
+      "jpg_bytes": 337463,
+      "webp_bytes": 173480
+    },
+    {
+      "category": "children",
+      "original": "source_assets\\originals\\children\\2026-09-24\\IMG_3237.jpg",
+      "source_path": "/НОВОЕ/дети/IMG_3237.jpg",
+      "md5": "c49a3bbd40484ce40b3ef720863ea33f",
+      "bytes": 13242748,
+      "original_sha256": "2ca794460c795720147f149c19e2f9da7d9db9637665d48182d3b07e0aee0c5c",
+      "same_as_existing": null,
+      "photo": {
+        "folder": "children",
+        "file": "new-20260924-img-3237-c49a3bbd.jpg"
+      },
+      "jpg": "assets/web/children/new-20260924-img-3237-c49a3bbd.jpg",
+      "webp": "assets/webp/children/new-20260924-img-3237-c49a3bbd.webp",
+      "source_dimensions": [
+        2912,
+        4368
+      ],
+      "web_dimensions": [
+        1067,
+        1600
+      ],
+      "icc_converted": true,
+      "jpg_bytes": 554143,
+      "webp_bytes": 400970
+    },
+    {
+      "category": "children",
+      "original": "source_assets\\originals\\children\\2026-09-24\\IMG_3244.jpg",
+      "source_path": "/НОВОЕ/дети/IMG_3244.jpg",
+      "md5": "9c2463102b699eac010c8f1661cf3710",
+      "bytes": 9737158,
+      "original_sha256": "5846f61d9acab2749180eca91c143297aeddac121b82223caba21c7448f6366e",
+      "same_as_existing": null,
+      "photo": {
+        "folder": "children",
+        "file": "new-20260924-img-3244-9c246310.jpg"
+      },
+      "jpg": "assets/web/children/new-20260924-img-3244-9c246310.jpg",
+      "webp": "assets/webp/children/new-20260924-img-3244-9c246310.webp",
+      "source_dimensions": [
+        2868,
+        4302
+      ],
+      "web_dimensions": [
+        1067,
+        1600
+      ],
+      "icc_converted": true,
+      "jpg_bytes": 333541,
+      "webp_bytes": 196102
+    },
+    {
+      "category": "children",
+      "original": "source_assets\\originals\\children\\2026-09-24\\IMG_3565.jpg",
+      "source_path": "/НОВОЕ/дети/IMG_3565.jpg",
+      "md5": "3d36d4ed6b43612f69b955115b11c7c5",
+      "bytes": 5602820,
+      "original_sha256": "f7638322b9932f7d2d3948bdf72fcaa37cd5e1afa7cd7f92f9dd6a206f0ed9e5",
+      "same_as_existing": null,
+      "photo": {
+        "folder": "children",
+        "file": "new-20260924-img-3565-3d36d4ed.jpg"
+      },
+      "jpg": "assets/web/children/new-20260924-img-3565-3d36d4ed.jpg",
+      "webp": "assets/webp/children/new-20260924-img-3565-3d36d4ed.webp",
+      "source_dimensions": [
+        3849,
+        2749
+      ],
+      "web_dimensions": [
+        1600,
+        1143
+      ],
+      "icc_converted": true,
+      "jpg_bytes": 207914,
+      "webp_bytes": 74802
+    },
+    {
+      "category": "children",
+      "original": "source_assets\\originals\\children\\2026-09-24\\IMG_4968.jpg",
+      "source_path": "/НОВОЕ/дети/IMG_4968.jpg",
+      "md5": "f55170c75525fd2ea1bff9b6c4223c3f",
+      "bytes": 7443726,
+      "original_sha256": "5a247391da5cca04fcb2fb8625e3ccc7ad75c82cd9ae3cd94f5e2f7e79d21e67",
+      "same_as_existing": "assets/web/children/IMG_4968.jpg",
+      "photo": {
+        "folder": "children",
+        "file": "IMG_4968.jpg"
+      },
+      "jpg": "assets/web/children/IMG_4968.jpg",
+      "webp": "assets/webp/children/IMG_4968.webp",
+      "source_dimensions": [
+        2912,
+        4368
+      ],
+      "web_dimensions": [
+        1067,
+        1600
+      ],
+      "icc_converted": true,
+      "jpg_bytes": 273878,
+      "webp_bytes": 114900
+    },
+    {
+      "category": "children",
+      "original": "source_assets\\originals\\children\\2026-09-24\\IMG_5899.jpg",
+      "source_path": "/НОВОЕ/дети/IMG_5899.jpg",
+      "md5": "ec14315822ea6bcbcfdc8212d5886066",
+      "bytes": 2149302,
+      "original_sha256": "a861be41f4a36f9cb8b83a413816860adbd24f53fb3f73ab764e835c695742cb",
+      "same_as_existing": null,
+      "photo": {
+        "folder": "children",
+        "file": "new-20260924-img-5899-ec143158.jpg"
+      },
+      "jpg": "assets/web/children/new-20260924-img-5899-ec143158.jpg",
+      "webp": "assets/webp/children/new-20260924-img-5899-ec143158.webp",
+      "source_dimensions": [
+        3665,
+        5498
+      ],
+      "web_dimensions": [
+        1067,
+        1600
+      ],
+      "icc_converted": false,
+      "jpg_bytes": 210937,
+      "webp_bytes": 106524
+    },
+    {
+      "category": "children",
+      "original": "source_assets\\originals\\children\\2026-09-24\\IMG_6223.jpg",
+      "source_path": "/НОВОЕ/дети/IMG_6223.jpg",
+      "md5": "61088013d1f6e101c0c352fa4c2af4d2",
+      "bytes": 15850024,
+      "original_sha256": "c129d5323b6b34493340929acbc06fededc2bcf4b4e19a695a95fb37d9f7952f",
+      "same_as_existing": "assets/web/children/IMG_6223.jpg",
+      "photo": {
+        "folder": "children",
+        "file": "IMG_6223.jpg"
+      },
+      "jpg": "assets/web/children/IMG_6223.jpg",
+      "webp": "assets/webp/children/IMG_6223.webp",
+      "source_dimensions": [
+        4036,
+        6054
+      ],
+      "web_dimensions": [
+        1067,
+        1600
+      ],
+      "icc_converted": true,
+      "jpg_bytes": 314385,
+      "webp_bytes": 171008
+    },
+    {
+      "category": "children",
+      "original": "source_assets\\originals\\children\\2026-09-24\\IMG_6567.jpg",
+      "source_path": "/НОВОЕ/дети/IMG_6567.jpg",
+      "md5": "0b403311970a796ae684f0653999396f",
+      "bytes": 3629785,
+      "original_sha256": "09077b29c4d35a3274fee3e17466e763e496e4f710efe3e698a7864f78464247",
+      "same_as_existing": null,
+      "photo": {
+        "folder": "children",
+        "file": "new-20260924-img-6567-0b403311.jpg"
+      },
+      "jpg": "assets/web/children/new-20260924-img-6567-0b403311.jpg",
+      "webp": "assets/webp/children/new-20260924-img-6567-0b403311.webp",
+      "source_dimensions": [
+        4160,
+        2815
+      ],
+      "web_dimensions": [
+        1600,
+        1083
+      ],
+      "icc_converted": true,
+      "jpg_bytes": 355412,
+      "webp_bytes": 182732
+    },
+    {
+      "category": "children",
+      "original": "source_assets\\originals\\children\\2026-09-24\\IMG_6743.jpg",
+      "source_path": "/НОВОЕ/дети/IMG_6743.jpg",
+      "md5": "3ebeb19f676795171a98345039406050",
+      "bytes": 4091567,
+      "original_sha256": "23ecd71b5bafb1623f871dd29c27e3b2aff12e0b7bda03cb80842646f729b511",
+      "same_as_existing": null,
+      "photo": {
+        "folder": "children",
+        "file": "new-20260924-img-6743-3ebeb19f.jpg"
+      },
+      "jpg": "assets/web/children/new-20260924-img-6743-3ebeb19f.jpg",
+      "webp": "assets/webp/children/new-20260924-img-6743-3ebeb19f.webp",
+      "source_dimensions": [
+        4160,
+        6240
+      ],
+      "web_dimensions": [
+        1067,
+        1600
+      ],
+      "icc_converted": false,
+      "jpg_bytes": 301044,
+      "webp_bytes": 152072
+    },
+    {
+      "category": "children",
+      "original": "source_assets\\originals\\children\\2026-09-24\\IMG_6995.jpg",
+      "source_path": "/НОВОЕ/дети/IMG_6995.jpg",
+      "md5": "19e73a95d15e798e5c28d3d04efc68b8",
+      "bytes": 12358116,
+      "original_sha256": "d7f5aefeaa73bd43f235fe5d4b653b541dff9957ad0b199a3ffc225008d0ce10",
+      "same_as_existing": "assets/web/children/IMG_6995.jpg",
+      "photo": {
+        "folder": "children",
+        "file": "IMG_6995.jpg"
+      },
+      "jpg": "assets/web/children/IMG_6995.jpg",
+      "webp": "assets/webp/children/IMG_6995.webp",
+      "source_dimensions": [
+        2912,
+        4368
+      ],
+      "web_dimensions": [
+        1067,
+        1600
+      ],
+      "icc_converted": true,
+      "jpg_bytes": 255907,
+      "webp_bytes": 96816
+    },
+    {
+      "category": "children",
+      "original": "source_assets\\originals\\children\\2026-09-24\\IMG_7650.jpg",
+      "source_path": "/НОВОЕ/дети/IMG_7650.jpg",
+      "md5": "ac032372dee0d77cdee33cac1d76f136",
+      "bytes": 4053704,
+      "original_sha256": "e2c40b40bcb4d2193572e9e5e61bfaf307f3dbfdae0e21ef33dbc9b0decec05b",
+      "same_as_existing": "assets/web/children/IMG_7650.jpg",
+      "photo": {
+        "folder": "children",
+        "file": "IMG_7650.jpg"
+      },
+      "jpg": "assets/web/children/IMG_7650.jpg",
+      "webp": "assets/webp/children/IMG_7650.webp",
+      "source_dimensions": [
+        3543,
+        5315
+      ],
+      "web_dimensions": [
+        1067,
+        1600
+      ],
+      "icc_converted": true,
+      "jpg_bytes": 318294,
+      "webp_bytes": 145368
+    },
+    {
+      "category": "children",
+      "original": "source_assets\\originals\\children\\2026-09-24\\IMG_8100.jpg",
+      "source_path": "/НОВОЕ/дети/IMG_8100.jpg",
+      "md5": "76a2a778f88ae71e778f4692b0b38cee",
+      "bytes": 9044710,
+      "original_sha256": "f1e7ec178d77d4bedbcc7c3f22b0b4b6da65358174b2a83820718bac68e90f9b",
+      "same_as_existing": "assets/web/children/IMG_8100.jpg",
+      "photo": {
+        "folder": "children",
+        "file": "IMG_8100.jpg"
+      },
+      "jpg": "assets/web/children/IMG_8100.jpg",
+      "webp": "assets/webp/children/IMG_8100.webp",
+      "source_dimensions": [
+        3974,
+        5961
+      ],
+      "web_dimensions": [
+        1067,
+        1600
+      ],
+      "icc_converted": false,
+      "jpg_bytes": 477453,
+      "webp_bytes": 389614
+    },
+    {
+      "category": "children",
+      "original": "source_assets\\originals\\children\\2026-09-24\\IMG_8312_1.jpg",
+      "source_path": "/НОВОЕ/дети/IMG_8312_1.jpg",
+      "md5": "63abfedfb989a96a3833cca499744956",
+      "bytes": 6386567,
+      "original_sha256": "03aa91fd0bf199909891e055bda2b9ff039720f10679bcb0d0f1dcca67250e96",
+      "same_as_existing": null,
+      "photo": {
+        "folder": "children",
+        "file": "new-20260924-img-8312-1-63abfedf.jpg"
+      },
+      "jpg": "assets/web/children/new-20260924-img-8312-1-63abfedf.jpg",
+      "webp": "assets/webp/children/new-20260924-img-8312-1-63abfedf.webp",
+      "source_dimensions": [
+        2423,
+        3634
+      ],
+      "web_dimensions": [
+        1067,
+        1600
+      ],
+      "icc_converted": true,
+      "jpg_bytes": 240901,
+      "webp_bytes": 90382
+    },
+    {
+      "category": "children",
+      "original": "source_assets\\originals\\children\\2026-09-24\\IMG_8341_1 1.jpg",
+      "source_path": "/НОВОЕ/дети/IMG_8341_1 1.jpg",
+      "md5": "c46a493021b70fc2d1c18510356a1964",
+      "bytes": 8224045,
+      "original_sha256": "414f38d5845a29682623bc166e5bb80ebc784fed481459d588f3bcefc959be0d",
+      "same_as_existing": null,
+      "photo": {
+        "folder": "children",
+        "file": "new-20260924-img-8341-1-1-c46a4930.jpg"
+      },
+      "jpg": "assets/web/children/new-20260924-img-8341-1-1-c46a4930.jpg",
+      "webp": "assets/webp/children/new-20260924-img-8341-1-1-c46a4930.webp",
+      "source_dimensions": [
+        2912,
+        4368
+      ],
+      "web_dimensions": [
+        1067,
+        1600
+      ],
+      "icc_converted": true,
+      "jpg_bytes": 192508,
+      "webp_bytes": 76020
+    },
+    {
+      "category": "children",
+      "original": "source_assets\\originals\\children\\2026-09-24\\IMG_8352.jpg",
+      "source_path": "/НОВОЕ/дети/IMG_8352.jpg",
+      "md5": "4e03fce6eb1007008b5d864b00c8161b",
+      "bytes": 7910324,
+      "original_sha256": "2c6027a77ab8fd389958e48115d545e399ce98efd2b2c550221afed0db91ccdc",
+      "same_as_existing": null,
+      "photo": {
+        "folder": "children",
+        "file": "new-20260924-img-8352-4e03fce6.jpg"
+      },
+      "jpg": "assets/web/children/new-20260924-img-8352-4e03fce6.jpg",
+      "webp": "assets/webp/children/new-20260924-img-8352-4e03fce6.webp",
+      "source_dimensions": [
+        3802,
+        5704
+      ],
+      "web_dimensions": [
+        1066,
+        1600
+      ],
+      "icc_converted": true,
+      "jpg_bytes": 362814,
+      "webp_bytes": 190490
+    },
+    {
+      "category": "children",
+      "original": "source_assets\\originals\\children\\2026-09-24\\IMG_8450.jpg",
+      "source_path": "/НОВОЕ/дети/IMG_8450.jpg",
+      "md5": "550053f8d1b58c6de45e937c515e3da9",
+      "bytes": 6521138,
+      "original_sha256": "596cdfb018a4d6544368df84eccbcdceb8f2e7e293d1debbcc58f3ec8f2c0e44",
+      "same_as_existing": null,
+      "photo": {
+        "folder": "children",
+        "file": "new-20260924-img-8450-550053f8.jpg"
+      },
+      "jpg": "assets/web/children/new-20260924-img-8450-550053f8.jpg",
+      "webp": "assets/webp/children/new-20260924-img-8450-550053f8.webp",
+      "source_dimensions": [
+        6053,
+        4035
+      ],
+      "web_dimensions": [
+        1600,
+        1067
+      ],
+      "icc_converted": true,
+      "jpg_bytes": 281428,
+      "webp_bytes": 111908
+    },
+    {
+      "category": "children",
+      "original": "source_assets\\originals\\children\\2026-09-24\\IMG_8588.jpg",
+      "source_path": "/НОВОЕ/дети/IMG_8588.jpg",
+      "md5": "187e8c57476e05ccb183ff94742b383d",
+      "bytes": 2888446,
+      "original_sha256": "fc0eba3b96accdceeec8f5400208e819538d4e4bb24574dd98c89e278238461e",
+      "same_as_existing": "assets/web/children/IMG_8588.jpg",
+      "photo": {
+        "folder": "children",
+        "file": "IMG_8588.jpg"
+      },
+      "jpg": "assets/web/children/IMG_8588.jpg",
+      "webp": "assets/webp/children/IMG_8588.webp",
+      "source_dimensions": [
+        3547,
+        5320
+      ],
+      "web_dimensions": [
+        1067,
+        1600
+      ],
+      "icc_converted": true,
+      "jpg_bytes": 196327,
+      "webp_bytes": 81402
+    },
+    {
+      "category": "children",
+      "original": "source_assets\\originals\\children\\2026-09-24\\IMG_8882.jpg",
+      "source_path": "/НОВОЕ/дети/IMG_8882.jpg",
+      "md5": "aff321acc820f91ea57377147e1838e5",
+      "bytes": 5909737,
+      "original_sha256": "c5b2f672a0e05aecb53f839c3b76295962e74d60d39d7c821bbffa3d346dd0c2",
+      "same_as_existing": null,
+      "photo": {
+        "folder": "children",
+        "file": "new-20260924-img-8882-aff321ac.jpg"
+      },
+      "jpg": "assets/web/children/new-20260924-img-8882-aff321ac.jpg",
+      "webp": "assets/webp/children/new-20260924-img-8882-aff321ac.webp",
+      "source_dimensions": [
+        3062,
+        4594
+      ],
+      "web_dimensions": [
+        1066,
+        1600
+      ],
+      "icc_converted": true,
+      "jpg_bytes": 366925,
+      "webp_bytes": 211218
+    },
+    {
+      "category": "children",
+      "original": "source_assets\\originals\\children\\2026-09-24\\IMG_8896 1.jpg",
+      "source_path": "/НОВОЕ/дети/IMG_8896 1.jpg",
+      "md5": "3630f94f6e6d2ed745f352c9ce761b89",
+      "bytes": 8471591,
+      "original_sha256": "399dc56d97e3b61acc75950ce62830eb76d5aaa83d1dec7acca1cff0fe07d444",
+      "same_as_existing": null,
+      "photo": {
+        "folder": "children",
+        "file": "new-20260924-img-8896-1-3630f94f.jpg"
+      },
+      "jpg": "assets/web/children/new-20260924-img-8896-1-3630f94f.jpg",
+      "webp": "assets/webp/children/new-20260924-img-8896-1-3630f94f.webp",
+      "source_dimensions": [
+        3915,
+        5872
+      ],
+      "web_dimensions": [
+        1067,
+        1600
+      ],
+      "icc_converted": true,
+      "jpg_bytes": 366828,
+      "webp_bytes": 216504
+    },
+    {
+      "category": "children",
+      "original": "source_assets\\originals\\children\\2026-09-24\\IMG_8983.jpg",
+      "source_path": "/НОВОЕ/дети/IMG_8983.jpg",
+      "md5": "97b6ab27b214ffd0c2ce9d2053b71f00",
+      "bytes": 5983920,
+      "original_sha256": "d83f1fb4cfddd33dbc76aee42164ac3e11be30d7d006a834bf94fa323d225496",
+      "same_as_existing": "assets/web/children/IMG_8983.jpg",
+      "photo": {
+        "folder": "children",
+        "file": "IMG_8983.jpg"
+      },
+      "jpg": "assets/web/children/IMG_8983.jpg",
+      "webp": "assets/webp/children/IMG_8983.webp",
+      "source_dimensions": [
+        4035,
+        6053
+      ],
+      "web_dimensions": [
+        1067,
+        1600
+      ],
+      "icc_converted": true,
+      "jpg_bytes": 256067,
+      "webp_bytes": 95968
+    },
+    {
+      "category": "children",
+      "original": "source_assets\\originals\\children\\2026-09-24\\_MG_3897.jpg",
+      "source_path": "/НОВОЕ/дети/_MG_3897.jpg",
+      "md5": "fcf34e36fc13b482245a72b7d5cb18c9",
+      "bytes": 8916202,
+      "original_sha256": "b9b7c875f81ba2c29cde45325d7cf9521739513146c90ff8a54ff3b466f200b8",
+      "same_as_existing": "assets/web/children/_MG_3897.jpg",
+      "photo": {
+        "folder": "children",
+        "file": "_MG_3897.jpg"
+      },
+      "jpg": "assets/web/children/_MG_3897.jpg",
+      "webp": "assets/webp/children/_MG_3897.webp",
+      "source_dimensions": [
+        3168,
+        4752
+      ],
+      "web_dimensions": [
+        1067,
+        1600
+      ],
+      "icc_converted": true,
+      "jpg_bytes": 292149,
+      "webp_bytes": 119106
+    },
+    {
+      "category": "children",
+      "original": "source_assets\\originals\\children\\2026-09-24\\_MG_5900Ann_0010017.jpg",
+      "source_path": "/НОВОЕ/дети/_MG_5900Ann_0010017.jpg",
+      "md5": "20f82834d6198a0e39b2f3a99e73cd05",
+      "bytes": 2991463,
+      "original_sha256": "06591a97dfbc425a55ff0d0395872a59d46f36e59702750547d481faa65ae3cb",
+      "same_as_existing": null,
+      "photo": {
+        "folder": "children",
+        "file": "new-20260924-mg-5900ann-0010017-20f82834.jpg"
+      },
+      "jpg": "assets/web/children/new-20260924-mg-5900ann-0010017-20f82834.jpg",
+      "webp": "assets/webp/children/new-20260924-mg-5900ann-0010017-20f82834.webp",
+      "source_dimensions": [
+        3168,
+        4752
+      ],
+      "web_dimensions": [
+        1067,
+        1600
+      ],
+      "icc_converted": true,
+      "jpg_bytes": 187131,
+      "webp_bytes": 70540
+    },
+    {
+      "category": "children",
+      "original": "source_assets\\originals\\children\\2026-09-24\\К001.jpg",
+      "source_path": "/НОВОЕ/дети/К001.jpg",
+      "md5": "f6302eb3b01173cf6e1de5d10e88eee8",
+      "bytes": 160003,
+      "original_sha256": "ce41cd82c0e9dc5c61f2fd538985526bdd750f076cfe47c4400e299f9c0798df",
+      "same_as_existing": "assets/web/children/К001.jpg",
+      "photo": {
+        "folder": "children",
+        "file": "К001.jpg"
+      },
+      "jpg": "assets/web/children/К001.jpg",
+      "webp": "assets/webp/children/К001.webp",
+      "source_dimensions": [
+        853,
+        1280
+      ],
+      "web_dimensions": [
+        853,
+        1280
+      ],
+      "icc_converted": false,
+      "jpg_bytes": 155109,
+      "webp_bytes": 79908
+    }
+  ]
+}
