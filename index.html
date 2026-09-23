@@ -176,7 +176,7 @@ h1,h2,h3{font-family:var(--font-display);font-weight:500;line-height:1.05;letter
 .hero-actions .hero-line{margin:0}
 .hero-actions .hero-cta{margin:0}
 
-/* Mobile: intro video kept under the photo (tagline + buttons stay over the photo). */
+/* Mobile: intro video follows the photo and introduction. */
 .hero-foot{position:relative;z-index:3;background:var(--background);border-top:1px solid var(--border)}
 .hero-foot .container{display:flex;justify-content:center;padding-block:clamp(1.6rem,5vw,2.1rem)}
 .hero-video{
@@ -195,12 +195,14 @@ h1,h2,h3{font-family:var(--font-display);font-weight:500;line-height:1.05;letter
   .hero-bg img{object-position:58% 34%}
 }
 
-/* Phones: shorter photo with the face higher (text sits below it, not over the face),
-   so the hero ends sooner and the video peeks under it. */
+/* Phones: keep the portrait clear; copy and actions flow below the photograph. */
 @media(max-width:767px){
-  .hero-stage{align-items:flex-end;min-height:clamp(430px,60svh,600px)}
-  .hero-bg img{object-position:72% 18%}
-  .hero-bg::after{background:linear-gradient(0deg,rgba(20,22,15,.95) 0%,rgba(20,22,15,.55) 30%,rgba(20,22,15,0) 62%)}
+  .hero-stage{display:block;min-height:0;padding:0}
+  .hero-bg{position:relative;height:58svh;min-height:340px;max-height:480px}
+  .hero-bg img{object-position:72% 26%}
+  .hero-bg::after{background:linear-gradient(0deg,var(--background),transparent 30%)}
+  .hero-stage .container{padding-block:1.4rem 2rem}
+  .hero-actions{align-items:stretch}
 }
 .hero-kicker{margin-bottom:1.3rem}
 .hero h1{
