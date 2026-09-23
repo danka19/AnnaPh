@@ -1,0 +1,970 @@
+{
+  "category": "family",
+  "source": "https://disk.yandex.ru/d/H7SUZl704ng5IQ/НОВОЕ",
+  "mode": "append_deduplicated",
+  "gallery_count": 41,
+  "files": [
+    {
+      "category": "family",
+      "original": "source_assets\\originals\\family\\2026-09-24\\IMG_1003.jpg",
+      "source_path": "/НОВОЕ/семейные/IMG_1003.jpg",
+      "md5": "54bc951cbf46c49e1885b11e7a29660c",
+      "bytes": 2695500,
+      "original_sha256": "fde6ff7f9a65149d1b8eec6533ce5cfa5c88ab9d427c22a62b27b9083b7e0a46",
+      "same_as_existing": null,
+      "photo": {
+        "folder": "family",
+        "file": "new-20260924-img-1003-54bc951c.jpg"
+      },
+      "jpg": "assets/web/family/new-20260924-img-1003-54bc951c.jpg",
+      "webp": "assets/webp/family/new-20260924-img-1003-54bc951c.webp",
+      "source_dimensions": [
+        3897,
+        2599
+      ],
+      "web_dimensions": [
+        1600,
+        1067
+      ],
+      "icc_converted": false,
+      "jpg_bytes": 705824,
+      "webp_bytes": 471336
+    },
+    {
+      "category": "family",
+      "original": "source_assets\\originals\\family\\2026-09-24\\IMG_1263.jpg",
+      "source_path": "/НОВОЕ/семейные/IMG_1263.jpg",
+      "md5": "fbc480cbadbba7adc5f7d053b3dafe82",
+      "bytes": 11019003,
+      "original_sha256": "33ab12adae98f2dc79aefa0a454ea59b9845f6ab9280e562d093030436f21914",
+      "same_as_existing": null,
+      "photo": {
+        "folder": "family",
+        "file": "new-20260924-img-1263-fbc480cb.jpg"
+      },
+      "jpg": "assets/web/family/new-20260924-img-1263-fbc480cb.jpg",
+      "webp": "assets/webp/family/new-20260924-img-1263-fbc480cb.webp",
+      "source_dimensions": [
+        3328,
+        4992
+      ],
+      "web_dimensions": [
+        1067,
+        1600
+      ],
+      "icc_converted": true,
+      "jpg_bytes": 353628,
+      "webp_bytes": 176514
+    },
+    {
+      "category": "family",
+      "original": "source_assets\\originals\\family\\2026-09-24\\IMG_1431.jpg",
+      "source_path": "/НОВОЕ/семейные/IMG_1431.jpg",
+      "md5": "70b3e79a5e6e6ac02ce6768c4afaf704",
+      "bytes": 11303966,
+      "original_sha256": "3580a90f6af3d9884ad09a30959b549274dd6ead02e752e9031d50317903e3d5",
+      "same_as_existing": null,
+      "photo": {
+        "folder": "family",
+        "file": "new-20260924-img-1431-70b3e79a.jpg"
+      },
+      "jpg": "assets/web/family/new-20260924-img-1431-70b3e79a.jpg",
+      "webp": "assets/webp/family/new-20260924-img-1431-70b3e79a.webp",
+      "source_dimensions": [
+        5304,
+        3536
+      ],
+      "web_dimensions": [
+        1600,
+        1067
+      ],
+      "icc_converted": true,
+      "jpg_bytes": 384618,
+      "webp_bytes": 231448
+    },
+    {
+      "category": "family",
+      "original": "source_assets\\originals\\family\\2026-09-24\\IMG_1545.jpg",
+      "source_path": "/НОВОЕ/семейные/IMG_1545.jpg",
+      "md5": "b7f068f9d198ae22914155962bdc55b7",
+      "bytes": 11590923,
+      "original_sha256": "e0e611ee161bfee29c7ffe317ecbc2723cc1353c1c599b08e9fba4feab3b9337",
+      "same_as_existing": null,
+      "photo": {
+        "folder": "family",
+        "file": "new-20260924-img-1545-b7f068f9.jpg"
+      },
+      "jpg": "assets/web/family/new-20260924-img-1545-b7f068f9.jpg",
+      "webp": "assets/webp/family/new-20260924-img-1545-b7f068f9.webp",
+      "source_dimensions": [
+        5304,
+        3536
+      ],
+      "web_dimensions": [
+        1600,
+        1067
+      ],
+      "icc_converted": true,
+      "jpg_bytes": 434211,
+      "webp_bytes": 324524
+    },
+    {
+      "category": "family",
+      "original": "source_assets\\originals\\family\\2026-09-24\\IMG_1679.jpg",
+      "source_path": "/НОВОЕ/семейные/IMG_1679.jpg",
+      "md5": "c463d29cfdc416a6aee59f0ca7183f41",
+      "bytes": 9667177,
+      "original_sha256": "120f764e802fd762360b037f0e6c4fb519974b08c36ce8e3d8df69d45762845b",
+      "same_as_existing": null,
+      "photo": {
+        "folder": "family",
+        "file": "new-20260924-img-1679-c463d29c.jpg"
+      },
+      "jpg": "assets/web/family/new-20260924-img-1679-c463d29c.jpg",
+      "webp": "assets/webp/family/new-20260924-img-1679-c463d29c.webp",
+      "source_dimensions": [
+        2912,
+        4368
+      ],
+      "web_dimensions": [
+        1067,
+        1600
+      ],
+      "icc_converted": true,
+      "jpg_bytes": 320225,
+      "webp_bytes": 160304
+    },
+    {
+      "category": "family",
+      "original": "source_assets\\originals\\family\\2026-09-24\\IMG_1845.jpg",
+      "source_path": "/НОВОЕ/семейные/IMG_1845.jpg",
+      "md5": "e398cb6c7e4358ee3dfccc4585af9663",
+      "bytes": 10275634,
+      "original_sha256": "32f09f1607da263393dfccb5518a193904747dc7281965532c8fe9b474757edd",
+      "same_as_existing": null,
+      "photo": {
+        "folder": "family",
+        "file": "new-20260924-img-1845-e398cb6c.jpg"
+      },
+      "jpg": "assets/web/family/new-20260924-img-1845-e398cb6c.jpg",
+      "webp": "assets/webp/family/new-20260924-img-1845-e398cb6c.webp",
+      "source_dimensions": [
+        4368,
+        2912
+      ],
+      "web_dimensions": [
+        1600,
+        1067
+      ],
+      "icc_converted": true,
+      "jpg_bytes": 348904,
+      "webp_bytes": 178512
+    },
+    {
+      "category": "family",
+      "original": "source_assets\\originals\\family\\2026-09-24\\IMG_1848.jpg",
+      "source_path": "/НОВОЕ/семейные/IMG_1848.jpg",
+      "md5": "b6a6ad86fa2d4d35911a1db33413ce01",
+      "bytes": 9299467,
+      "original_sha256": "8b7daa5ba13948f9fb509c229d9abd7c199659d88292e9b198368907bf7cdc22",
+      "same_as_existing": null,
+      "photo": {
+        "folder": "family",
+        "file": "new-20260924-img-1848-b6a6ad86.jpg"
+      },
+      "jpg": "assets/web/family/new-20260924-img-1848-b6a6ad86.jpg",
+      "webp": "assets/webp/family/new-20260924-img-1848-b6a6ad86.webp",
+      "source_dimensions": [
+        3328,
+        4992
+      ],
+      "web_dimensions": [
+        1067,
+        1600
+      ],
+      "icc_converted": true,
+      "jpg_bytes": 268316,
+      "webp_bytes": 119426
+    },
+    {
+      "category": "family",
+      "original": "source_assets\\originals\\family\\2026-09-24\\IMG_1867.jpg",
+      "source_path": "/НОВОЕ/семейные/IMG_1867.jpg",
+      "md5": "d5dd724af01241c6eca39a593307cfd7",
+      "bytes": 10627824,
+      "original_sha256": "7c11fa057f2d9445b5b3c01e906a30cc9355af521eba94a0e5ca39214107ae9b",
+      "same_as_existing": "assets/web/family/IMG_1867.jpg",
+      "photo": {
+        "folder": "family",
+        "file": "IMG_1867.jpg"
+      },
+      "jpg": "assets/web/family/IMG_1867.jpg",
+      "webp": "assets/webp/family/IMG_1867.webp",
+      "source_dimensions": [
+        2912,
+        4368
+      ],
+      "web_dimensions": [
+        1067,
+        1600
+      ],
+      "icc_converted": true,
+      "jpg_bytes": 361200,
+      "webp_bytes": 222278
+    },
+    {
+      "category": "family",
+      "original": "source_assets\\originals\\family\\2026-09-24\\IMG_1986.jpg",
+      "source_path": "/НОВОЕ/семейные/IMG_1986.jpg",
+      "md5": "156deea11d6a657c64a109e171b5546f",
+      "bytes": 13261339,
+      "original_sha256": "3dd3c76015f8dd0fe27927f584b60016c202d07c994e69caa68028ccad63474e",
+      "same_as_existing": "assets/web/family/IMG_1986.jpg",
+      "photo": {
+        "folder": "family",
+        "file": "IMG_1986.jpg"
+      },
+      "jpg": "assets/web/family/IMG_1986.jpg",
+      "webp": "assets/webp/family/IMG_1986.webp",
+      "source_dimensions": [
+        2912,
+        4368
+      ],
+      "web_dimensions": [
+        1067,
+        1600
+      ],
+      "icc_converted": true,
+      "jpg_bytes": 551699,
+      "webp_bytes": 354410
+    },
+    {
+      "category": "family",
+      "original": "source_assets\\originals\\family\\2026-09-24\\IMG_2212.jpg",
+      "source_path": "/НОВОЕ/семейные/IMG_2212.jpg",
+      "md5": "65c88afb3ea115becc536c5c23b4abcf",
+      "bytes": 10843597,
+      "original_sha256": "2c533269d436f24f1111e1c524401e8299518c67f1c22220195ca3fed780b0d4",
+      "same_as_existing": "assets/web/family/IMG_2212.jpg",
+      "photo": {
+        "folder": "family",
+        "file": "IMG_2212.jpg"
+      },
+      "jpg": "assets/web/family/IMG_2212.jpg",
+      "webp": "assets/webp/family/IMG_2212.webp",
+      "source_dimensions": [
+        4368,
+        2912
+      ],
+      "web_dimensions": [
+        1600,
+        1067
+      ],
+      "icc_converted": true,
+      "jpg_bytes": 420442,
+      "webp_bytes": 273106
+    },
+    {
+      "category": "family",
+      "original": "source_assets\\originals\\family\\2026-09-24\\IMG_2290.jpg",
+      "source_path": "/НОВОЕ/семейные/IMG_2290.jpg",
+      "md5": "83f8a80f198db8a925b3c4fbbd244844",
+      "bytes": 11474838,
+      "original_sha256": "64367bb6491313a86db3db93f87c14e44f3eb6ada1bf957df94626f85c14a002",
+      "same_as_existing": "assets/web/family/IMG_2290.jpg",
+      "photo": {
+        "folder": "family",
+        "file": "IMG_2290.jpg"
+      },
+      "jpg": "assets/web/family/IMG_2290.jpg",
+      "webp": "assets/webp/family/IMG_2290.webp",
+      "source_dimensions": [
+        2912,
+        4368
+      ],
+      "web_dimensions": [
+        1067,
+        1600
+      ],
+      "icc_converted": true,
+      "jpg_bytes": 475125,
+      "webp_bytes": 311910
+    },
+    {
+      "category": "family",
+      "original": "source_assets\\originals\\family\\2026-09-24\\IMG_2453.jpg",
+      "source_path": "/НОВОЕ/семейные/IMG_2453.jpg",
+      "md5": "91d5e0dd77cc5cac88379d9ee7e6bb82",
+      "bytes": 4436770,
+      "original_sha256": "aef3ec8ca3fbc2ccde1193bf28d6230244fafce76d91aa8abd33b4ba7fb764e9",
+      "same_as_existing": null,
+      "photo": {
+        "folder": "family",
+        "file": "new-20260924-img-2453-91d5e0dd.jpg"
+      },
+      "jpg": "assets/web/family/new-20260924-img-2453-91d5e0dd.jpg",
+      "webp": "assets/webp/family/new-20260924-img-2453-91d5e0dd.webp",
+      "source_dimensions": [
+        3699,
+        5547
+      ],
+      "web_dimensions": [
+        1067,
+        1600
+      ],
+      "icc_converted": false,
+      "jpg_bytes": 445029,
+      "webp_bytes": 257046
+    },
+    {
+      "category": "family",
+      "original": "source_assets\\originals\\family\\2026-09-24\\IMG_2502.jpg",
+      "source_path": "/НОВОЕ/семейные/IMG_2502.jpg",
+      "md5": "f3076baa26c9d4a960a7734529e42aad",
+      "bytes": 2768810,
+      "original_sha256": "15410ecd007c12ca72160510c706955adb2e5c1c7c452321307b899f8fff96e8",
+      "same_as_existing": null,
+      "photo": {
+        "folder": "family",
+        "file": "new-20260924-img-2502-f3076baa.jpg"
+      },
+      "jpg": "assets/web/family/new-20260924-img-2502-f3076baa.jpg",
+      "webp": "assets/webp/family/new-20260924-img-2502-f3076baa.webp",
+      "source_dimensions": [
+        3352,
+        5027
+      ],
+      "web_dimensions": [
+        1067,
+        1600
+      ],
+      "icc_converted": false,
+      "jpg_bytes": 342166,
+      "webp_bytes": 180562
+    },
+    {
+      "category": "family",
+      "original": "source_assets\\originals\\family\\2026-09-24\\IMG_2535.jpg",
+      "source_path": "/НОВОЕ/семейные/IMG_2535.jpg",
+      "md5": "1f013b07d3731ce3160e0d0022baba91",
+      "bytes": 10835924,
+      "original_sha256": "0833154aaec2c81ea1d6508da9d06bfa0c1c87d7671c1b5bcccafddc39205082",
+      "same_as_existing": "assets/web/family/IMG_2535.jpg",
+      "photo": {
+        "folder": "family",
+        "file": "IMG_2535.jpg"
+      },
+      "jpg": "assets/web/family/IMG_2535.jpg",
+      "webp": "assets/webp/family/IMG_2535.webp",
+      "source_dimensions": [
+        2912,
+        4368
+      ],
+      "web_dimensions": [
+        1067,
+        1600
+      ],
+      "icc_converted": true,
+      "jpg_bytes": 414679,
+      "webp_bytes": 276884
+    },
+    {
+      "category": "family",
+      "original": "source_assets\\originals\\family\\2026-09-24\\IMG_2570.jpg",
+      "source_path": "/НОВОЕ/семейные/IMG_2570.jpg",
+      "md5": "b5c5f7e325f8b5f91821f9eaa6af8861",
+      "bytes": 3028772,
+      "original_sha256": "f525ea0087a7f419ba8df77f6ab421f40d0f568dd1c78a03bff494f8f64fe328",
+      "same_as_existing": null,
+      "photo": {
+        "folder": "family",
+        "file": "new-20260924-img-2570-b5c5f7e3.jpg"
+      },
+      "jpg": "assets/web/family/new-20260924-img-2570-b5c5f7e3.jpg",
+      "webp": "assets/webp/family/new-20260924-img-2570-b5c5f7e3.webp",
+      "source_dimensions": [
+        5053,
+        3369
+      ],
+      "web_dimensions": [
+        1600,
+        1067
+      ],
+      "icc_converted": false,
+      "jpg_bytes": 364255,
+      "webp_bytes": 200318
+    },
+    {
+      "category": "family",
+      "original": "source_assets\\originals\\family\\2026-09-24\\IMG_2854.jpg",
+      "source_path": "/НОВОЕ/семейные/IMG_2854.jpg",
+      "md5": "873e45271ada48538c0a9d77a3f45103",
+      "bytes": 1987199,
+      "original_sha256": "6f7620cc4952e85bfd1fa8dd19176c9156569efd24ffcca3d887c7918203f1e3",
+      "same_as_existing": null,
+      "photo": {
+        "folder": "family",
+        "file": "new-20260924-img-2854-873e4527.jpg"
+      },
+      "jpg": "assets/web/family/new-20260924-img-2854-873e4527.jpg",
+      "webp": "assets/webp/family/new-20260924-img-2854-873e4527.webp",
+      "source_dimensions": [
+        2443,
+        3664
+      ],
+      "web_dimensions": [
+        1067,
+        1600
+      ],
+      "icc_converted": false,
+      "jpg_bytes": 354333,
+      "webp_bytes": 187826
+    },
+    {
+      "category": "family",
+      "original": "source_assets\\originals\\family\\2026-09-24\\IMG_2979.jpg",
+      "source_path": "/НОВОЕ/семейные/IMG_2979.jpg",
+      "md5": "8bcb179e1382e8af16f67fe2ff8a3cc8",
+      "bytes": 1825150,
+      "original_sha256": "36de4e52bc1984d0327de190b3bf617f32f6a7ca8ff3f802badb754a98613dad",
+      "same_as_existing": null,
+      "photo": {
+        "folder": "family",
+        "file": "new-20260924-img-2979-8bcb179e.jpg"
+      },
+      "jpg": "assets/web/family/new-20260924-img-2979-8bcb179e.jpg",
+      "webp": "assets/webp/family/new-20260924-img-2979-8bcb179e.webp",
+      "source_dimensions": [
+        1529,
+        1020
+      ],
+      "web_dimensions": [
+        1529,
+        1020
+      ],
+      "icc_converted": true,
+      "jpg_bytes": 495953,
+      "webp_bytes": 349602
+    },
+    {
+      "category": "family",
+      "original": "source_assets\\originals\\family\\2026-09-24\\IMG_2997.jpg",
+      "source_path": "/НОВОЕ/семейные/IMG_2997.jpg",
+      "md5": "e58314926ecae6e448b414454511c963",
+      "bytes": 10533611,
+      "original_sha256": "53695b44726a09c28249cef8dd1a1e4b442507cdfea2d158f7d5d7b674784696",
+      "same_as_existing": null,
+      "photo": {
+        "folder": "family",
+        "file": "new-20260924-img-2997-e5831492.jpg"
+      },
+      "jpg": "assets/web/family/new-20260924-img-2997-e5831492.jpg",
+      "webp": "assets/webp/family/new-20260924-img-2997-e5831492.webp",
+      "source_dimensions": [
+        2912,
+        4368
+      ],
+      "web_dimensions": [
+        1067,
+        1600
+      ],
+      "icc_converted": true,
+      "jpg_bytes": 401192,
+      "webp_bytes": 229754
+    },
+    {
+      "category": "family",
+      "original": "source_assets\\originals\\family\\2026-09-24\\IMG_3057.jpg",
+      "source_path": "/НОВОЕ/семейные/IMG_3057.jpg",
+      "md5": "57018306f5327dfd8b5e8d06c4626b83",
+      "bytes": 10425463,
+      "original_sha256": "e6e418314411c8eee608df7588c043c556d38f226a0e650535033f9dfa0db7e2",
+      "same_as_existing": null,
+      "photo": {
+        "folder": "family",
+        "file": "new-20260924-img-3057-57018306.jpg"
+      },
+      "jpg": "assets/web/family/new-20260924-img-3057-57018306.jpg",
+      "webp": "assets/webp/family/new-20260924-img-3057-57018306.webp",
+      "source_dimensions": [
+        2912,
+        4368
+      ],
+      "web_dimensions": [
+        1067,
+        1600
+      ],
+      "icc_converted": true,
+      "jpg_bytes": 401262,
+      "webp_bytes": 252324
+    },
+    {
+      "category": "family",
+      "original": "source_assets\\originals\\family\\2026-09-24\\IMG_3160.jpg",
+      "source_path": "/НОВОЕ/семейные/IMG_3160.jpg",
+      "md5": "9e9fcb8017e9867aebcca3f48008f8f1",
+      "bytes": 1671364,
+      "original_sha256": "9ce5c0ce3571efa12b69e102d2898e68cd58dc47f2d4d5c24f3e2caea9f9b67c",
+      "same_as_existing": null,
+      "photo": {
+        "folder": "family",
+        "file": "new-20260924-img-3160-9e9fcb80.jpg"
+      },
+      "jpg": "assets/web/family/new-20260924-img-3160-9e9fcb80.jpg",
+      "webp": "assets/webp/family/new-20260924-img-3160-9e9fcb80.webp",
+      "source_dimensions": [
+        2389,
+        3582
+      ],
+      "web_dimensions": [
+        1067,
+        1600
+      ],
+      "icc_converted": false,
+      "jpg_bytes": 421687,
+      "webp_bytes": 266510
+    },
+    {
+      "category": "family",
+      "original": "source_assets\\originals\\family\\2026-09-24\\IMG_3397.jpg",
+      "source_path": "/НОВОЕ/семейные/IMG_3397.jpg",
+      "md5": "5d25e9c54a288165bacaa9e973f8da62",
+      "bytes": 3740945,
+      "original_sha256": "146c304e55558cc7e784f70cf7afce15c3d715fb830da17cd00d3ece540c3e0e",
+      "same_as_existing": null,
+      "photo": {
+        "folder": "family",
+        "file": "new-20260924-img-3397-5d25e9c5.jpg"
+      },
+      "jpg": "assets/web/family/new-20260924-img-3397-5d25e9c5.jpg",
+      "webp": "assets/webp/family/new-20260924-img-3397-5d25e9c5.webp",
+      "source_dimensions": [
+        4160,
+        6240
+      ],
+      "web_dimensions": [
+        1067,
+        1600
+      ],
+      "icc_converted": false,
+      "jpg_bytes": 348712,
+      "webp_bytes": 161564
+    },
+    {
+      "category": "family",
+      "original": "source_assets\\originals\\family\\2026-09-24\\IMG_3517.jpg",
+      "source_path": "/НОВОЕ/семейные/IMG_3517.jpg",
+      "md5": "96796bdd00a1ec24d6b2dc1e5d3acee0",
+      "bytes": 4031441,
+      "original_sha256": "71783f40b283d1036750c501594e1795b7817599ecd7b1260bba95a94286a108",
+      "same_as_existing": null,
+      "photo": {
+        "folder": "family",
+        "file": "new-20260924-img-3517-96796bdd.jpg"
+      },
+      "jpg": "assets/web/family/new-20260924-img-3517-96796bdd.jpg",
+      "webp": "assets/webp/family/new-20260924-img-3517-96796bdd.webp",
+      "source_dimensions": [
+        4160,
+        6240
+      ],
+      "web_dimensions": [
+        1067,
+        1600
+      ],
+      "icc_converted": false,
+      "jpg_bytes": 419488,
+      "webp_bytes": 218848
+    },
+    {
+      "category": "family",
+      "original": "source_assets\\originals\\family\\2026-09-24\\IMG_3558.jpg",
+      "source_path": "/НОВОЕ/семейные/IMG_3558.jpg",
+      "md5": "78e90baa7df562b2875156e6ca58f176",
+      "bytes": 5324972,
+      "original_sha256": "96da5beb0332a9a1a87a1cdc713fb945560cce5556365641d134179a272d14b4",
+      "same_as_existing": null,
+      "photo": {
+        "folder": "family",
+        "file": "new-20260924-img-3558-78e90baa.jpg"
+      },
+      "jpg": "assets/web/family/new-20260924-img-3558-78e90baa.jpg",
+      "webp": "assets/webp/family/new-20260924-img-3558-78e90baa.webp",
+      "source_dimensions": [
+        2784,
+        1856
+      ],
+      "web_dimensions": [
+        1600,
+        1067
+      ],
+      "icc_converted": true,
+      "jpg_bytes": 484518,
+      "webp_bytes": 288960
+    },
+    {
+      "category": "family",
+      "original": "source_assets\\originals\\family\\2026-09-24\\IMG_4171.jpg",
+      "source_path": "/НОВОЕ/семейные/IMG_4171.jpg",
+      "md5": "d364acdd40f48e33f935c9852dd6a596",
+      "bytes": 8377726,
+      "original_sha256": "f2c532a08ef7582419a0bb697005c4a528b6f68fd3c3c6658c32880816b31668",
+      "same_as_existing": null,
+      "photo": {
+        "folder": "family",
+        "file": "new-20260924-img-4171-d364acdd.jpg"
+      },
+      "jpg": "assets/web/family/new-20260924-img-4171-d364acdd.jpg",
+      "webp": "assets/webp/family/new-20260924-img-4171-d364acdd.webp",
+      "source_dimensions": [
+        2912,
+        4368
+      ],
+      "web_dimensions": [
+        1067,
+        1600
+      ],
+      "icc_converted": true,
+      "jpg_bytes": 295130,
+      "webp_bytes": 125748
+    },
+    {
+      "category": "family",
+      "original": "source_assets\\originals\\family\\2026-09-24\\IMG_4185.jpg",
+      "source_path": "/НОВОЕ/семейные/IMG_4185.jpg",
+      "md5": "28cb4a787d42775e0edf903816e8274a",
+      "bytes": 11216456,
+      "original_sha256": "10afab3c78e617517f94ea3f3c5b99ca00e399505fea74675ef25b0fe9e96d49",
+      "same_as_existing": null,
+      "photo": {
+        "folder": "family",
+        "file": "new-20260924-img-4185-28cb4a78.jpg"
+      },
+      "jpg": "assets/web/family/new-20260924-img-4185-28cb4a78.jpg",
+      "webp": "assets/webp/family/new-20260924-img-4185-28cb4a78.webp",
+      "source_dimensions": [
+        5616,
+        3744
+      ],
+      "web_dimensions": [
+        1600,
+        1067
+      ],
+      "icc_converted": true,
+      "jpg_bytes": 217848,
+      "webp_bytes": 108088
+    },
+    {
+      "category": "family",
+      "original": "source_assets\\originals\\family\\2026-09-24\\IMG_4355.jpg",
+      "source_path": "/НОВОЕ/семейные/IMG_4355.jpg",
+      "md5": "c6b7363f3cc4565990af4897273eba2f",
+      "bytes": 9920603,
+      "original_sha256": "ff2ebb23c5989e461430b40aa4b1368c4ff3c03a9f90ff79765f0d276c107128",
+      "same_as_existing": null,
+      "photo": {
+        "folder": "family",
+        "file": "new-20260924-img-4355-c6b7363f.jpg"
+      },
+      "jpg": "assets/web/family/new-20260924-img-4355-c6b7363f.jpg",
+      "webp": "assets/webp/family/new-20260924-img-4355-c6b7363f.webp",
+      "source_dimensions": [
+        4201,
+        2800
+      ],
+      "web_dimensions": [
+        1600,
+        1066
+      ],
+      "icc_converted": true,
+      "jpg_bytes": 364503,
+      "webp_bytes": 197980
+    },
+    {
+      "category": "family",
+      "original": "source_assets\\originals\\family\\2026-09-24\\IMG_4385.jpg",
+      "source_path": "/НОВОЕ/семейные/IMG_4385.jpg",
+      "md5": "a4d03f600d9d957ca6d014dcb847d569",
+      "bytes": 3049323,
+      "original_sha256": "43fdfae493553b3897eda6cacc19277e16838b5e1328139988bb0b4353422f8b",
+      "same_as_existing": null,
+      "photo": {
+        "folder": "family",
+        "file": "new-20260924-img-4385-a4d03f60.jpg"
+      },
+      "jpg": "assets/web/family/new-20260924-img-4385-a4d03f60.jpg",
+      "webp": "assets/webp/family/new-20260924-img-4385-a4d03f60.webp",
+      "source_dimensions": [
+        1400,
+        2100
+      ],
+      "web_dimensions": [
+        1067,
+        1600
+      ],
+      "icc_converted": true,
+      "jpg_bytes": 463219,
+      "webp_bytes": 230012
+    },
+    {
+      "category": "family",
+      "original": "source_assets\\originals\\family\\2026-09-24\\IMG_4634.jpg",
+      "source_path": "/НОВОЕ/семейные/IMG_4634.jpg",
+      "md5": "60e801ebceef594d6372a74a26571654",
+      "bytes": 9790504,
+      "original_sha256": "0c81acfd45894908326b2560aa9a672940fce2cc59fa58d1454c850c4907c740",
+      "same_as_existing": null,
+      "photo": {
+        "folder": "family",
+        "file": "new-20260924-img-4634-60e801eb.jpg"
+      },
+      "jpg": "assets/web/family/new-20260924-img-4634-60e801eb.jpg",
+      "webp": "assets/webp/family/new-20260924-img-4634-60e801eb.webp",
+      "source_dimensions": [
+        2836,
+        4255
+      ],
+      "web_dimensions": [
+        1066,
+        1600
+      ],
+      "icc_converted": true,
+      "jpg_bytes": 377880,
+      "webp_bytes": 185834
+    },
+    {
+      "category": "family",
+      "original": "source_assets\\originals\\family\\2026-09-24\\IMG_5905.jpg",
+      "source_path": "/НОВОЕ/семейные/IMG_5905.jpg",
+      "md5": "3cf213f82d77ceef3b00dcddf69b423e",
+      "bytes": 10677311,
+      "original_sha256": "54aea14e737424430c522cfb99cfe60aad3fd37e3633fa10c3acb3afc6a6b5d6",
+      "same_as_existing": null,
+      "photo": {
+        "folder": "family",
+        "file": "new-20260924-img-5905-3cf213f8.jpg"
+      },
+      "jpg": "assets/web/family/new-20260924-img-5905-3cf213f8.jpg",
+      "webp": "assets/webp/family/new-20260924-img-5905-3cf213f8.webp",
+      "source_dimensions": [
+        6240,
+        4160
+      ],
+      "web_dimensions": [
+        1600,
+        1067
+      ],
+      "icc_converted": true,
+      "jpg_bytes": 203628,
+      "webp_bytes": 83242
+    },
+    {
+      "category": "family",
+      "original": "source_assets\\originals\\family\\2026-09-24\\IMG_7460.jpg",
+      "source_path": "/НОВОЕ/семейные/IMG_7460.jpg",
+      "md5": "961f10e4d6ac74a19f808f7ef14b3df7",
+      "bytes": 21919389,
+      "original_sha256": "27faf10fd0869afefffa28eaae19f0309487b74e62990d75a3e30772e2afd8e3",
+      "same_as_existing": null,
+      "photo": {
+        "folder": "family",
+        "file": "new-20260924-img-7460-961f10e4.jpg"
+      },
+      "jpg": "assets/web/family/new-20260924-img-7460-961f10e4.jpg",
+      "webp": "assets/webp/family/new-20260924-img-7460-961f10e4.webp",
+      "source_dimensions": [
+        3992,
+        5989
+      ],
+      "web_dimensions": [
+        1066,
+        1600
+      ],
+      "icc_converted": true,
+      "jpg_bytes": 453813,
+      "webp_bytes": 239848
+    },
+    {
+      "category": "family",
+      "original": "source_assets\\originals\\family\\2026-09-24\\IMG_7783.jpg",
+      "source_path": "/НОВОЕ/семейные/IMG_7783.jpg",
+      "md5": "0b49d2baf83ac6fc3f4122b2cb941044",
+      "bytes": 20785706,
+      "original_sha256": "49f1ffa2d2c76e7f2ad138b4a9cea2fd26bbdff4f8ac6789470af101fffe4416",
+      "same_as_existing": null,
+      "photo": {
+        "folder": "family",
+        "file": "new-20260924-img-7783-0b49d2ba.jpg"
+      },
+      "jpg": "assets/web/family/new-20260924-img-7783-0b49d2ba.jpg",
+      "webp": "assets/webp/family/new-20260924-img-7783-0b49d2ba.webp",
+      "source_dimensions": [
+        4160,
+        6240
+      ],
+      "web_dimensions": [
+        1067,
+        1600
+      ],
+      "icc_converted": true,
+      "jpg_bytes": 379067,
+      "webp_bytes": 165316
+    },
+    {
+      "category": "family",
+      "original": "source_assets\\originals\\family\\2026-09-24\\IMG_7869.jpg",
+      "source_path": "/НОВОЕ/семейные/IMG_7869.jpg",
+      "md5": "73e2a0e1e0d077bdd91e47ae50b1ee4c",
+      "bytes": 18993854,
+      "original_sha256": "fd1b2ea3bddc7947d16e217137f77968b97cb33483c764e0311e186c0a7c725d",
+      "same_as_existing": null,
+      "photo": {
+        "folder": "family",
+        "file": "new-20260924-img-7869-73e2a0e1.jpg"
+      },
+      "jpg": "assets/web/family/new-20260924-img-7869-73e2a0e1.jpg",
+      "webp": "assets/webp/family/new-20260924-img-7869-73e2a0e1.webp",
+      "source_dimensions": [
+        4160,
+        6240
+      ],
+      "web_dimensions": [
+        1067,
+        1600
+      ],
+      "icc_converted": true,
+      "jpg_bytes": 346383,
+      "webp_bytes": 154744
+    },
+    {
+      "category": "family",
+      "original": "source_assets\\originals\\family\\2026-09-24\\IMG_8671.jpg",
+      "source_path": "/НОВОЕ/семейные/IMG_8671.jpg",
+      "md5": "1003a5069d3b5bb2da68aeebb4c11c53",
+      "bytes": 17277898,
+      "original_sha256": "54f8638fb871da43d55e376522e6feea4bd30eacf8b8898cffb115ccaad20075",
+      "same_as_existing": null,
+      "photo": {
+        "folder": "family",
+        "file": "new-20260924-img-8671-1003a506.jpg"
+      },
+      "jpg": "assets/web/family/new-20260924-img-8671-1003a506.jpg",
+      "webp": "assets/webp/family/new-20260924-img-8671-1003a506.webp",
+      "source_dimensions": [
+        3893,
+        5839
+      ],
+      "web_dimensions": [
+        1067,
+        1600
+      ],
+      "icc_converted": true,
+      "jpg_bytes": 360077,
+      "webp_bytes": 211294
+    },
+    {
+      "category": "family",
+      "original": "source_assets\\originals\\family\\2026-09-24\\IMG_9416.jpg",
+      "source_path": "/НОВОЕ/семейные/IMG_9416.jpg",
+      "md5": "765ffb89eb3d18c03af56c2749852e9c",
+      "bytes": 14519945,
+      "original_sha256": "5692928639e72ab8e779d880476b12093f368a5dd28ffd101ad3723b8a2f1a0e",
+      "same_as_existing": null,
+      "photo": {
+        "folder": "family",
+        "file": "new-20260924-img-9416-765ffb89.jpg"
+      },
+      "jpg": "assets/web/family/new-20260924-img-9416-765ffb89.jpg",
+      "webp": "assets/webp/family/new-20260924-img-9416-765ffb89.webp",
+      "source_dimensions": [
+        4036,
+        6054
+      ],
+      "web_dimensions": [
+        1067,
+        1600
+      ],
+      "icc_converted": true,
+      "jpg_bytes": 336447,
+      "webp_bytes": 145502
+    },
+    {
+      "category": "family",
+      "original": "source_assets\\originals\\family\\2026-09-24\\IMG_9519.jpg",
+      "source_path": "/НОВОЕ/семейные/IMG_9519.jpg",
+      "md5": "a6741db0bcebcc382b82bbafbbdaf4af",
+      "bytes": 2851578,
+      "original_sha256": "19ec6627eb84cbf0210e4876a0e9155f9cb124907941ca35136b1ac27828c3ac",
+      "same_as_existing": null,
+      "photo": {
+        "folder": "family",
+        "file": "new-20260924-img-9519-a6741db0.jpg"
+      },
+      "jpg": "assets/web/family/new-20260924-img-9519-a6741db0.jpg",
+      "webp": "assets/webp/family/new-20260924-img-9519-a6741db0.webp",
+      "source_dimensions": [
+        4985,
+        3323
+      ],
+      "web_dimensions": [
+        1600,
+        1067
+      ],
+      "icc_converted": false,
+      "jpg_bytes": 394687,
+      "webp_bytes": 197718
+    },
+    {
+      "category": "family",
+      "original": "source_assets\\originals\\family\\2026-09-24\\IMG_9769.jpg",
+      "source_path": "/НОВОЕ/семейные/IMG_9769.jpg",
+      "md5": "20eb51c0cda67c036cfdeb550588e503",
+      "bytes": 14958874,
+      "original_sha256": "f8300c0e0d1d97b0d2561f7263352bd1fd1c04c707f4d12f740196f3a16010aa",
+      "same_as_existing": null,
+      "photo": {
+        "folder": "family",
+        "file": "new-20260924-img-9769-20eb51c0.jpg"
+      },
+      "jpg": "assets/web/family/new-20260924-img-9769-20eb51c0.jpg",
+      "webp": "assets/webp/family/new-20260924-img-9769-20eb51c0.webp",
+      "source_dimensions": [
+        6240,
+        4160
+      ],
+      "web_dimensions": [
+        1600,
+        1067
+      ],
+      "icc_converted": true,
+      "jpg_bytes": 226961,
+      "webp_bytes": 99788
+    },
+    {
+      "category": "family",
+      "original": "source_assets\\originals\\family\\2026-09-24\\IMG_9777.jpg",
+      "source_path": "/НОВОЕ/семейные/IMG_9777.jpg",
+      "md5": "73989036b9174712106ec3284d004091",
+      "bytes": 17014383,
+      "original_sha256": "1bb96609a80c99fbf23a8493ecc6564e73808923ce87251e8a88827b80d2b758",
+      "same_as_existing": null,
+      "photo": {
+        "folder": "family",
+        "file": "new-20260924-img-9777-73989036.jpg"
+      },
+      "jpg": "assets/web/family/new-20260924-img-9777-73989036.jpg",
+      "webp": "assets/webp/family/new-20260924-img-9777-73989036.webp",
+      "source_dimensions": [
+        4160,
+        6240
+      ],
+      "web_dimensions": [
+        1067,
+        1600
+      ],
+      "icc_converted": true,
+      "jpg_bytes": 251942,
+      "webp_bytes": 126108
+    }
+  ]
+}
