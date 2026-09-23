@@ -1,0 +1,606 @@
+{
+  "category": "portrait-men",
+  "source": "https://disk.yandex.ru/d/H7SUZl704ng5IQ/НОВОЕ",
+  "mode": "replace",
+  "gallery_count": 23,
+  "files": [
+    {
+      "category": "portrait-men",
+      "original": "source_assets\\originals\\portrait-men\\2026-09-24\\IMG_0013.jpg",
+      "source_path": "/НОВОЕ/МП/IMG_0013.jpg",
+      "md5": "fac3dcdb6f175b5d0507117b119750eb",
+      "bytes": 10432965,
+      "original_sha256": "153302f15b82004a4be0abe8d72df29da9e8cdc7e0e01ba3d33b4858dced40f8",
+      "same_as_existing": null,
+      "photo": {
+        "folder": "portrait-men",
+        "file": "new-20260924-img-0013-fac3dcdb.jpg"
+      },
+      "jpg": "assets/web/portrait-men/new-20260924-img-0013-fac3dcdb.jpg",
+      "webp": "assets/webp/portrait-men/new-20260924-img-0013-fac3dcdb.webp",
+      "source_dimensions": [
+        2912,
+        4368
+      ],
+      "web_dimensions": [
+        1067,
+        1600
+      ],
+      "icc_converted": true,
+      "jpg_bytes": 202586,
+      "webp_bytes": 97056
+    },
+    {
+      "category": "portrait-men",
+      "original": "source_assets\\originals\\portrait-men\\2026-09-24\\IMG_0060.jpg",
+      "source_path": "/НОВОЕ/МП/IMG_0060.jpg",
+      "md5": "054412f494207ecd091f834529a4a821",
+      "bytes": 12813082,
+      "original_sha256": "3a406861c77d378a2a06d1c2f33d6291903dae1ec6e559bbebea3dac0164f221",
+      "same_as_existing": null,
+      "photo": {
+        "folder": "portrait-men",
+        "file": "new-20260924-img-0060-054412f4.jpg"
+      },
+      "jpg": "assets/web/portrait-men/new-20260924-img-0060-054412f4.jpg",
+      "webp": "assets/webp/portrait-men/new-20260924-img-0060-054412f4.webp",
+      "source_dimensions": [
+        2744,
+        4116
+      ],
+      "web_dimensions": [
+        1067,
+        1600
+      ],
+      "icc_converted": true,
+      "jpg_bytes": 282006,
+      "webp_bytes": 113314
+    },
+    {
+      "category": "portrait-men",
+      "original": "source_assets\\originals\\portrait-men\\2026-09-24\\IMG_0067.jpg",
+      "source_path": "/НОВОЕ/МП/IMG_0067.jpg",
+      "md5": "ad3a6f54ff89a697fa71187e26191689",
+      "bytes": 6152988,
+      "original_sha256": "7efe3617ac9a45fb635e72088ba850ca76b3812445d635538d476dacd9e68215",
+      "same_as_existing": null,
+      "photo": {
+        "folder": "portrait-men",
+        "file": "new-20260924-img-0067-ad3a6f54.jpg"
+      },
+      "jpg": "assets/web/portrait-men/new-20260924-img-0067-ad3a6f54.jpg",
+      "webp": "assets/webp/portrait-men/new-20260924-img-0067-ad3a6f54.webp",
+      "source_dimensions": [
+        2496,
+        3744
+      ],
+      "web_dimensions": [
+        1067,
+        1600
+      ],
+      "icc_converted": true,
+      "jpg_bytes": 186737,
+      "webp_bytes": 75420
+    },
+    {
+      "category": "portrait-men",
+      "original": "source_assets\\originals\\portrait-men\\2026-09-24\\IMG_0087.jpg",
+      "source_path": "/НОВОЕ/МП/IMG_0087.jpg",
+      "md5": "11a6d5d28b96c1243434350962ac2188",
+      "bytes": 16477116,
+      "original_sha256": "d57bb230739f0234c74231620bed1e54b07a9bfe512625ed177eb7078e2d2ab9",
+      "same_as_existing": null,
+      "photo": {
+        "folder": "portrait-men",
+        "file": "new-20260924-img-0087-11a6d5d2.jpg"
+      },
+      "jpg": "assets/web/portrait-men/new-20260924-img-0087-11a6d5d2.jpg",
+      "webp": "assets/webp/portrait-men/new-20260924-img-0087-11a6d5d2.webp",
+      "source_dimensions": [
+        2912,
+        4368
+      ],
+      "web_dimensions": [
+        1067,
+        1600
+      ],
+      "icc_converted": true,
+      "jpg_bytes": 384377,
+      "webp_bytes": 253356
+    },
+    {
+      "category": "portrait-men",
+      "original": "source_assets\\originals\\portrait-men\\2026-09-24\\IMG_0134.jpg",
+      "source_path": "/НОВОЕ/МП/IMG_0134.jpg",
+      "md5": "dad0ff3eeb14a7b35f20d3ebbe29f29f",
+      "bytes": 6602049,
+      "original_sha256": "b935d373ad69ee74bbb3ef195a0016d36b28b55f2cabbb1b933b84075fda10b1",
+      "same_as_existing": null,
+      "photo": {
+        "folder": "portrait-men",
+        "file": "new-20260924-img-0134-dad0ff3e.jpg"
+      },
+      "jpg": "assets/web/portrait-men/new-20260924-img-0134-dad0ff3e.jpg",
+      "webp": "assets/webp/portrait-men/new-20260924-img-0134-dad0ff3e.webp",
+      "source_dimensions": [
+        2496,
+        3744
+      ],
+      "web_dimensions": [
+        1067,
+        1600
+      ],
+      "icc_converted": true,
+      "jpg_bytes": 202470,
+      "webp_bytes": 85202
+    },
+    {
+      "category": "portrait-men",
+      "original": "source_assets\\originals\\portrait-men\\2026-09-24\\IMG_0179.jpg",
+      "source_path": "/НОВОЕ/МП/IMG_0179.jpg",
+      "md5": "4ddf9d1ba74816a92e9dcaca59d523d9",
+      "bytes": 5293502,
+      "original_sha256": "fcdef24b8e6064ac214eb4357f462eeb442eb09317d973a7c4c73c9ab84b0b0c",
+      "same_as_existing": "assets/web/portrait-men/IMG_0179.jpg",
+      "photo": {
+        "folder": "portrait-men",
+        "file": "IMG_0179.jpg"
+      },
+      "jpg": "assets/web/portrait-men/IMG_0179.jpg",
+      "webp": "assets/webp/portrait-men/IMG_0179.webp",
+      "source_dimensions": [
+        2496,
+        3744
+      ],
+      "web_dimensions": [
+        1067,
+        1600
+      ],
+      "icc_converted": true,
+      "jpg_bytes": 159611,
+      "webp_bytes": 76260
+    },
+    {
+      "category": "portrait-men",
+      "original": "source_assets\\originals\\portrait-men\\2026-09-24\\IMG_0303.jpg",
+      "source_path": "/НОВОЕ/МП/IMG_0303.jpg",
+      "md5": "0d8d3b5727e9cbad8e3ec0fe4ea7c7f4",
+      "bytes": 5786178,
+      "original_sha256": "7fb99d158290ddba5132a948e2c63dd4955c00b4f083b4c0e2184dc17dd19563",
+      "same_as_existing": "assets/web/portrait-men/IMG_0303.jpg",
+      "photo": {
+        "folder": "portrait-men",
+        "file": "IMG_0303.jpg"
+      },
+      "jpg": "assets/web/portrait-men/IMG_0303.jpg",
+      "webp": "assets/webp/portrait-men/IMG_0303.webp",
+      "source_dimensions": [
+        2496,
+        3744
+      ],
+      "web_dimensions": [
+        1067,
+        1600
+      ],
+      "icc_converted": true,
+      "jpg_bytes": 183757,
+      "webp_bytes": 73482
+    },
+    {
+      "category": "portrait-men",
+      "original": "source_assets\\originals\\portrait-men\\2026-09-24\\IMG_0318.jpg",
+      "source_path": "/НОВОЕ/МП/IMG_0318.jpg",
+      "md5": "c7a27f4f6c2812b1c6905e5f4dabeeb3",
+      "bytes": 6478998,
+      "original_sha256": "5f96696b939ac98cf486cef989779f6aa40730e7384355e586bc635ac932de57",
+      "same_as_existing": "assets/web/portrait-men/IMG_0318.jpg",
+      "photo": {
+        "folder": "portrait-men",
+        "file": "IMG_0318.jpg"
+      },
+      "jpg": "assets/web/portrait-men/IMG_0318.jpg",
+      "webp": "assets/webp/portrait-men/IMG_0318.webp",
+      "source_dimensions": [
+        2486,
+        3744
+      ],
+      "web_dimensions": [
+        1062,
+        1600
+      ],
+      "icc_converted": true,
+      "jpg_bytes": 211763,
+      "webp_bytes": 95822
+    },
+    {
+      "category": "portrait-men",
+      "original": "source_assets\\originals\\portrait-men\\2026-09-24\\IMG_0535.jpg",
+      "source_path": "/НОВОЕ/МП/IMG_0535.jpg",
+      "md5": "7d2ecd61aa48d0ec777da20fca9cc585",
+      "bytes": 15080136,
+      "original_sha256": "9a889df967f71a006b9b51eeb43f5d180831362d59890aa0be382ebdcfb7824e",
+      "same_as_existing": null,
+      "photo": {
+        "folder": "portrait-men",
+        "file": "new-20260924-img-0535-7d2ecd61.jpg"
+      },
+      "jpg": "assets/web/portrait-men/new-20260924-img-0535-7d2ecd61.jpg",
+      "webp": "assets/webp/portrait-men/new-20260924-img-0535-7d2ecd61.webp",
+      "source_dimensions": [
+        3226,
+        4838
+      ],
+      "web_dimensions": [
+        1067,
+        1600
+      ],
+      "icc_converted": true,
+      "jpg_bytes": 288473,
+      "webp_bytes": 126334
+    },
+    {
+      "category": "portrait-men",
+      "original": "source_assets\\originals\\portrait-men\\2026-09-24\\IMG_0568.jpg",
+      "source_path": "/НОВОЕ/МП/IMG_0568.jpg",
+      "md5": "eef0ce7014db420ce12bb65a78d7802b",
+      "bytes": 14699808,
+      "original_sha256": "308cb427a45a6fcdfd69a3bc46a1d41babd1abcd2b162cc490e3bec219261546",
+      "same_as_existing": null,
+      "photo": {
+        "folder": "portrait-men",
+        "file": "new-20260924-img-0568-eef0ce70.jpg"
+      },
+      "jpg": "assets/web/portrait-men/new-20260924-img-0568-eef0ce70.jpg",
+      "webp": "assets/webp/portrait-men/new-20260924-img-0568-eef0ce70.webp",
+      "source_dimensions": [
+        3226,
+        4838
+      ],
+      "web_dimensions": [
+        1067,
+        1600
+      ],
+      "icc_converted": true,
+      "jpg_bytes": 264143,
+      "webp_bytes": 113590
+    },
+    {
+      "category": "portrait-men",
+      "original": "source_assets\\originals\\portrait-men\\2026-09-24\\IMG_0782.jpg",
+      "source_path": "/НОВОЕ/МП/IMG_0782.jpg",
+      "md5": "38fdaa0b5ab411abccb44a253200115e",
+      "bytes": 1262961,
+      "original_sha256": "d27664da839ebf04a792da95ec89058d129bb3b0aaccea4ab26d037e40f80da4",
+      "same_as_existing": null,
+      "photo": {
+        "folder": "portrait-men",
+        "file": "new-20260924-img-0782-38fdaa0b.jpg"
+      },
+      "jpg": "assets/web/portrait-men/new-20260924-img-0782-38fdaa0b.jpg",
+      "webp": "assets/webp/portrait-men/new-20260924-img-0782-38fdaa0b.webp",
+      "source_dimensions": [
+        2336,
+        3506
+      ],
+      "web_dimensions": [
+        1066,
+        1600
+      ],
+      "icc_converted": false,
+      "jpg_bytes": 274587,
+      "webp_bytes": 126064
+    },
+    {
+      "category": "portrait-men",
+      "original": "source_assets\\originals\\portrait-men\\2026-09-24\\IMG_0815.jpg",
+      "source_path": "/НОВОЕ/МП/IMG_0815.jpg",
+      "md5": "4341b8d1cfbed65874ab45c4ef3e2437",
+      "bytes": 1225461,
+      "original_sha256": "916c50a201644b34d5aae916cec87867944abb28a2dfdd1b8727c22237e06aea",
+      "same_as_existing": null,
+      "photo": {
+        "folder": "portrait-men",
+        "file": "new-20260924-img-0815-4341b8d1.jpg"
+      },
+      "jpg": "assets/web/portrait-men/new-20260924-img-0815-4341b8d1.jpg",
+      "webp": "assets/webp/portrait-men/new-20260924-img-0815-4341b8d1.webp",
+      "source_dimensions": [
+        2120,
+        3180
+      ],
+      "web_dimensions": [
+        1067,
+        1600
+      ],
+      "icc_converted": false,
+      "jpg_bytes": 317762,
+      "webp_bytes": 162494
+    },
+    {
+      "category": "portrait-men",
+      "original": "source_assets\\originals\\portrait-men\\2026-09-24\\IMG_2496.jpg",
+      "source_path": "/НОВОЕ/МП/IMG_2496.jpg",
+      "md5": "436201336667a2093d46f9d75b426c74",
+      "bytes": 2811107,
+      "original_sha256": "71ad66c9962e578df5403e2af76d07fe929f2f736502ef76ce3e029fed1414ff",
+      "same_as_existing": null,
+      "photo": {
+        "folder": "portrait-men",
+        "file": "new-20260924-img-2496-43620133.jpg"
+      },
+      "jpg": "assets/web/portrait-men/new-20260924-img-2496-43620133.jpg",
+      "webp": "assets/webp/portrait-men/new-20260924-img-2496-43620133.webp",
+      "source_dimensions": [
+        3536,
+        5304
+      ],
+      "web_dimensions": [
+        1067,
+        1600
+      ],
+      "icc_converted": false,
+      "jpg_bytes": 246743,
+      "webp_bytes": 123406
+    },
+    {
+      "category": "portrait-men",
+      "original": "source_assets\\originals\\portrait-men\\2026-09-24\\IMG_2519.jpg",
+      "source_path": "/НОВОЕ/МП/IMG_2519.jpg",
+      "md5": "f74534c45f18d2d34e87ecd753e7c93c",
+      "bytes": 3053063,
+      "original_sha256": "eabb3bbbc69e6ca8c872506058cded91f0d82b80b4cfb8c9d5402c19f67ab796",
+      "same_as_existing": null,
+      "photo": {
+        "folder": "portrait-men",
+        "file": "new-20260924-img-2519-f74534c4.jpg"
+      },
+      "jpg": "assets/web/portrait-men/new-20260924-img-2519-f74534c4.jpg",
+      "webp": "assets/webp/portrait-men/new-20260924-img-2519-f74534c4.webp",
+      "source_dimensions": [
+        3430,
+        5146
+      ],
+      "web_dimensions": [
+        1066,
+        1600
+      ],
+      "icc_converted": false,
+      "jpg_bytes": 278463,
+      "webp_bytes": 152022
+    },
+    {
+      "category": "portrait-men",
+      "original": "source_assets\\originals\\portrait-men\\2026-09-24\\IMG_2652.jpg",
+      "source_path": "/НОВОЕ/МП/IMG_2652.jpg",
+      "md5": "b241323258f38064499eed4fde5c6beb",
+      "bytes": 14201626,
+      "original_sha256": "ad403b1a49fd2491c91f703798bd9d1ee54cf91adf84fe0d0f889cf2103c7e91",
+      "same_as_existing": null,
+      "photo": {
+        "folder": "portrait-men",
+        "file": "new-20260924-img-2652-b2413232.jpg"
+      },
+      "jpg": "assets/web/portrait-men/new-20260924-img-2652-b2413232.jpg",
+      "webp": "assets/webp/portrait-men/new-20260924-img-2652-b2413232.webp",
+      "source_dimensions": [
+        3536,
+        5304
+      ],
+      "web_dimensions": [
+        1067,
+        1600
+      ],
+      "icc_converted": true,
+      "jpg_bytes": 204840,
+      "webp_bytes": 100856
+    },
+    {
+      "category": "portrait-men",
+      "original": "source_assets\\originals\\portrait-men\\2026-09-24\\IMG_2687.jpg",
+      "source_path": "/НОВОЕ/МП/IMG_2687.jpg",
+      "md5": "6655c6fc748ffb1ad3726996511588c8",
+      "bytes": 11399804,
+      "original_sha256": "12e2bbbb23c5581460983aa09b42027b0f6b748beab9059bc9db177417919512",
+      "same_as_existing": null,
+      "photo": {
+        "folder": "portrait-men",
+        "file": "new-20260924-img-2687-6655c6fc.jpg"
+      },
+      "jpg": "assets/web/portrait-men/new-20260924-img-2687-6655c6fc.jpg",
+      "webp": "assets/webp/portrait-men/new-20260924-img-2687-6655c6fc.webp",
+      "source_dimensions": [
+        3286,
+        4929
+      ],
+      "web_dimensions": [
+        1067,
+        1600
+      ],
+      "icc_converted": true,
+      "jpg_bytes": 205878,
+      "webp_bytes": 84770
+    },
+    {
+      "category": "portrait-men",
+      "original": "source_assets\\originals\\portrait-men\\2026-09-24\\IMG_2817.jpg",
+      "source_path": "/НОВОЕ/МП/IMG_2817.jpg",
+      "md5": "12950fd861a8d3e5a09d16525396f5cc",
+      "bytes": 2617129,
+      "original_sha256": "a2cb82e66dbfba7f1913cdcc92d03ab8d69bc14d8959c153b90a5314f7677a21",
+      "same_as_existing": null,
+      "photo": {
+        "folder": "portrait-men",
+        "file": "new-20260924-img-2817-12950fd8.jpg"
+      },
+      "jpg": "assets/web/portrait-men/new-20260924-img-2817-12950fd8.jpg",
+      "webp": "assets/webp/portrait-men/new-20260924-img-2817-12950fd8.webp",
+      "source_dimensions": [
+        3536,
+        5304
+      ],
+      "web_dimensions": [
+        1067,
+        1600
+      ],
+      "icc_converted": false,
+      "jpg_bytes": 196895,
+      "webp_bytes": 139230
+    },
+    {
+      "category": "portrait-men",
+      "original": "source_assets\\originals\\portrait-men\\2026-09-24\\IMG_2869.jpg",
+      "source_path": "/НОВОЕ/МП/IMG_2869.jpg",
+      "md5": "f2525d537c0f2a18288aec2b7978692e",
+      "bytes": 3669647,
+      "original_sha256": "ecd8ce8936a97c7a8261fe65180a575eca5a246144ce8af1ef8b41cdb4ea5306",
+      "same_as_existing": null,
+      "photo": {
+        "folder": "portrait-men",
+        "file": "new-20260924-img-2869-f2525d53.jpg"
+      },
+      "jpg": "assets/web/portrait-men/new-20260924-img-2869-f2525d53.jpg",
+      "webp": "assets/webp/portrait-men/new-20260924-img-2869-f2525d53.webp",
+      "source_dimensions": [
+        3536,
+        5304
+      ],
+      "web_dimensions": [
+        1067,
+        1600
+      ],
+      "icc_converted": false,
+      "jpg_bytes": 165864,
+      "webp_bytes": 108788
+    },
+    {
+      "category": "portrait-men",
+      "original": "source_assets\\originals\\portrait-men\\2026-09-24\\IMG_6140.jpg",
+      "source_path": "/НОВОЕ/МП/IMG_6140.jpg",
+      "md5": "ad284c5e58e37c52cdb70d72b529ea75",
+      "bytes": 17154026,
+      "original_sha256": "897f34083edd620701521d690684c10fb8040268ae1abd59ee698092c0a4d757",
+      "same_as_existing": null,
+      "photo": {
+        "folder": "portrait-men",
+        "file": "new-20260924-img-6140-ad284c5e.jpg"
+      },
+      "jpg": "assets/web/portrait-men/new-20260924-img-6140-ad284c5e.jpg",
+      "webp": "assets/webp/portrait-men/new-20260924-img-6140-ad284c5e.webp",
+      "source_dimensions": [
+        5799,
+        3866
+      ],
+      "web_dimensions": [
+        1600,
+        1067
+      ],
+      "icc_converted": true,
+      "jpg_bytes": 302787,
+      "webp_bytes": 120344
+    },
+    {
+      "category": "portrait-men",
+      "original": "source_assets\\originals\\portrait-men\\2026-09-24\\IMG_6143.jpg",
+      "source_path": "/НОВОЕ/МП/IMG_6143.jpg",
+      "md5": "30ddcd53c052835d7059255a42905507",
+      "bytes": 17324470,
+      "original_sha256": "3338e346eb05d57b1337baf32275863e4c65743e7416c5f5d9e5ffd52ede4ad8",
+      "same_as_existing": null,
+      "photo": {
+        "folder": "portrait-men",
+        "file": "new-20260924-img-6143-30ddcd53.jpg"
+      },
+      "jpg": "assets/web/portrait-men/new-20260924-img-6143-30ddcd53.jpg",
+      "webp": "assets/webp/portrait-men/new-20260924-img-6143-30ddcd53.webp",
+      "source_dimensions": [
+        6145,
+        4097
+      ],
+      "web_dimensions": [
+        1600,
+        1067
+      ],
+      "icc_converted": true,
+      "jpg_bytes": 257953,
+      "webp_bytes": 108938
+    },
+    {
+      "category": "portrait-men",
+      "original": "source_assets\\originals\\portrait-men\\2026-09-24\\IMG_6742.jpg",
+      "source_path": "/НОВОЕ/МП/IMG_6742.jpg",
+      "md5": "92b6befd625692e5a8e09c01a0399c39",
+      "bytes": 19395617,
+      "original_sha256": "eb0fc8b56a1d2fd58c8dd7a24fd511764debeccf7f2687fe316429af6de31e99",
+      "same_as_existing": null,
+      "photo": {
+        "folder": "portrait-men",
+        "file": "new-20260924-img-6742-92b6befd.jpg"
+      },
+      "jpg": "assets/web/portrait-men/new-20260924-img-6742-92b6befd.jpg",
+      "webp": "assets/webp/portrait-men/new-20260924-img-6742-92b6befd.webp",
+      "source_dimensions": [
+        6240,
+        4160
+      ],
+      "web_dimensions": [
+        1600,
+        1067
+      ],
+      "icc_converted": true,
+      "jpg_bytes": 417366,
+      "webp_bytes": 263046
+    },
+    {
+      "category": "portrait-men",
+      "original": "source_assets\\originals\\portrait-men\\2026-09-24\\IMG_6743.jpg",
+      "source_path": "/НОВОЕ/МП/IMG_6743.jpg",
+      "md5": "7ae6d637bee28c4ae03af2415ed460df",
+      "bytes": 13871141,
+      "original_sha256": "22b58cd5c8de6f6ef28e131d66a64b28eaf5efdebaf75b923c92a8ea6412f9c1",
+      "same_as_existing": null,
+      "photo": {
+        "folder": "portrait-men",
+        "file": "new-20260924-img-6743-7ae6d637.jpg"
+      },
+      "jpg": "assets/web/portrait-men/new-20260924-img-6743-7ae6d637.jpg",
+      "webp": "assets/webp/portrait-men/new-20260924-img-6743-7ae6d637.webp",
+      "source_dimensions": [
+        4160,
+        6240
+      ],
+      "web_dimensions": [
+        1067,
+        1600
+      ],
+      "icc_converted": true,
+      "jpg_bytes": 263860,
+      "webp_bytes": 127486
+    },
+    {
+      "category": "portrait-men",
+      "original": "source_assets\\originals\\portrait-men\\2026-09-24\\IMG_9866.jpg",
+      "source_path": "/НОВОЕ/МП/IMG_9866.jpg",
+      "md5": "8c36d36593593889c1117de1684e6796",
+      "bytes": 6841143,
+      "original_sha256": "c887f6431d9639d6707c727c74461d8a5f7cf66ff7b7d7618c3d19389ff54bcd",
+      "same_as_existing": null,
+      "photo": {
+        "folder": "portrait-men",
+        "file": "new-20260924-img-9866-8c36d365.jpg"
+      },
+      "jpg": "assets/web/portrait-men/new-20260924-img-9866-8c36d365.jpg",
+      "webp": "assets/webp/portrait-men/new-20260924-img-9866-8c36d365.webp",
+      "source_dimensions": [
+        2912,
+        4368
+      ],
+      "web_dimensions": [
+        1067,
+        1600
+      ],
+      "icc_converted": true,
+      "jpg_bytes": 143915,
+      "webp_bytes": 52082
+    }
+  ]
+}
