@@ -352,6 +352,10 @@ section{position:relative}
 .g-item:hover::after{opacity:1}
 .g-item.more{display:flex;align-items:center;justify-content:center}
 .g-item.more span{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;background:rgba(20,22,15,.62);color:var(--candle);font-family:var(--font-display);font-size:1.5rem;z-index:2}
+.g-series-caption{position:absolute;inset:auto 0 0;z-index:2;display:grid;gap:.3rem;padding:2.5rem 1rem 1rem;background:linear-gradient(transparent,rgba(13,14,9,.92));text-align:left}
+.g-series-caption strong{font-family:var(--font-display);font-size:1.4rem;font-weight:500}
+.g-series-caption span{font-size:.8rem}
+@media(max-width:560px){.g-series-caption{padding:2rem .7rem .7rem}.g-series-caption strong{font-size:1.2rem}}
 .gallery.video-gallery{grid-template-columns:minmax(0,760px);justify-content:center}
 .g-item.g-video{aspect-ratio:16/9;cursor:default;max-width:760px;justify-self:center;width:100%;background:#000}
 .g-item.g-video video{width:100%;height:100%;object-fit:cover}
@@ -971,11 +975,7 @@ section{position:relative}
       id:"art", tab:"Образные съёмки", title:"Образные съёмки", tag:"Образ",
       desc:"Образ, свет и история. Кинематографичные кадры с настроением и сюжетом.",
       cover:{folder:"art", file:"IMG_7879.jpg"},
-      photos: [].concat(
-        P("art",["IMG_7879.jpg","IMG_3971.jpg","IMG_3084.jpg","IMG_3089.jpg","IMG_3100.jpg","IMG_3978.jpg","IMG_3983.jpg","IMG_4000.jpg","IMG_4065.jpg","IMG_4077.jpg","IMG_4097.jpg","IMG_4259.jpg","IMG_4363.jpg","IMG_5513.jpg","IMG_6134.jpg","IMG_7673.jpg","IMG_7723.jpg","IMG_8594.jpg","IMG_9064.jpg","IMG_9172.jpg","IMG_3052.jpg"]),
-        P("portrait-men-art",["IMG_0969 1.jpg","IMG_0997.jpg","IMG_1005.jpg","IMG_1021.jpg","IMG_1027.jpg","IMG_1048.jpg","IMG_1081.jpg","IMG_1083.jpg","IMG_1103.jpg"]),
-        P("outdoor",["IMG_3169.jpg","IMG_2851.jpg","IMG_2862_1.jpg","IMG_2874.jpg","IMG_3028.jpg","IMG_3120.jpg","IMG_3120 (1).jpg","IMG_3276.jpg","IMG_3324.jpg"])
-      )
+      photos: []
     },
     {
       id:"family", tab:"Семейная & Дети", title:"Семейная & Дети", tag:"Семья",
@@ -1007,6 +1007,27 @@ section{position:relative}
     }
   ];
 
+  // Each card opens only the photographs belonging to this shoot.
+  var ART_SERIES = [
+    {id:"art-wings", title:"Белые крылья", photos:P("art",["IMG_3052.jpg","IMG_3084.jpg","IMG_3089.jpg","IMG_3100.jpg"])},
+    {id:"art-sword", title:"С мечом", photos:P("art",["IMG_3971.jpg","IMG_3978.jpg","IMG_3983.jpg"])},
+    {id:"art-lace", title:"Кружево и свечи", photos:P("art",["IMG_4000.jpg","IMG_4065.jpg","IMG_4077.jpg","IMG_4097.jpg"])},
+    {id:"art-veil", title:"Чёрная вуаль", photos:P("art",["IMG_4259.jpg","IMG_4363.jpg"])},
+    {id:"art-cat", title:"Портрет с кошкой", photos:P("art",["IMG_5513.jpg"])},
+    {id:"art-ballet", title:"Балет", photos:P("art",["IMG_6134.jpg"])},
+    {id:"art-dark-wings", title:"Чёрные крылья", photos:P("art",["IMG_7673.jpg"])},
+    {id:"art-horse", title:"Зимняя история", photos:P("art",["IMG_7879.jpg","IMG_7723.jpg"])},
+    {id:"art-fire", title:"Скалы и огонь", photos:P("art",["IMG_8594.jpg","IMG_9064.jpg","IMG_9172.jpg"])},
+    {id:"art-men", title:"Портрет при свечах", photos:P("portrait-men-art",["IMG_0969 1.jpg","IMG_0997.jpg","IMG_1005.jpg","IMG_1021.jpg","IMG_1027.jpg","IMG_1048.jpg","IMG_1081.jpg","IMG_1083.jpg","IMG_1103.jpg"])},
+    {id:"art-sea", title:"Красное платье у моря", photos:P("outdoor",["IMG_3169.jpg","IMG_2851.jpg","IMG_2862_1.jpg","IMG_2874.jpg","IMG_3028.jpg","IMG_3120.jpg","IMG_3120 (1).jpg","IMG_3276.jpg","IMG_3324.jpg"])}
+  ];
+  var artCategory = CATEGORIES.find(function(cat){ return cat.id==="art"; });
+  artCategory.series = ART_SERIES;
+  ART_SERIES.forEach(function(series){
+    series.desc = "";
+    artCategory.photos = artCategory.photos.concat(series.photos);
+  });
+
   function jpgSrc(p){ return "assets/web/" + p.folder + "/" + encodeURIComponent(p.file); }
   function src(p){ return "assets/webp/" + p.folder + "/" + encodeURIComponent(p.file).replace(/\.(jpe?g)$/i, ".webp"); }
   function achSrc(file){ return "assets/achievements/webp/" + encodeURIComponent(file); }
@@ -1015,7 +1036,7 @@ section{position:relative}
   function certJpg(file){ return "assets/achievements/certs/jpg/" + encodeURIComponent(file).replace(/\.webp$/i, ".jpg"); }
   function awardBackSrc(file){ return certSrc(file); }
   function awardBackJpg(file){ return certJpg(file); }
-  function catById(id){ for(var i=0;i<CATEGORIES.length;i++){ if(CATEGORIES[i].id===id) return CATEGORIES[i]; } return null; }
+  function catById(id){ var entries = CATEGORIES.concat(ART_SERIES); for(var i=0;i<entries.length;i++){ if(entries[i].id===id) return entries[i]; } return null; }
   function altFor(cat,i){ return cat.title + ", кадр " + (i+1); }
   // Shuffle each series so photos appear in a fresh random order on every load (Fisher–Yates).
   function shuffle(a){ for(var i=a.length-1;i>0;i--){ var j=Math.floor(Math.random()*(i+1)); var t=a[i]; a[i]=a[j]; a[j]=t; } return a; }
@@ -1120,7 +1141,7 @@ section{position:relative}
       '<div class="ch-text"><h3>'+cat.title+'</h3><p>'+cat.desc+'</p></div>'+
       (cat.video
         ? '<a class="btn btn-ghost ch-cta" href="#contacts">Обсудить фотоальбом</a>'
-        : '<button class="btn btn-ghost ch-cta" data-series="'+cat.id+'">Открыть серию · '+cat.photos.length+' фото</button>');
+        : cat.series ? "" : '<button class="btn btn-ghost ch-cta" data-series="'+cat.id+'">Открыть серию · '+cat.photos.length+' фото</button>');
     grid.appendChild(head);
 
     var gal = document.createElement("div");
@@ -1130,6 +1151,20 @@ section{position:relative}
       videoItem.className = "g-item g-video";
       videoItem.innerHTML = '<video autoplay muted loop playsinline controls preload="auto" poster="'+cat.video+'-poster.webp"><source src="'+cat.video+'.mp4" type="video/mp4"></video>';
       gal.appendChild(videoItem);
+      grid.appendChild(gal);
+      return;
+    }
+    if(cat.series){
+      cat.series.forEach(function(series){
+        var cover = series.photos[0];
+        var card = document.createElement("button");
+        card.className = "g-item g-series";
+        card.setAttribute("data-series",series.id);
+        card.setAttribute("aria-label","Открыть серию «"+series.title+"»");
+        card.innerHTML = '<img src="'+src(cover)+'" data-fallback="'+jpgSrc(cover)+'" alt="'+series.title+'" loading="lazy" decoding="async">'+
+          '<span class="g-series-caption"><strong>'+series.title+'</strong><span>Открыть серию · '+series.photos.length+' фото</span></span>';
+        gal.appendChild(card);
+      });
       grid.appendChild(gal);
       return;
     }
