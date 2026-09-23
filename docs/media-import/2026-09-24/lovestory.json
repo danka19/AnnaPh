@@ -1,0 +1,892 @@
+{
+  "category": "lovestory",
+  "source": "https://disk.yandex.ru/d/H7SUZl704ng5IQ/НОВОЕ",
+  "mode": "append_deduplicated",
+  "gallery_count": 39,
+  "files": [
+    {
+      "category": "lovestory",
+      "original": "source_assets\\originals\\lovestory\\2026-09-24\\IMG_0018_1.jpg",
+      "source_path": "/НОВОЕ/лав/IMG_0018_1.jpg",
+      "md5": "546cf2f2d822dab8f56ee2b9d8ffd3c3",
+      "bytes": 9890315,
+      "original_sha256": "b8c10af8293987172c2339d1534d482def198d1bed7a80299da77ef6b8f85074",
+      "same_as_existing": null,
+      "photo": {
+        "folder": "lovestory",
+        "file": "new-20260924-img-0018-1-546cf2f2.jpg"
+      },
+      "jpg": "assets/web/lovestory/new-20260924-img-0018-1-546cf2f2.jpg",
+      "webp": "assets/webp/lovestory/new-20260924-img-0018-1-546cf2f2.webp",
+      "source_dimensions": [
+        3328,
+        4992
+      ],
+      "web_dimensions": [
+        1067,
+        1600
+      ],
+      "icc_converted": true,
+      "jpg_bytes": 202172,
+      "webp_bytes": 83006
+    },
+    {
+      "category": "lovestory",
+      "original": "source_assets\\originals\\lovestory\\2026-09-24\\IMG_0176.jpg",
+      "source_path": "/НОВОЕ/лав/IMG_0176.jpg",
+      "md5": "34ba63ac4afdb9647795af6ef3d1feba",
+      "bytes": 9357597,
+      "original_sha256": "03d8fda49dcf6d5506eb7afc7a16df146202ab741f9b0b3fdc16e5e4c2730e74",
+      "same_as_existing": null,
+      "photo": {
+        "folder": "lovestory",
+        "file": "new-20260924-img-0176-34ba63ac.jpg"
+      },
+      "jpg": "assets/web/lovestory/new-20260924-img-0176-34ba63ac.jpg",
+      "webp": "assets/webp/lovestory/new-20260924-img-0176-34ba63ac.webp",
+      "source_dimensions": [
+        3226,
+        4838
+      ],
+      "web_dimensions": [
+        1067,
+        1600
+      ],
+      "icc_converted": true,
+      "jpg_bytes": 226811,
+      "webp_bytes": 93662
+    },
+    {
+      "category": "lovestory",
+      "original": "source_assets\\originals\\lovestory\\2026-09-24\\IMG_0227.jpg",
+      "source_path": "/НОВОЕ/лав/IMG_0227.jpg",
+      "md5": "b91f3fa827efa445bb94fcb18d2d9503",
+      "bytes": 7991862,
+      "original_sha256": "882e62d728dd007c56071fda12874e618a748be3828dc913e20ad6055586d144",
+      "same_as_existing": null,
+      "photo": {
+        "folder": "lovestory",
+        "file": "new-20260924-img-0227-b91f3fa8.jpg"
+      },
+      "jpg": "assets/web/lovestory/new-20260924-img-0227-b91f3fa8.jpg",
+      "webp": "assets/webp/lovestory/new-20260924-img-0227-b91f3fa8.webp",
+      "source_dimensions": [
+        2496,
+        3744
+      ],
+      "web_dimensions": [
+        1067,
+        1600
+      ],
+      "icc_converted": true,
+      "jpg_bytes": 358419,
+      "webp_bytes": 203094
+    },
+    {
+      "category": "lovestory",
+      "original": "source_assets\\originals\\lovestory\\2026-09-24\\IMG_0230.jpg",
+      "source_path": "/НОВОЕ/лав/IMG_0230.jpg",
+      "md5": "e1c9506a039b6948d4951949610047c3",
+      "bytes": 7769750,
+      "original_sha256": "a95a925323e71ce3e4b2336d7f99d920e0954a89fe1822fb05c4dde4f37abbde",
+      "same_as_existing": null,
+      "photo": {
+        "folder": "lovestory",
+        "file": "new-20260924-img-0230-e1c9506a.jpg"
+      },
+      "jpg": "assets/web/lovestory/new-20260924-img-0230-e1c9506a.jpg",
+      "webp": "assets/webp/lovestory/new-20260924-img-0230-e1c9506a.webp",
+      "source_dimensions": [
+        2496,
+        3744
+      ],
+      "web_dimensions": [
+        1067,
+        1600
+      ],
+      "icc_converted": true,
+      "jpg_bytes": 352511,
+      "webp_bytes": 196614
+    },
+    {
+      "category": "lovestory",
+      "original": "source_assets\\originals\\lovestory\\2026-09-24\\IMG_0523 1.jpg",
+      "source_path": "/НОВОЕ/лав/IMG_0523 1.jpg",
+      "md5": "326f15aee77de1203f3405a8ad35b670",
+      "bytes": 10814061,
+      "original_sha256": "65a2cf3d6dc22c162f044e741e1d908fdfaebf8ca2246a6f2953de7b9ea7bc47",
+      "same_as_existing": null,
+      "photo": {
+        "folder": "lovestory",
+        "file": "new-20260924-img-0523-1-326f15ae.jpg"
+      },
+      "jpg": "assets/web/lovestory/new-20260924-img-0523-1-326f15ae.jpg",
+      "webp": "assets/webp/lovestory/new-20260924-img-0523-1-326f15ae.webp",
+      "source_dimensions": [
+        3878,
+        5817
+      ],
+      "web_dimensions": [
+        1067,
+        1600
+      ],
+      "icc_converted": true,
+      "jpg_bytes": 196227,
+      "webp_bytes": 79020
+    },
+    {
+      "category": "lovestory",
+      "original": "source_assets\\originals\\lovestory\\2026-09-24\\IMG_0543.jpg",
+      "source_path": "/НОВОЕ/лав/IMG_0543.jpg",
+      "md5": "758bbf2cc66d9e364b7a0209b4e213be",
+      "bytes": 4836677,
+      "original_sha256": "1b8f46c40b0434561a89da18d89ff3d8124f915e62774eedd1ec0fcf58f5e63d",
+      "same_as_existing": null,
+      "photo": {
+        "folder": "lovestory",
+        "file": "new-20260924-img-0543-758bbf2c.jpg"
+      },
+      "jpg": "assets/web/lovestory/new-20260924-img-0543-758bbf2c.jpg",
+      "webp": "assets/webp/lovestory/new-20260924-img-0543-758bbf2c.webp",
+      "source_dimensions": [
+        4052,
+        2701
+      ],
+      "web_dimensions": [
+        1600,
+        1067
+      ],
+      "icc_converted": true,
+      "jpg_bytes": 170664,
+      "webp_bytes": 64708
+    },
+    {
+      "category": "lovestory",
+      "original": "source_assets\\originals\\lovestory\\2026-09-24\\IMG_1674.jpg",
+      "source_path": "/НОВОЕ/лав/IMG_1674.jpg",
+      "md5": "3f543def0077aea99ca03fae04443541",
+      "bytes": 15580239,
+      "original_sha256": "f5149b39816e3cb98fd3a1ad68d9dbc6bf125bdc8d8f454fbd4606d7f3495af8",
+      "same_as_existing": null,
+      "photo": {
+        "folder": "lovestory",
+        "file": "new-20260924-img-1674-3f543def.jpg"
+      },
+      "jpg": "assets/web/lovestory/new-20260924-img-1674-3f543def.jpg",
+      "webp": "assets/webp/lovestory/new-20260924-img-1674-3f543def.webp",
+      "source_dimensions": [
+        3977,
+        5965
+      ],
+      "web_dimensions": [
+        1067,
+        1600
+      ],
+      "icc_converted": true,
+      "jpg_bytes": 352962,
+      "webp_bytes": 184190
+    },
+    {
+      "category": "lovestory",
+      "original": "source_assets\\originals\\lovestory\\2026-09-24\\IMG_2063.jpg",
+      "source_path": "/НОВОЕ/лав/IMG_2063.jpg",
+      "md5": "c5a040a315ac6e596a2acec0c8beeef5",
+      "bytes": 5929806,
+      "original_sha256": "cde331c139f92b3cba0879a20c4404e8c08f4febdd98042eba9ef488dbeb668a",
+      "same_as_existing": null,
+      "photo": {
+        "folder": "lovestory",
+        "file": "new-20260924-img-2063-c5a040a3.jpg"
+      },
+      "jpg": "assets/web/lovestory/new-20260924-img-2063-c5a040a3.jpg",
+      "webp": "assets/webp/lovestory/new-20260924-img-2063-c5a040a3.webp",
+      "source_dimensions": [
+        3977,
+        2651
+      ],
+      "web_dimensions": [
+        1600,
+        1067
+      ],
+      "icc_converted": true,
+      "jpg_bytes": 264406,
+      "webp_bytes": 110750
+    },
+    {
+      "category": "lovestory",
+      "original": "source_assets\\originals\\lovestory\\2026-09-24\\IMG_2135.jpg",
+      "source_path": "/НОВОЕ/лав/IMG_2135.jpg",
+      "md5": "9080d31691de04567562b6b76513d48b",
+      "bytes": 8926116,
+      "original_sha256": "b4fae36074c9a5c45563519a38269d63b4e0c433982f9afff8977e56eee156ae",
+      "same_as_existing": null,
+      "photo": {
+        "folder": "lovestory",
+        "file": "new-20260924-img-2135-9080d316.jpg"
+      },
+      "jpg": "assets/web/lovestory/new-20260924-img-2135-9080d316.jpg",
+      "webp": "assets/webp/lovestory/new-20260924-img-2135-9080d316.webp",
+      "source_dimensions": [
+        4160,
+        6240
+      ],
+      "web_dimensions": [
+        1067,
+        1600
+      ],
+      "icc_converted": true,
+      "jpg_bytes": 212367,
+      "webp_bytes": 112110
+    },
+    {
+      "category": "lovestory",
+      "original": "source_assets\\originals\\lovestory\\2026-09-24\\IMG_2145.jpg",
+      "source_path": "/НОВОЕ/лав/IMG_2145.jpg",
+      "md5": "e0ef21712db46d44072f02e330fa49cc",
+      "bytes": 5064740,
+      "original_sha256": "16c06fd44eeec86f6f53e22a577e26c5a52e37a445b30ad6d66fdd17887f80cd",
+      "same_as_existing": null,
+      "photo": {
+        "folder": "lovestory",
+        "file": "new-20260924-img-2145-e0ef2171.jpg"
+      },
+      "jpg": "assets/web/lovestory/new-20260924-img-2145-e0ef2171.jpg",
+      "webp": "assets/webp/lovestory/new-20260924-img-2145-e0ef2171.webp",
+      "source_dimensions": [
+        3915,
+        5872
+      ],
+      "web_dimensions": [
+        1067,
+        1600
+      ],
+      "icc_converted": true,
+      "jpg_bytes": 310873,
+      "webp_bytes": 143950
+    },
+    {
+      "category": "lovestory",
+      "original": "source_assets\\originals\\lovestory\\2026-09-24\\IMG_2233.jpg",
+      "source_path": "/НОВОЕ/лав/IMG_2233.jpg",
+      "md5": "33c5b8781384e37f46651abab28bf9d1",
+      "bytes": 4203776,
+      "original_sha256": "495bf1e71efc0ea7977ea03a19c34f61e1e1a4b21c87eba0e0c06eb929659789",
+      "same_as_existing": null,
+      "photo": {
+        "folder": "lovestory",
+        "file": "new-20260924-img-2233-33c5b878.jpg"
+      },
+      "jpg": "assets/web/lovestory/new-20260924-img-2233-33c5b878.jpg",
+      "webp": "assets/webp/lovestory/new-20260924-img-2233-33c5b878.webp",
+      "source_dimensions": [
+        4035,
+        6053
+      ],
+      "web_dimensions": [
+        1067,
+        1600
+      ],
+      "icc_converted": true,
+      "jpg_bytes": 197970,
+      "webp_bytes": 68700
+    },
+    {
+      "category": "lovestory",
+      "original": "source_assets\\originals\\lovestory\\2026-09-24\\IMG_2394.jpg",
+      "source_path": "/НОВОЕ/лав/IMG_2394.jpg",
+      "md5": "99399853dd53b4a8ed2d7d98e432360d",
+      "bytes": 11225278,
+      "original_sha256": "f7d8c3c3a83a6ce23e1f9606da1ca2931ca93b1cc193c9a68175a162d7212bcf",
+      "same_as_existing": null,
+      "photo": {
+        "folder": "lovestory",
+        "file": "new-20260924-img-2394-99399853.jpg"
+      },
+      "jpg": "assets/web/lovestory/new-20260924-img-2394-99399853.jpg",
+      "webp": "assets/webp/lovestory/new-20260924-img-2394-99399853.webp",
+      "source_dimensions": [
+        4160,
+        6240
+      ],
+      "web_dimensions": [
+        1067,
+        1600
+      ],
+      "icc_converted": true,
+      "jpg_bytes": 171525,
+      "webp_bytes": 62614
+    },
+    {
+      "category": "lovestory",
+      "original": "source_assets\\originals\\lovestory\\2026-09-24\\IMG_3128.jpg",
+      "source_path": "/НОВОЕ/лав/IMG_3128.jpg",
+      "md5": "24ffbdeef3c59c72c36b8318e7ab68b9",
+      "bytes": 1082134,
+      "original_sha256": "546c3efae1d0c1fd2c51cbcf7ea6d76039cf0e9f1ebab0e448c3a103735930ea",
+      "same_as_existing": null,
+      "photo": {
+        "folder": "lovestory",
+        "file": "new-20260924-img-3128-24ffbdee.jpg"
+      },
+      "jpg": "assets/web/lovestory/new-20260924-img-3128-24ffbdee.jpg",
+      "webp": "assets/webp/lovestory/new-20260924-img-3128-24ffbdee.webp",
+      "source_dimensions": [
+        1972,
+        2868
+      ],
+      "web_dimensions": [
+        1100,
+        1600
+      ],
+      "icc_converted": false,
+      "jpg_bytes": 354577,
+      "webp_bytes": 181722
+    },
+    {
+      "category": "lovestory",
+      "original": "source_assets\\originals\\lovestory\\2026-09-24\\IMG_3183.jpg",
+      "source_path": "/НОВОЕ/лав/IMG_3183.jpg",
+      "md5": "0062bf65987e38fa2152af100ea628a2",
+      "bytes": 5557867,
+      "original_sha256": "f3d0fee3ffe16a5c7d826b94e1851dfac60bf2e27cff9bd3aca5892bd21bbfcd",
+      "same_as_existing": null,
+      "photo": {
+        "folder": "lovestory",
+        "file": "new-20260924-img-3183-0062bf65.jpg"
+      },
+      "jpg": "assets/web/lovestory/new-20260924-img-3183-0062bf65.jpg",
+      "webp": "assets/webp/lovestory/new-20260924-img-3183-0062bf65.webp",
+      "source_dimensions": [
+        4035,
+        6053
+      ],
+      "web_dimensions": [
+        1067,
+        1600
+      ],
+      "icc_converted": true,
+      "jpg_bytes": 184058,
+      "webp_bytes": 76120
+    },
+    {
+      "category": "lovestory",
+      "original": "source_assets\\originals\\lovestory\\2026-09-24\\IMG_3558.jpg",
+      "source_path": "/НОВОЕ/лав/IMG_3558.jpg",
+      "md5": "6b2fded9cf00be443dec6cf8f3183df2",
+      "bytes": 20235285,
+      "original_sha256": "2e2266cd85ccf0ba454f72f8afa7c3b09d151bb899b9d8329a2a261165595107",
+      "same_as_existing": null,
+      "photo": {
+        "folder": "lovestory",
+        "file": "new-20260924-img-3558-6b2fded9.jpg"
+      },
+      "jpg": "assets/web/lovestory/new-20260924-img-3558-6b2fded9.jpg",
+      "webp": "assets/webp/lovestory/new-20260924-img-3558-6b2fded9.webp",
+      "source_dimensions": [
+        4160,
+        6240
+      ],
+      "web_dimensions": [
+        1067,
+        1600
+      ],
+      "icc_converted": true,
+      "jpg_bytes": 291337,
+      "webp_bytes": 132702
+    },
+    {
+      "category": "lovestory",
+      "original": "source_assets\\originals\\lovestory\\2026-09-24\\IMG_3622.jpg",
+      "source_path": "/НОВОЕ/лав/IMG_3622.jpg",
+      "md5": "8cde3bff3838587606fdf3ee99ede632",
+      "bytes": 1319091,
+      "original_sha256": "f51f6e3e6d4533c2725b0510935ea860c5d8846938d0f6766167916cd713f171",
+      "same_as_existing": null,
+      "photo": {
+        "folder": "lovestory",
+        "file": "new-20260924-img-3622-8cde3bff.jpg"
+      },
+      "jpg": "assets/web/lovestory/new-20260924-img-3622-8cde3bff.jpg",
+      "webp": "assets/webp/lovestory/new-20260924-img-3622-8cde3bff.webp",
+      "source_dimensions": [
+        2200,
+        3300
+      ],
+      "web_dimensions": [
+        1067,
+        1600
+      ],
+      "icc_converted": false,
+      "jpg_bytes": 262559,
+      "webp_bytes": 109562
+    },
+    {
+      "category": "lovestory",
+      "original": "source_assets\\originals\\lovestory\\2026-09-24\\IMG_3995.jpg",
+      "source_path": "/НОВОЕ/лав/IMG_3995.jpg",
+      "md5": "b7c2d1029270db36f2c25b65cba0c2bd",
+      "bytes": 20714205,
+      "original_sha256": "c1581cca270ba70a9d99be38474b91a1e2fb5099aa490e8373a694b2e8ba4830",
+      "same_as_existing": null,
+      "photo": {
+        "folder": "lovestory",
+        "file": "new-20260924-img-3995-b7c2d102.jpg"
+      },
+      "jpg": "assets/web/lovestory/new-20260924-img-3995-b7c2d102.jpg",
+      "webp": "assets/webp/lovestory/new-20260924-img-3995-b7c2d102.webp",
+      "source_dimensions": [
+        4160,
+        6240
+      ],
+      "web_dimensions": [
+        1067,
+        1600
+      ],
+      "icc_converted": true,
+      "jpg_bytes": 293567,
+      "webp_bytes": 124954
+    },
+    {
+      "category": "lovestory",
+      "original": "source_assets\\originals\\lovestory\\2026-09-24\\IMG_4028.jpg",
+      "source_path": "/НОВОЕ/лав/IMG_4028.jpg",
+      "md5": "d4d3fbf254ae30ad7ea2d141549abedc",
+      "bytes": 20491054,
+      "original_sha256": "2efd4e1d2d409a036c3a8fb3a8096dfe76943d2ddfa305a29f29bd37e845972a",
+      "same_as_existing": null,
+      "photo": {
+        "folder": "lovestory",
+        "file": "new-20260924-img-4028-d4d3fbf2.jpg"
+      },
+      "jpg": "assets/web/lovestory/new-20260924-img-4028-d4d3fbf2.jpg",
+      "webp": "assets/webp/lovestory/new-20260924-img-4028-d4d3fbf2.webp",
+      "source_dimensions": [
+        4160,
+        6240
+      ],
+      "web_dimensions": [
+        1067,
+        1600
+      ],
+      "icc_converted": true,
+      "jpg_bytes": 261630,
+      "webp_bytes": 117584
+    },
+    {
+      "category": "lovestory",
+      "original": "source_assets\\originals\\lovestory\\2026-09-24\\IMG_4917.jpg",
+      "source_path": "/НОВОЕ/лав/IMG_4917.jpg",
+      "md5": "c141c82ffeaaff66e3b32ec17e80de99",
+      "bytes": 2229972,
+      "original_sha256": "c9f6a3a805bd2925f7de9fd19cd6832a6e460aba0cf295b5328429057e4ce697",
+      "same_as_existing": null,
+      "photo": {
+        "folder": "lovestory",
+        "file": "new-20260924-img-4917-c141c82f.jpg"
+      },
+      "jpg": "assets/web/lovestory/new-20260924-img-4917-c141c82f.jpg",
+      "webp": "assets/webp/lovestory/new-20260924-img-4917-c141c82f.webp",
+      "source_dimensions": [
+        3202,
+        4803
+      ],
+      "web_dimensions": [
+        1067,
+        1600
+      ],
+      "icc_converted": true,
+      "jpg_bytes": 237737,
+      "webp_bytes": 97200
+    },
+    {
+      "category": "lovestory",
+      "original": "source_assets\\originals\\lovestory\\2026-09-24\\IMG_4922.jpg",
+      "source_path": "/НОВОЕ/лав/IMG_4922.jpg",
+      "md5": "722bb2bf859087538d4793825e44402a",
+      "bytes": 1415025,
+      "original_sha256": "0492f66982d37f810fa8fc6242bce62df5f809fb6ed557afe847ccd772ee4f2c",
+      "same_as_existing": null,
+      "photo": {
+        "folder": "lovestory",
+        "file": "new-20260924-img-4922-722bb2bf.jpg"
+      },
+      "jpg": "assets/web/lovestory/new-20260924-img-4922-722bb2bf.jpg",
+      "webp": "assets/webp/lovestory/new-20260924-img-4922-722bb2bf.webp",
+      "source_dimensions": [
+        3937,
+        2625
+      ],
+      "web_dimensions": [
+        1600,
+        1067
+      ],
+      "icc_converted": true,
+      "jpg_bytes": 206915,
+      "webp_bytes": 74114
+    },
+    {
+      "category": "lovestory",
+      "original": "source_assets\\originals\\lovestory\\2026-09-24\\IMG_4963.jpg",
+      "source_path": "/НОВОЕ/лав/IMG_4963.jpg",
+      "md5": "5ffb498f7d396b43ff3d43296eda6c53",
+      "bytes": 3868594,
+      "original_sha256": "7d21c48f7201efce8af91138dab3d562bc94b68678f359ed921f66d84ce768ed",
+      "same_as_existing": null,
+      "photo": {
+        "folder": "lovestory",
+        "file": "new-20260924-img-4963-5ffb498f.jpg"
+      },
+      "jpg": "assets/web/lovestory/new-20260924-img-4963-5ffb498f.jpg",
+      "webp": "assets/webp/lovestory/new-20260924-img-4963-5ffb498f.webp",
+      "source_dimensions": [
+        3858,
+        5786
+      ],
+      "web_dimensions": [
+        1067,
+        1600
+      ],
+      "icc_converted": true,
+      "jpg_bytes": 269628,
+      "webp_bytes": 123406
+    },
+    {
+      "category": "lovestory",
+      "original": "source_assets\\originals\\lovestory\\2026-09-24\\IMG_5030.jpg",
+      "source_path": "/НОВОЕ/лав/IMG_5030.jpg",
+      "md5": "8340c2b5fa2b24e6fd73b452df8f84e3",
+      "bytes": 2106123,
+      "original_sha256": "842b0607057ea0e4e7821a7fb3427bfad97f1c1f6592bfa39d22fbfef1b2a343",
+      "same_as_existing": null,
+      "photo": {
+        "folder": "lovestory",
+        "file": "new-20260924-img-5030-8340c2b5.jpg"
+      },
+      "jpg": "assets/web/lovestory/new-20260924-img-5030-8340c2b5.jpg",
+      "webp": "assets/webp/lovestory/new-20260924-img-5030-8340c2b5.webp",
+      "source_dimensions": [
+        2589,
+        3883
+      ],
+      "web_dimensions": [
+        1067,
+        1600
+      ],
+      "icc_converted": true,
+      "jpg_bytes": 365608,
+      "webp_bytes": 199318
+    },
+    {
+      "category": "lovestory",
+      "original": "source_assets\\originals\\lovestory\\2026-09-24\\IMG_5039.jpg",
+      "source_path": "/НОВОЕ/лав/IMG_5039.jpg",
+      "md5": "499b68ff78934a0871d729ff9caecfae",
+      "bytes": 1752888,
+      "original_sha256": "fbf0a103457fd9f204a2222068beef88f95063f9fbcd65d2603792ce39e36978",
+      "same_as_existing": null,
+      "photo": {
+        "folder": "lovestory",
+        "file": "new-20260924-img-5039-499b68ff.jpg"
+      },
+      "jpg": "assets/web/lovestory/new-20260924-img-5039-499b68ff.jpg",
+      "webp": "assets/webp/lovestory/new-20260924-img-5039-499b68ff.webp",
+      "source_dimensions": [
+        2311,
+        3467
+      ],
+      "web_dimensions": [
+        1067,
+        1600
+      ],
+      "icc_converted": true,
+      "jpg_bytes": 367406,
+      "webp_bytes": 183526
+    },
+    {
+      "category": "lovestory",
+      "original": "source_assets\\originals\\lovestory\\2026-09-24\\IMG_5151.jpg",
+      "source_path": "/НОВОЕ/лав/IMG_5151.jpg",
+      "md5": "5e1e347b96b78256d7bd2d6bacbf8594",
+      "bytes": 4848039,
+      "original_sha256": "3fefeacb3c6609400d4be4963a377c6eb5a70f97e8d8a930c6e7488c781ae03f",
+      "same_as_existing": null,
+      "photo": {
+        "folder": "lovestory",
+        "file": "new-20260924-img-5151-5e1e347b.jpg"
+      },
+      "jpg": "assets/web/lovestory/new-20260924-img-5151-5e1e347b.jpg",
+      "webp": "assets/webp/lovestory/new-20260924-img-5151-5e1e347b.webp",
+      "source_dimensions": [
+        4035,
+        6053
+      ],
+      "web_dimensions": [
+        1067,
+        1600
+      ],
+      "icc_converted": true,
+      "jpg_bytes": 399175,
+      "webp_bytes": 222356
+    },
+    {
+      "category": "lovestory",
+      "original": "source_assets\\originals\\lovestory\\2026-09-24\\IMG_5351.jpg",
+      "source_path": "/НОВОЕ/лав/IMG_5351.jpg",
+      "md5": "864ed4bce9e9785b85215fde5bcc7f07",
+      "bytes": 2945481,
+      "original_sha256": "a904651be43232b53dbfd6c2a53e750e52357d5ee566ca42df59ccfd81f5b21c",
+      "same_as_existing": null,
+      "photo": {
+        "folder": "lovestory",
+        "file": "new-20260924-img-5351-864ed4bc.jpg"
+      },
+      "jpg": "assets/web/lovestory/new-20260924-img-5351-864ed4bc.jpg",
+      "webp": "assets/webp/lovestory/new-20260924-img-5351-864ed4bc.webp",
+      "source_dimensions": [
+        3659,
+        5489
+      ],
+      "web_dimensions": [
+        1067,
+        1600
+      ],
+      "icc_converted": true,
+      "jpg_bytes": 264955,
+      "webp_bytes": 112852
+    },
+    {
+      "category": "lovestory",
+      "original": "source_assets\\originals\\lovestory\\2026-09-24\\IMG_5571.jpg",
+      "source_path": "/НОВОЕ/лав/IMG_5571.jpg",
+      "md5": "fa391467c95836ed4714b47ea8a6e631",
+      "bytes": 7260976,
+      "original_sha256": "b7bee8aaf528dae5071436582e2c14eaaa00edce446484894879b6eeb1f26fc7",
+      "same_as_existing": null,
+      "photo": {
+        "folder": "lovestory",
+        "file": "new-20260924-img-5571-fa391467.jpg"
+      },
+      "jpg": "assets/web/lovestory/new-20260924-img-5571-fa391467.jpg",
+      "webp": "assets/webp/lovestory/new-20260924-img-5571-fa391467.webp",
+      "source_dimensions": [
+        4033,
+        6050
+      ],
+      "web_dimensions": [
+        1067,
+        1600
+      ],
+      "icc_converted": true,
+      "jpg_bytes": 306116,
+      "webp_bytes": 140216
+    },
+    {
+      "category": "lovestory",
+      "original": "source_assets\\originals\\lovestory\\2026-09-24\\IMG_5600.jpg",
+      "source_path": "/НОВОЕ/лав/IMG_5600.jpg",
+      "md5": "187948a9f334861acddd89dc18fe4c50",
+      "bytes": 1770334,
+      "original_sha256": "0cec950c090592aa3aed21a9f1afae7213fefd1f89ef3ca2a2d846f21d619506",
+      "same_as_existing": null,
+      "photo": {
+        "folder": "lovestory",
+        "file": "new-20260924-img-5600-187948a9.jpg"
+      },
+      "jpg": "assets/web/lovestory/new-20260924-img-5600-187948a9.jpg",
+      "webp": "assets/webp/lovestory/new-20260924-img-5600-187948a9.webp",
+      "source_dimensions": [
+        3796,
+        2531
+      ],
+      "web_dimensions": [
+        1600,
+        1067
+      ],
+      "icc_converted": true,
+      "jpg_bytes": 297636,
+      "webp_bytes": 133120
+    },
+    {
+      "category": "lovestory",
+      "original": "source_assets\\originals\\lovestory\\2026-09-24\\IMG_5729.jpg",
+      "source_path": "/НОВОЕ/лав/IMG_5729.jpg",
+      "md5": "0e46abed5ac1be10ab5ad45ab09dbceb",
+      "bytes": 3005171,
+      "original_sha256": "729b2d80cecdd9239767fdda8027893ba6445ec8ebc823c445bbd75b82456cf6",
+      "same_as_existing": null,
+      "photo": {
+        "folder": "lovestory",
+        "file": "new-20260924-img-5729-0e46abed.jpg"
+      },
+      "jpg": "assets/web/lovestory/new-20260924-img-5729-0e46abed.jpg",
+      "webp": "assets/webp/lovestory/new-20260924-img-5729-0e46abed.webp",
+      "source_dimensions": [
+        4035,
+        6053
+      ],
+      "web_dimensions": [
+        1067,
+        1600
+      ],
+      "icc_converted": true,
+      "jpg_bytes": 228650,
+      "webp_bytes": 82286
+    },
+    {
+      "category": "lovestory",
+      "original": "source_assets\\originals\\lovestory\\2026-09-24\\IMG_5799.jpg",
+      "source_path": "/НОВОЕ/лав/IMG_5799.jpg",
+      "md5": "5e025a5ba8aef2189a2c5d4151cdec71",
+      "bytes": 2656700,
+      "original_sha256": "c26f413d6e7b875dd7de06c57c9fb6019b94f1ef5c958975ae5fc21682a91e17",
+      "same_as_existing": null,
+      "photo": {
+        "folder": "lovestory",
+        "file": "new-20260924-img-5799-5e025a5b.jpg"
+      },
+      "jpg": "assets/web/lovestory/new-20260924-img-5799-5e025a5b.jpg",
+      "webp": "assets/webp/lovestory/new-20260924-img-5799-5e025a5b.webp",
+      "source_dimensions": [
+        3699,
+        5547
+      ],
+      "web_dimensions": [
+        1067,
+        1600
+      ],
+      "icc_converted": true,
+      "jpg_bytes": 208907,
+      "webp_bytes": 80002
+    },
+    {
+      "category": "lovestory",
+      "original": "source_assets\\originals\\lovestory\\2026-09-24\\IMG_9383.JPEG",
+      "source_path": "/НОВОЕ/лав/IMG_9383.JPEG",
+      "md5": "bacc7fc4eb9e4f561d900e94c2531b9d",
+      "bytes": 2275147,
+      "original_sha256": "73dccfebdfc4e31485ecc810a82fed39ac7a68cabb0fef638ed29b5fbc214e60",
+      "same_as_existing": null,
+      "photo": {
+        "folder": "lovestory",
+        "file": "new-20260924-img-9383-bacc7fc4.jpg"
+      },
+      "jpg": "assets/web/lovestory/new-20260924-img-9383-bacc7fc4.jpg",
+      "webp": "assets/webp/lovestory/new-20260924-img-9383-bacc7fc4.webp",
+      "source_dimensions": [
+        3185,
+        4778
+      ],
+      "web_dimensions": [
+        1067,
+        1600
+      ],
+      "icc_converted": false,
+      "jpg_bytes": 256912,
+      "webp_bytes": 130430
+    },
+    {
+      "category": "lovestory",
+      "original": "source_assets\\originals\\lovestory\\2026-09-24\\IMG_9384.JPEG",
+      "source_path": "/НОВОЕ/лав/IMG_9384.JPEG",
+      "md5": "32c4b593bc230504208e1e01f32d1ccd",
+      "bytes": 2387941,
+      "original_sha256": "fa322b9ea9e398e020fc67555d8c96eee6ded498aa08804fd049f830294ec225",
+      "same_as_existing": null,
+      "photo": {
+        "folder": "lovestory",
+        "file": "new-20260924-img-9384-32c4b593.jpg"
+      },
+      "jpg": "assets/web/lovestory/new-20260924-img-9384-32c4b593.jpg",
+      "webp": "assets/webp/lovestory/new-20260924-img-9384-32c4b593.webp",
+      "source_dimensions": [
+        3199,
+        4799
+      ],
+      "web_dimensions": [
+        1067,
+        1600
+      ],
+      "icc_converted": false,
+      "jpg_bytes": 248257,
+      "webp_bytes": 123884
+    },
+    {
+      "category": "lovestory",
+      "original": "source_assets\\originals\\lovestory\\2026-09-24\\IMG_9385.JPEG",
+      "source_path": "/НОВОЕ/лав/IMG_9385.JPEG",
+      "md5": "e4ae5faa32e0934c1a4af5213d70b63f",
+      "bytes": 2674655,
+      "original_sha256": "a8c0e8c550764626872bafdb731af3cccac5ef7ba70d71c740ec02830a663194",
+      "same_as_existing": null,
+      "photo": {
+        "folder": "lovestory",
+        "file": "new-20260924-img-9385-e4ae5faa.jpg"
+      },
+      "jpg": "assets/web/lovestory/new-20260924-img-9385-e4ae5faa.jpg",
+      "webp": "assets/webp/lovestory/new-20260924-img-9385-e4ae5faa.webp",
+      "source_dimensions": [
+        3202,
+        4803
+      ],
+      "web_dimensions": [
+        1067,
+        1600
+      ],
+      "icc_converted": false,
+      "jpg_bytes": 277085,
+      "webp_bytes": 132168
+    },
+    {
+      "category": "lovestory",
+      "original": "source_assets\\originals\\lovestory\\2026-09-24\\IMG_9387.JPEG",
+      "source_path": "/НОВОЕ/лав/IMG_9387.JPEG",
+      "md5": "9a2a0634b10d6612046516c52cb84238",
+      "bytes": 2836433,
+      "original_sha256": "e0a1bdcb5aa178ad427d3c903609ea2c3dd47f8e5b582b6451371b81b302191b",
+      "same_as_existing": null,
+      "photo": {
+        "folder": "lovestory",
+        "file": "new-20260924-img-9387-9a2a0634.jpg"
+      },
+      "jpg": "assets/web/lovestory/new-20260924-img-9387-9a2a0634.jpg",
+      "webp": "assets/webp/lovestory/new-20260924-img-9387-9a2a0634.webp",
+      "source_dimensions": [
+        3185,
+        4778
+      ],
+      "web_dimensions": [
+        1067,
+        1600
+      ],
+      "icc_converted": false,
+      "jpg_bytes": 294175,
+      "webp_bytes": 150406
+    },
+    {
+      "category": "lovestory",
+      "original": "source_assets\\originals\\lovestory\\2026-09-24\\IMG_9388.JPEG",
+      "source_path": "/НОВОЕ/лав/IMG_9388.JPEG",
+      "md5": "ad4b4ea3626d6a6baa1f6e0ebfb797ba",
+      "bytes": 1935308,
+      "original_sha256": "b5a1a4f7c3e7fac586e40712b3eac85eea2b01f834c2172b3d262edd0485e16a",
+      "same_as_existing": null,
+      "photo": {
+        "folder": "lovestory",
+        "file": "new-20260924-img-9388-ad4b4ea3.jpg"
+      },
+      "jpg": "assets/web/lovestory/new-20260924-img-9388-ad4b4ea3.jpg",
+      "webp": "assets/webp/lovestory/new-20260924-img-9388-ad4b4ea3.webp",
+      "source_dimensions": [
+        3216,
+        4824
+      ],
+      "web_dimensions": [
+        1067,
+        1600
+      ],
+      "icc_converted": false,
+      "jpg_bytes": 176042,
+      "webp_bytes": 61908
+    }
+  ]
+}
