@@ -498,8 +498,10 @@ section{position:relative}
   position:absolute;top:-.4rem;left:0;line-height:1;
 }
 .step .line{height:1px;background:var(--border-strong);margin-bottom:1.1rem}
-/* The old-style 1 and 2 have no descenders; lower them to cross the rule too. */
-.step:nth-child(-n+2)::before{transform:translateY(.65rem)}
+/* Keep the zero on its original baseline; extend only the second glyph downward. */
+.step-custom::before{visibility:hidden}
+.step-number{position:absolute;top:-.4rem;left:0;font-family:var(--font-display);font-size:3.2rem;line-height:1;color:var(--coral);opacity:.55}
+.step-number .extended{display:inline-block;transform:scaleY(1.5);transform-origin:50% 42%}
 .step h4{font-size:1.35rem;font-family:var(--font-display);color:var(--candle);font-weight:600;margin-bottom:.5rem}
 .step p{font-size:.88rem;color:var(--text-secondary)}
 
@@ -777,8 +779,8 @@ section{position:relative}
       <p>От первого сообщения до фотографий, в которых ты узнаёшь себя.</p>
     </div>
     <div class="process-grid">
-      <div class="step reveal"><div class="line"></div><h4>Знакомство</h4><p>Обсуждаем идею, настроение и формат. Без давления, просто разговор.</p></div>
-      <div class="step reveal"><div class="line"></div><h4>Образ и место</h4><p>Подбираем образ и локацию: студия, улица, природа, кафе. Если нужна помощь в выборе образа, провожу небольшой тест, на основе которого ты точно определишься. Показывай референсы.</p></div>
+      <div class="step step-custom reveal"><span class="step-number" aria-hidden="true">0<span class="extended">1</span></span><div class="line"></div><h4>Знакомство</h4><p>Обсуждаем идею, настроение и формат. Без давления, просто разговор.</p></div>
+      <div class="step step-custom reveal"><span class="step-number" aria-hidden="true">0<span class="extended">2</span></span><div class="line"></div><h4>Образ и место</h4><p>Подбираем образ и локацию: студия, улица, природа, кафе. Если нужна помощь в выборе образа, провожу небольшой тест, на основе которого ты точно определишься. Показывай референсы.</p></div>
       <div class="step reveal"><div class="line"></div><h4>Дата и время</h4><p>Бронируем дату — и остаётся только ждать съёмку в предвкушении.</p></div>
       <div class="step reveal"><div class="line"></div><h4>Спокойная съёмка</h4><p>Снимаем в комфортном темпе, я направляю на каждом кадре.</p></div>
       <div class="step reveal"><div class="line"></div><h4>Готовые кадры</h4><p>Отбираю лучшие кадры. Деликатная ретушь есть на всех фотографиях, а самые удачные портреты ретуширую более детально. Свой большой красивый портрет ты сможешь повесить на стене.</p></div>
