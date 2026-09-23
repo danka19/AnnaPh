@@ -1,0 +1,450 @@
+{
+  "category": "art",
+  "source": "https://disk.yandex.ru/d/H7SUZl704ng5IQ/НОВОЕ",
+  "mode": "append_deduplicated",
+  "gallery_count": 47,
+  "files": [
+    {
+      "category": "art",
+      "original": "source_assets\\originals\\art\\2026-09-24\\IMG_3946_1.jpg",
+      "source_path": "/НОВОЕ/арт/IMG_3946_1.jpg",
+      "md5": "65099d5d03d24267ee79a12f97134832",
+      "bytes": 6657802,
+      "original_sha256": "c30f4684a248ad47e12080f84680cfa848737723c4cfd6324f019b3c3855ada7",
+      "same_as_existing": null,
+      "photo": {
+        "folder": "art",
+        "file": "new-20260924-img-3946-1-65099d5d.jpg"
+      },
+      "jpg": "assets/web/art/new-20260924-img-3946-1-65099d5d.jpg",
+      "webp": "assets/webp/art/new-20260924-img-3946-1-65099d5d.webp",
+      "source_dimensions": [
+        2786,
+        1858
+      ],
+      "web_dimensions": [
+        1600,
+        1067
+      ],
+      "icc_converted": true,
+      "jpg_bytes": 586176,
+      "webp_bytes": 476984
+    },
+    {
+      "category": "art",
+      "original": "source_assets\\originals\\art\\2026-09-24\\IMG_3949_1.jpg",
+      "source_path": "/НОВОЕ/арт/IMG_3949_1.jpg",
+      "md5": "73161544eba54f31599279ab854de817",
+      "bytes": 16862162,
+      "original_sha256": "4bd241d1b5290af9333859b5661cee1101ea878654ee78692b868cd366546e66",
+      "same_as_existing": null,
+      "photo": {
+        "folder": "art",
+        "file": "new-20260924-img-3949-1-73161544.jpg"
+      },
+      "jpg": "assets/web/art/new-20260924-img-3949-1-73161544.jpg",
+      "webp": "assets/webp/art/new-20260924-img-3949-1-73161544.webp",
+      "source_dimensions": [
+        3120,
+        4680
+      ],
+      "web_dimensions": [
+        1067,
+        1600
+      ],
+      "icc_converted": true,
+      "jpg_bytes": 476283,
+      "webp_bytes": 368188
+    },
+    {
+      "category": "art",
+      "original": "source_assets\\originals\\art\\2026-09-24\\IMG_6125.jpg",
+      "source_path": "/НОВОЕ/арт/IMG_6125.jpg",
+      "md5": "7f99f16d58e2a0b0fe77e621de963eee",
+      "bytes": 9582739,
+      "original_sha256": "1bd416444688b32eefc986d6900da404ad1a2c19561807f56d120a0fe0d6121f",
+      "same_as_existing": null,
+      "photo": {
+        "folder": "art",
+        "file": "new-20260924-img-6125-7f99f16d.jpg"
+      },
+      "jpg": "assets/web/art/new-20260924-img-6125-7f99f16d.jpg",
+      "webp": "assets/webp/art/new-20260924-img-6125-7f99f16d.webp",
+      "source_dimensions": [
+        2710,
+        4064
+      ],
+      "web_dimensions": [
+        1067,
+        1600
+      ],
+      "icc_converted": true,
+      "jpg_bytes": 348887,
+      "webp_bytes": 209420
+    },
+    {
+      "category": "art",
+      "original": "source_assets\\originals\\art\\2026-09-24\\IMG_6164.jpg",
+      "source_path": "/НОВОЕ/арт/IMG_6164.jpg",
+      "md5": "f283eaf7fd8bd399354da29cfb471ac2",
+      "bytes": 8852593,
+      "original_sha256": "4597c5f04c34a91b76de9694db445c22a35a6617659417b9a0f17e8f347a9f65",
+      "same_as_existing": null,
+      "photo": {
+        "folder": "art",
+        "file": "new-20260924-img-6164-f283eaf7.jpg"
+      },
+      "jpg": "assets/web/art/new-20260924-img-6164-f283eaf7.jpg",
+      "webp": "assets/webp/art/new-20260924-img-6164-f283eaf7.webp",
+      "source_dimensions": [
+        2784,
+        4175
+      ],
+      "web_dimensions": [
+        1067,
+        1600
+      ],
+      "icc_converted": true,
+      "jpg_bytes": 288694,
+      "webp_bytes": 145058
+    },
+    {
+      "category": "art",
+      "original": "source_assets\\originals\\art\\2026-09-24\\IMG_6252.jpg",
+      "source_path": "/НОВОЕ/арт/IMG_6252.jpg",
+      "md5": "05c3f8974dcf91f94f7b9bac170806e9",
+      "bytes": 10575041,
+      "original_sha256": "905c67ad8fd864f7ba4ad337848ff4fe67d4e21e5c5518c97e3939653d25d4fd",
+      "same_as_existing": null,
+      "photo": {
+        "folder": "art",
+        "file": "new-20260924-img-6252-05c3f897.jpg"
+      },
+      "jpg": "assets/web/art/new-20260924-img-6252-05c3f897.jpg",
+      "webp": "assets/webp/art/new-20260924-img-6252-05c3f897.webp",
+      "source_dimensions": [
+        2868,
+        4302
+      ],
+      "web_dimensions": [
+        1067,
+        1600
+      ],
+      "icc_converted": true,
+      "jpg_bytes": 232460,
+      "webp_bytes": 94936
+    },
+    {
+      "category": "art",
+      "original": "source_assets\\originals\\art\\2026-09-24\\IMG_6557.jpg",
+      "source_path": "/НОВОЕ/арт/IMG_6557.jpg",
+      "md5": "f9c2a08aa7ac5d8c76f90f55a8885239",
+      "bytes": 9837872,
+      "original_sha256": "f2ec058a632edb4bd2d6e5a2d35b52c761bd404f0d72e142afafd97843ae4570",
+      "same_as_existing": null,
+      "photo": {
+        "folder": "art",
+        "file": "new-20260924-img-6557-f9c2a08a.jpg"
+      },
+      "jpg": "assets/web/art/new-20260924-img-6557-f9c2a08a.jpg",
+      "webp": "assets/webp/art/new-20260924-img-6557-f9c2a08a.webp",
+      "source_dimensions": [
+        2912,
+        4368
+      ],
+      "web_dimensions": [
+        1067,
+        1600
+      ],
+      "icc_converted": true,
+      "jpg_bytes": 239197,
+      "webp_bytes": 108212
+    },
+    {
+      "category": "art",
+      "original": "source_assets\\originals\\art\\2026-09-24\\IMG_6653.jpg",
+      "source_path": "/НОВОЕ/арт/IMG_6653.jpg",
+      "md5": "5d405e36221ef60a2acf6b8d3066bee9",
+      "bytes": 4126413,
+      "original_sha256": "d74b8eb5dab16a59c399bac83c00768384f45da6409b4a7a6577eb93e413efcb",
+      "same_as_existing": null,
+      "photo": {
+        "folder": "art",
+        "file": "new-20260924-img-6653-5d405e36.jpg"
+      },
+      "jpg": "assets/web/art/new-20260924-img-6653-5d405e36.jpg",
+      "webp": "assets/webp/art/new-20260924-img-6653-5d405e36.webp",
+      "source_dimensions": [
+        1789,
+        2683
+      ],
+      "web_dimensions": [
+        1067,
+        1600
+      ],
+      "icc_converted": true,
+      "jpg_bytes": 324973,
+      "webp_bytes": 210278
+    },
+    {
+      "category": "art",
+      "original": "source_assets\\originals\\art\\2026-09-24\\IMG_6695.jpg",
+      "source_path": "/НОВОЕ/арт/IMG_6695.jpg",
+      "md5": "70a55e82121d1e8a829d5bc25524ba88",
+      "bytes": 4521986,
+      "original_sha256": "978266d38e27e04a7779740743602ae96db8d9e717f553191aa19bc26fe7413f",
+      "same_as_existing": null,
+      "photo": {
+        "folder": "art",
+        "file": "new-20260924-img-6695-70a55e82.jpg"
+      },
+      "jpg": "assets/web/art/new-20260924-img-6695-70a55e82.jpg",
+      "webp": "assets/webp/art/new-20260924-img-6695-70a55e82.webp",
+      "source_dimensions": [
+        2784,
+        1856
+      ],
+      "web_dimensions": [
+        1600,
+        1067
+      ],
+      "icc_converted": true,
+      "jpg_bytes": 221881,
+      "webp_bytes": 89924
+    },
+    {
+      "category": "art",
+      "original": "source_assets\\originals\\art\\2026-09-24\\IMG_6718.jpg",
+      "source_path": "/НОВОЕ/арт/IMG_6718.jpg",
+      "md5": "d76ad47169ab10bde8ead640b9e6db2e",
+      "bytes": 9983696,
+      "original_sha256": "40a279bd586894826c237a9c6761feb9624effa19b82cb36e03b84fc3f95df9e",
+      "same_as_existing": null,
+      "photo": {
+        "folder": "art",
+        "file": "new-20260924-img-6718-d76ad471.jpg"
+      },
+      "jpg": "assets/web/art/new-20260924-img-6718-d76ad471.jpg",
+      "webp": "assets/webp/art/new-20260924-img-6718-d76ad471.webp",
+      "source_dimensions": [
+        2868,
+        4301
+      ],
+      "web_dimensions": [
+        1067,
+        1600
+      ],
+      "icc_converted": true,
+      "jpg_bytes": 235503,
+      "webp_bytes": 97764
+    },
+    {
+      "category": "art",
+      "original": "source_assets\\originals\\art\\2026-09-24\\IMG_6721.jpg",
+      "source_path": "/НОВОЕ/арт/IMG_6721.jpg",
+      "md5": "3ea5405f91fc8185ee6de9d96d2eaad2",
+      "bytes": 10455829,
+      "original_sha256": "5c2856d65a486b85792761a0544f54ce0c442409d89e807b71574aeec872acea",
+      "same_as_existing": null,
+      "photo": {
+        "folder": "art",
+        "file": "new-20260924-img-6721-3ea5405f.jpg"
+      },
+      "jpg": "assets/web/art/new-20260924-img-6721-3ea5405f.jpg",
+      "webp": "assets/webp/art/new-20260924-img-6721-3ea5405f.webp",
+      "source_dimensions": [
+        2868,
+        4302
+      ],
+      "web_dimensions": [
+        1067,
+        1600
+      ],
+      "icc_converted": true,
+      "jpg_bytes": 163346,
+      "webp_bytes": 43104
+    },
+    {
+      "category": "art",
+      "original": "source_assets\\originals\\art\\2026-09-24\\IMG_6870.jpg",
+      "source_path": "/НОВОЕ/арт/IMG_6870.jpg",
+      "md5": "0c2db3827f7afea6fb6b1a544bd7b2c1",
+      "bytes": 9658381,
+      "original_sha256": "997f7713a5312ed291d4f1346fe99d436bda330639a2f5cffdf96ab856adfe5a",
+      "same_as_existing": null,
+      "photo": {
+        "folder": "art",
+        "file": "new-20260924-img-6870-0c2db382.jpg"
+      },
+      "jpg": "assets/web/art/new-20260924-img-6870-0c2db382.jpg",
+      "webp": "assets/webp/art/new-20260924-img-6870-0c2db382.webp",
+      "source_dimensions": [
+        2553,
+        3830
+      ],
+      "web_dimensions": [
+        1067,
+        1600
+      ],
+      "icc_converted": true,
+      "jpg_bytes": 375292,
+      "webp_bytes": 301768
+    },
+    {
+      "category": "art",
+      "original": "source_assets\\originals\\art\\2026-09-24\\IMG_6907.jpg",
+      "source_path": "/НОВОЕ/арт/IMG_6907.jpg",
+      "md5": "e91c99279b436b825c204e3981f13793",
+      "bytes": 10709079,
+      "original_sha256": "c94baa733491b6c4161b33140107fd7295ab06c10d01c48b08001718ff70925e",
+      "same_as_existing": null,
+      "photo": {
+        "folder": "art",
+        "file": "new-20260924-img-6907-e91c9927.jpg"
+      },
+      "jpg": "assets/web/art/new-20260924-img-6907-e91c9927.jpg",
+      "webp": "assets/webp/art/new-20260924-img-6907-e91c9927.webp",
+      "source_dimensions": [
+        2601,
+        3902
+      ],
+      "web_dimensions": [
+        1067,
+        1600
+      ],
+      "icc_converted": true,
+      "jpg_bytes": 413176,
+      "webp_bytes": 331358
+    },
+    {
+      "category": "art",
+      "original": "source_assets\\originals\\art\\2026-09-24\\IMG_7012.jpg",
+      "source_path": "/НОВОЕ/арт/IMG_7012.jpg",
+      "md5": "8ed6ff5ea358180bf08a9c5e3d3c8a23",
+      "bytes": 10167986,
+      "original_sha256": "a4236c38fd212bb5a9e1c45646039390a7591c4495651e9fe71b374ab4b5e163",
+      "same_as_existing": null,
+      "photo": {
+        "folder": "art",
+        "file": "new-20260924-img-7012-8ed6ff5e.jpg"
+      },
+      "jpg": "assets/web/art/new-20260924-img-7012-8ed6ff5e.jpg",
+      "webp": "assets/webp/art/new-20260924-img-7012-8ed6ff5e.webp",
+      "source_dimensions": [
+        2357,
+        3535
+      ],
+      "web_dimensions": [
+        1067,
+        1600
+      ],
+      "icc_converted": true,
+      "jpg_bytes": 524193,
+      "webp_bytes": 468402
+    },
+    {
+      "category": "art",
+      "original": "source_assets\\originals\\art\\2026-09-24\\IMG_7150.jpg",
+      "source_path": "/НОВОЕ/арт/IMG_7150.jpg",
+      "md5": "d3fb948781cf53a8c3ed8519f47f19ca",
+      "bytes": 9837519,
+      "original_sha256": "501a16b4d78d08f87fe2e5045fe8d4879f6c805e4ebf84f1acaf072c90881a45",
+      "same_as_existing": null,
+      "photo": {
+        "folder": "art",
+        "file": "new-20260924-img-7150-d3fb9487.jpg"
+      },
+      "jpg": "assets/web/art/new-20260924-img-7150-d3fb9487.jpg",
+      "webp": "assets/webp/art/new-20260924-img-7150-d3fb9487.webp",
+      "source_dimensions": [
+        2472,
+        3709
+      ],
+      "web_dimensions": [
+        1066,
+        1600
+      ],
+      "icc_converted": true,
+      "jpg_bytes": 387151,
+      "webp_bytes": 305448
+    },
+    {
+      "category": "art",
+      "original": "source_assets\\originals\\art\\2026-09-24\\IMG_7163.jpg",
+      "source_path": "/НОВОЕ/арт/IMG_7163.jpg",
+      "md5": "8126b2c24405d9175353452c12d960ae",
+      "bytes": 1659229,
+      "original_sha256": "09305605b9d52a22294a87e61fa238f7d48d366a78088e7c0b519df13ff9f946",
+      "same_as_existing": null,
+      "photo": {
+        "folder": "art",
+        "file": "new-20260924-img-7163-8126b2c2.jpg"
+      },
+      "jpg": "assets/web/art/new-20260924-img-7163-8126b2c2.jpg",
+      "webp": "assets/webp/art/new-20260924-img-7163-8126b2c2.webp",
+      "source_dimensions": [
+        932,
+        1399
+      ],
+      "web_dimensions": [
+        932,
+        1399
+      ],
+      "icc_converted": true,
+      "jpg_bytes": 421671,
+      "webp_bytes": 361136
+    },
+    {
+      "category": "art",
+      "original": "source_assets\\originals\\art\\2026-09-24\\IMG_7178.jpg",
+      "source_path": "/НОВОЕ/арт/IMG_7178.jpg",
+      "md5": "cece80ae036cc4cdeaed1a78eb238f80",
+      "bytes": 14949549,
+      "original_sha256": "9a65d4c083d5990f6a9d0a98ba7183ea750978c7c747b33635cbac26d8e98419",
+      "same_as_existing": "assets/web/portrait-women/IMG_7178.jpg",
+      "photo": {
+        "folder": "art",
+        "file": "new-20260924-img-7178-cece80ae.jpg"
+      },
+      "jpg": "assets/web/art/new-20260924-img-7178-cece80ae.jpg",
+      "webp": "assets/webp/art/new-20260924-img-7178-cece80ae.webp",
+      "source_dimensions": [
+        2912,
+        4368
+      ],
+      "web_dimensions": [
+        1067,
+        1600
+      ],
+      "icc_converted": true,
+      "jpg_bytes": 387434,
+      "webp_bytes": 241946
+    },
+    {
+      "category": "art",
+      "original": "source_assets\\originals\\art\\2026-09-24\\IMG_7267.jpg",
+      "source_path": "/НОВОЕ/арт/IMG_7267.jpg",
+      "md5": "aa64ff29f060bb17b4609be03d52c2cd",
+      "bytes": 11391456,
+      "original_sha256": "2c1f88931fb58a50b461f23f858751a3f5a04b2da90b5c0fbeb310576efc1e61",
+      "same_as_existing": null,
+      "photo": {
+        "folder": "art",
+        "file": "new-20260924-img-7267-aa64ff29.jpg"
+      },
+      "jpg": "assets/web/art/new-20260924-img-7267-aa64ff29.jpg",
+      "webp": "assets/webp/art/new-20260924-img-7267-aa64ff29.webp",
+      "source_dimensions": [
+        2760,
+        4140
+      ],
+      "web_dimensions": [
+        1067,
+        1600
+      ],
+      "icc_converted": true,
+      "jpg_bytes": 348479,
+      "webp_bytes": 264318
+    }
+  ]
+}

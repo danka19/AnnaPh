@@ -2,7 +2,7 @@
   "category": "portrait-women",
   "source": "https://disk.yandex.ru/d/H7SUZl704ng5IQ/НОВОЕ",
   "mode": "append_deduplicated",
-  "gallery_count": 68,
+  "gallery_count": 67,
   "files": [
     {
       "category": "portrait-women",
@@ -836,5 +836,6 @@
       "jpg_bytes": 335032,
       "webp_bytes": 160302
     }
-  ]
+  ],
+  "note": "IMG_7178 moved to art according to the supplied source category; not repeated in women."
 }
