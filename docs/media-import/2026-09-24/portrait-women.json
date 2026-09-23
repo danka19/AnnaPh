@@ -1,0 +1,840 @@
+{
+  "category": "portrait-women",
+  "source": "https://disk.yandex.ru/d/H7SUZl704ng5IQ/НОВОЕ",
+  "mode": "append_deduplicated",
+  "gallery_count": 68,
+  "files": [
+    {
+      "category": "portrait-women",
+      "original": "source_assets\\originals\\portrait-women\\2026-09-24\\IMG_0300.jpg",
+      "source_path": "/НОВОЕ/ЖП/IMG_0300.jpg",
+      "md5": "47dac22c6ab4f817f1e8c14a6eb718d2",
+      "bytes": 7190117,
+      "original_sha256": "448f8c962db2b0031a5e3d8b84a73045d1a2420319c8c0cebdc9779218bb87f9",
+      "same_as_existing": null,
+      "photo": {
+        "folder": "portrait-women",
+        "file": "new-20260924-img-0300-47dac22c.jpg"
+      },
+      "jpg": "assets/web/portrait-women/new-20260924-img-0300-47dac22c.jpg",
+      "webp": "assets/webp/portrait-women/new-20260924-img-0300-47dac22c.webp",
+      "source_dimensions": [
+        5966,
+        3977
+      ],
+      "web_dimensions": [
+        1600,
+        1067
+      ],
+      "icc_converted": false,
+      "jpg_bytes": 362856,
+      "webp_bytes": 216110
+    },
+    {
+      "category": "portrait-women",
+      "original": "source_assets\\originals\\portrait-women\\2026-09-24\\IMG_0321.jpg",
+      "source_path": "/НОВОЕ/ЖП/IMG_0321.jpg",
+      "md5": "078165b48d5404c077b4f6b1e817f52c",
+      "bytes": 13399847,
+      "original_sha256": "53840aafd185de62eb398d223a0458506236e8f9c2992705cbe5e8cf91719d76",
+      "same_as_existing": null,
+      "photo": {
+        "folder": "portrait-women",
+        "file": "new-20260924-img-0321-078165b4.jpg"
+      },
+      "jpg": "assets/web/portrait-women/new-20260924-img-0321-078165b4.jpg",
+      "webp": "assets/webp/portrait-women/new-20260924-img-0321-078165b4.webp",
+      "source_dimensions": [
+        4992,
+        3328
+      ],
+      "web_dimensions": [
+        1600,
+        1067
+      ],
+      "icc_converted": true,
+      "jpg_bytes": 326156,
+      "webp_bytes": 166024
+    },
+    {
+      "category": "portrait-women",
+      "original": "source_assets\\originals\\portrait-women\\2026-09-24\\IMG_0415.jpg",
+      "source_path": "/НОВОЕ/ЖП/IMG_0415.jpg",
+      "md5": "ad621e1c228fff46b1ccdbbcc61d6ae9",
+      "bytes": 10038570,
+      "original_sha256": "f403fa933cc2c2f98c858171448cf4d5f6c92d8c63dfae096f9278abacb44ac2",
+      "same_as_existing": null,
+      "photo": {
+        "folder": "portrait-women",
+        "file": "new-20260924-img-0415-ad621e1c.jpg"
+      },
+      "jpg": "assets/web/portrait-women/new-20260924-img-0415-ad621e1c.jpg",
+      "webp": "assets/webp/portrait-women/new-20260924-img-0415-ad621e1c.webp",
+      "source_dimensions": [
+        3273,
+        4910
+      ],
+      "web_dimensions": [
+        1067,
+        1600
+      ],
+      "icc_converted": true,
+      "jpg_bytes": 222499,
+      "webp_bytes": 89364
+    },
+    {
+      "category": "portrait-women",
+      "original": "source_assets\\originals\\portrait-women\\2026-09-24\\IMG_0694.jpg",
+      "source_path": "/НОВОЕ/ЖП/IMG_0694.jpg",
+      "md5": "8641012c2b506477e7f1468845d0f2a9",
+      "bytes": 7454407,
+      "original_sha256": "b4f7d44fed93bde527335172efbc4869466428f141dee8e0e67935d0df79fd5c",
+      "same_as_existing": null,
+      "photo": {
+        "folder": "portrait-women",
+        "file": "new-20260924-img-0694-8641012c.jpg"
+      },
+      "jpg": "assets/web/portrait-women/new-20260924-img-0694-8641012c.jpg",
+      "webp": "assets/webp/portrait-women/new-20260924-img-0694-8641012c.webp",
+      "source_dimensions": [
+        3536,
+        5304
+      ],
+      "web_dimensions": [
+        1067,
+        1600
+      ],
+      "icc_converted": true,
+      "jpg_bytes": 206077,
+      "webp_bytes": 75490
+    },
+    {
+      "category": "portrait-women",
+      "original": "source_assets\\originals\\portrait-women\\2026-09-24\\IMG_0803 1.jpg",
+      "source_path": "/НОВОЕ/ЖП/IMG_0803 1.jpg",
+      "md5": "2c28facc8a8ff720c16c54a7eb5ae5b5",
+      "bytes": 4148670,
+      "original_sha256": "b93ae5c61c402cac21bbbaf9be738ddc8404af55348fbf70292d3a57724a4253",
+      "same_as_existing": null,
+      "photo": {
+        "folder": "portrait-women",
+        "file": "new-20260924-img-0803-1-2c28facc.jpg"
+      },
+      "jpg": "assets/web/portrait-women/new-20260924-img-0803-1-2c28facc.jpg",
+      "webp": "assets/webp/portrait-women/new-20260924-img-0803-1-2c28facc.webp",
+      "source_dimensions": [
+        1785,
+        2310
+      ],
+      "web_dimensions": [
+        1236,
+        1600
+      ],
+      "icc_converted": true,
+      "jpg_bytes": 476266,
+      "webp_bytes": 301354
+    },
+    {
+      "category": "portrait-women",
+      "original": "source_assets\\originals\\portrait-women\\2026-09-24\\IMG_1070 1.jpg",
+      "source_path": "/НОВОЕ/ЖП/IMG_1070 1.jpg",
+      "md5": "316fe04b067d1e3dc14f62bce7aa0abd",
+      "bytes": 3181269,
+      "original_sha256": "ef43f5e69420bd761f96110d4009d4aa2b360d1f6a30b66dcfe436ced43f579a",
+      "same_as_existing": null,
+      "photo": {
+        "folder": "portrait-women",
+        "file": "new-20260924-img-1070-1-316fe04b.jpg"
+      },
+      "jpg": "assets/web/portrait-women/new-20260924-img-1070-1-316fe04b.jpg",
+      "webp": "assets/webp/portrait-women/new-20260924-img-1070-1-316fe04b.webp",
+      "source_dimensions": [
+        5474,
+        3649
+      ],
+      "web_dimensions": [
+        1600,
+        1067
+      ],
+      "icc_converted": true,
+      "jpg_bytes": 163464,
+      "webp_bytes": 55218
+    },
+    {
+      "category": "portrait-women",
+      "original": "source_assets\\originals\\portrait-women\\2026-09-24\\IMG_1509_1.jpg",
+      "source_path": "/НОВОЕ/ЖП/IMG_1509_1.jpg",
+      "md5": "61c96443d3bfa08cd53852d0b91cc8b8",
+      "bytes": 8607937,
+      "original_sha256": "f306a2ed4ef0626d81726c94ef154a46ce10569a099c722ea53fe07db693a61e",
+      "same_as_existing": null,
+      "photo": {
+        "folder": "portrait-women",
+        "file": "new-20260924-img-1509-1-61c96443.jpg"
+      },
+      "jpg": "assets/web/portrait-women/new-20260924-img-1509-1-61c96443.jpg",
+      "webp": "assets/webp/portrait-women/new-20260924-img-1509-1-61c96443.webp",
+      "source_dimensions": [
+        3328,
+        4992
+      ],
+      "web_dimensions": [
+        1067,
+        1600
+      ],
+      "icc_converted": true,
+      "jpg_bytes": 227247,
+      "webp_bytes": 118648
+    },
+    {
+      "category": "portrait-women",
+      "original": "source_assets\\originals\\portrait-women\\2026-09-24\\IMG_1578.jpg",
+      "source_path": "/НОВОЕ/ЖП/IMG_1578.jpg",
+      "md5": "5924d7f726f4a8dfa10793bde2b707cc",
+      "bytes": 11639754,
+      "original_sha256": "af33864bc97e62fa9446f5d08c3fbfde6ead45d4189856beabc02f2f63275dcb",
+      "same_as_existing": null,
+      "photo": {
+        "folder": "portrait-women",
+        "file": "new-20260924-img-1578-5924d7f7.jpg"
+      },
+      "jpg": "assets/web/portrait-women/new-20260924-img-1578-5924d7f7.jpg",
+      "webp": "assets/webp/portrait-women/new-20260924-img-1578-5924d7f7.webp",
+      "source_dimensions": [
+        3328,
+        4992
+      ],
+      "web_dimensions": [
+        1067,
+        1600
+      ],
+      "icc_converted": true,
+      "jpg_bytes": 346904,
+      "webp_bytes": 179090
+    },
+    {
+      "category": "portrait-women",
+      "original": "source_assets\\originals\\portrait-women\\2026-09-24\\IMG_1746.jpg",
+      "source_path": "/НОВОЕ/ЖП/IMG_1746.jpg",
+      "md5": "d0071cd7139add08402f2e9674969e2b",
+      "bytes": 3041145,
+      "original_sha256": "a93309f1f75cd882e598cf44eaecdb9af9c47036827c17bad36a9baac816567f",
+      "same_as_existing": null,
+      "photo": {
+        "folder": "portrait-women",
+        "file": "new-20260924-img-1746-d0071cd7.jpg"
+      },
+      "jpg": "assets/web/portrait-women/new-20260924-img-1746-d0071cd7.jpg",
+      "webp": "assets/webp/portrait-women/new-20260924-img-1746-d0071cd7.webp",
+      "source_dimensions": [
+        2042,
+        3062
+      ],
+      "web_dimensions": [
+        1067,
+        1600
+      ],
+      "icc_converted": true,
+      "jpg_bytes": 218186,
+      "webp_bytes": 111246
+    },
+    {
+      "category": "portrait-women",
+      "original": "source_assets\\originals\\portrait-women\\2026-09-24\\IMG_2379.jpg",
+      "source_path": "/НОВОЕ/ЖП/IMG_2379.jpg",
+      "md5": "5804e733beabcf07cec6f69845bcd31b",
+      "bytes": 5014255,
+      "original_sha256": "5165398498f5e3cb1ae62b51846d86dc38e056366949a256652d75ce43618ac7",
+      "same_as_existing": null,
+      "photo": {
+        "folder": "portrait-women",
+        "file": "new-20260924-img-2379-5804e733.jpg"
+      },
+      "jpg": "assets/web/portrait-women/new-20260924-img-2379-5804e733.jpg",
+      "webp": "assets/webp/portrait-women/new-20260924-img-2379-5804e733.webp",
+      "source_dimensions": [
+        2080,
+        3120
+      ],
+      "web_dimensions": [
+        1067,
+        1600
+      ],
+      "icc_converted": true,
+      "jpg_bytes": 313062,
+      "webp_bytes": 153626
+    },
+    {
+      "category": "portrait-women",
+      "original": "source_assets\\originals\\portrait-women\\2026-09-24\\IMG_2504.jpg",
+      "source_path": "/НОВОЕ/ЖП/IMG_2504.jpg",
+      "md5": "9e3db2f4d83b632d0296c64fbe38a0cd",
+      "bytes": 4961250,
+      "original_sha256": "51d2a1342503d853a686045f40c532c188b94a7f1e2a21abb5bf4c2cc1fd4085",
+      "same_as_existing": null,
+      "photo": {
+        "folder": "portrait-women",
+        "file": "new-20260924-img-2504-9e3db2f4.jpg"
+      },
+      "jpg": "assets/web/portrait-women/new-20260924-img-2504-9e3db2f4.jpg",
+      "webp": "assets/webp/portrait-women/new-20260924-img-2504-9e3db2f4.webp",
+      "source_dimensions": [
+        2080,
+        3120
+      ],
+      "web_dimensions": [
+        1067,
+        1600
+      ],
+      "icc_converted": true,
+      "jpg_bytes": 231844,
+      "webp_bytes": 78812
+    },
+    {
+      "category": "portrait-women",
+      "original": "source_assets\\originals\\portrait-women\\2026-09-24\\IMG_2805.jpg",
+      "source_path": "/НОВОЕ/ЖП/IMG_2805.jpg",
+      "md5": "b4b8ebb13ca23829752c056ec0559b47",
+      "bytes": 6474160,
+      "original_sha256": "f4c6a8234a4475603ea07eead392a81ac60e02f4a092fd2b62b2c759b14e2157",
+      "same_as_existing": null,
+      "photo": {
+        "folder": "portrait-women",
+        "file": "new-20260924-img-2805-b4b8ebb1.jpg"
+      },
+      "jpg": "assets/web/portrait-women/new-20260924-img-2805-b4b8ebb1.jpg",
+      "webp": "assets/webp/portrait-women/new-20260924-img-2805-b4b8ebb1.webp",
+      "source_dimensions": [
+        1933,
+        2899
+      ],
+      "web_dimensions": [
+        1067,
+        1600
+      ],
+      "icc_converted": true,
+      "jpg_bytes": 417851,
+      "webp_bytes": 275996
+    },
+    {
+      "category": "portrait-women",
+      "original": "source_assets\\originals\\portrait-women\\2026-09-24\\IMG_4515.jpg",
+      "source_path": "/НОВОЕ/ЖП/IMG_4515.jpg",
+      "md5": "10cd398085679fc740afaa28928e4a54",
+      "bytes": 4451263,
+      "original_sha256": "c36df7ae88fa4bdd1f8f58b9e32bbced6753412c4746f708547d40dd06883079",
+      "same_as_existing": null,
+      "photo": {
+        "folder": "portrait-women",
+        "file": "new-20260924-img-4515-10cd3980.jpg"
+      },
+      "jpg": "assets/web/portrait-women/new-20260924-img-4515-10cd3980.jpg",
+      "webp": "assets/webp/portrait-women/new-20260924-img-4515-10cd3980.webp",
+      "source_dimensions": [
+        3198,
+        4797
+      ],
+      "web_dimensions": [
+        1067,
+        1600
+      ],
+      "icc_converted": true,
+      "jpg_bytes": 165049,
+      "webp_bytes": 68358
+    },
+    {
+      "category": "portrait-women",
+      "original": "source_assets\\originals\\portrait-women\\2026-09-24\\IMG_4562.jpg",
+      "source_path": "/НОВОЕ/ЖП/IMG_4562.jpg",
+      "md5": "1bd0adcde1a46989e32bb991860e776d",
+      "bytes": 7306110,
+      "original_sha256": "b66dd977d64cb5a550f85fe2309fcd6965325c6fe70c3ab0a852f6f915ca7c3c",
+      "same_as_existing": null,
+      "photo": {
+        "folder": "portrait-women",
+        "file": "new-20260924-img-4562-1bd0adcd.jpg"
+      },
+      "jpg": "assets/web/portrait-women/new-20260924-img-4562-1bd0adcd.jpg",
+      "webp": "assets/webp/portrait-women/new-20260924-img-4562-1bd0adcd.webp",
+      "source_dimensions": [
+        3536,
+        5304
+      ],
+      "web_dimensions": [
+        1067,
+        1600
+      ],
+      "icc_converted": true,
+      "jpg_bytes": 165840,
+      "webp_bytes": 46800
+    },
+    {
+      "category": "portrait-women",
+      "original": "source_assets\\originals\\portrait-women\\2026-09-24\\IMG_4654 1.jpg",
+      "source_path": "/НОВОЕ/ЖП/IMG_4654 1.jpg",
+      "md5": "e78c8cd877f79c604456564ca7b0db3d",
+      "bytes": 1964266,
+      "original_sha256": "af418edc680106441982018b55cd33765fb5242ab9902042158404fd205f82ba",
+      "same_as_existing": null,
+      "photo": {
+        "folder": "portrait-women",
+        "file": "new-20260924-img-4654-1-e78c8cd8.jpg"
+      },
+      "jpg": "assets/web/portrait-women/new-20260924-img-4654-1-e78c8cd8.jpg",
+      "webp": "assets/webp/portrait-women/new-20260924-img-4654-1-e78c8cd8.webp",
+      "source_dimensions": [
+        2378,
+        3567
+      ],
+      "web_dimensions": [
+        1067,
+        1600
+      ],
+      "icc_converted": true,
+      "jpg_bytes": 142791,
+      "webp_bytes": 45768
+    },
+    {
+      "category": "portrait-women",
+      "original": "source_assets\\originals\\portrait-women\\2026-09-24\\IMG_4707.jpg",
+      "source_path": "/НОВОЕ/ЖП/IMG_4707.jpg",
+      "md5": "33a837796b26fbbc2c6b9b076942e384",
+      "bytes": 11800668,
+      "original_sha256": "5bfdd36c9878c0c9a6a9c5f8a25663fce8fde24b234d2737c91bbc1ec3602e24",
+      "same_as_existing": null,
+      "photo": {
+        "folder": "portrait-women",
+        "file": "new-20260924-img-4707-33a83779.jpg"
+      },
+      "jpg": "assets/web/portrait-women/new-20260924-img-4707-33a83779.jpg",
+      "webp": "assets/webp/portrait-women/new-20260924-img-4707-33a83779.webp",
+      "source_dimensions": [
+        2912,
+        4368
+      ],
+      "web_dimensions": [
+        1067,
+        1600
+      ],
+      "icc_converted": true,
+      "jpg_bytes": 397229,
+      "webp_bytes": 202080
+    },
+    {
+      "category": "portrait-women",
+      "original": "source_assets\\originals\\portrait-women\\2026-09-24\\IMG_5317.jpg",
+      "source_path": "/НОВОЕ/ЖП/IMG_5317.jpg",
+      "md5": "535aaccc010e1e6aa02a6b0dda939d24",
+      "bytes": 2386673,
+      "original_sha256": "bf39c5f259d62f0719de5369030d735e22387b3d3e9dccc9d09f3f7fc1e2867a",
+      "same_as_existing": null,
+      "photo": {
+        "folder": "portrait-women",
+        "file": "new-20260924-img-5317-535aaccc.jpg"
+      },
+      "jpg": "assets/web/portrait-women/new-20260924-img-5317-535aaccc.jpg",
+      "webp": "assets/webp/portrait-women/new-20260924-img-5317-535aaccc.webp",
+      "source_dimensions": [
+        1375,
+        2064
+      ],
+      "web_dimensions": [
+        1066,
+        1600
+      ],
+      "icc_converted": true,
+      "jpg_bytes": 313390,
+      "webp_bytes": 201546
+    },
+    {
+      "category": "portrait-women",
+      "original": "source_assets\\originals\\portrait-women\\2026-09-24\\IMG_5374_1.jpg",
+      "source_path": "/НОВОЕ/ЖП/IMG_5374_1.jpg",
+      "md5": "281b3332e123d2e8c39cf053d499db77",
+      "bytes": 5682161,
+      "original_sha256": "dc06d034492bb6b4326ac7320fb307ffe99e1eddfaf36c41fb0954b0199a2d8a",
+      "same_as_existing": null,
+      "photo": {
+        "folder": "portrait-women",
+        "file": "new-20260924-img-5374-1-281b3332.jpg"
+      },
+      "jpg": "assets/web/portrait-women/new-20260924-img-5374-1-281b3332.jpg",
+      "webp": "assets/webp/portrait-women/new-20260924-img-5374-1-281b3332.webp",
+      "source_dimensions": [
+        2848,
+        1898
+      ],
+      "web_dimensions": [
+        1600,
+        1066
+      ],
+      "icc_converted": true,
+      "jpg_bytes": 368253,
+      "webp_bytes": 211136
+    },
+    {
+      "category": "portrait-women",
+      "original": "source_assets\\originals\\portrait-women\\2026-09-24\\IMG_5501.jpg",
+      "source_path": "/НОВОЕ/ЖП/IMG_5501.jpg",
+      "md5": "9855c4f4f9c42107794340eb7b35de11",
+      "bytes": 3765435,
+      "original_sha256": "8b633625f962dd27afac08af667b02f59da6a623619ee63be04352a964d88ca6",
+      "same_as_existing": null,
+      "photo": {
+        "folder": "portrait-women",
+        "file": "new-20260924-img-5501-9855c4f4.jpg"
+      },
+      "jpg": "assets/web/portrait-women/new-20260924-img-5501-9855c4f4.jpg",
+      "webp": "assets/webp/portrait-women/new-20260924-img-5501-9855c4f4.webp",
+      "source_dimensions": [
+        4035,
+        6053
+      ],
+      "web_dimensions": [
+        1067,
+        1600
+      ],
+      "icc_converted": true,
+      "jpg_bytes": 214024,
+      "webp_bytes": 92842
+    },
+    {
+      "category": "portrait-women",
+      "original": "source_assets\\originals\\portrait-women\\2026-09-24\\IMG_5559.jpg",
+      "source_path": "/НОВОЕ/ЖП/IMG_5559.jpg",
+      "md5": "a1afe88f7ad1775fe3e249df7865d3c1",
+      "bytes": 3257203,
+      "original_sha256": "5df140ffdd7b74096defb6ec133dd91826e66ab6405c4c44edd497aebbd6a987",
+      "same_as_existing": null,
+      "photo": {
+        "folder": "portrait-women",
+        "file": "new-20260924-img-5559-a1afe88f.jpg"
+      },
+      "jpg": "assets/web/portrait-women/new-20260924-img-5559-a1afe88f.jpg",
+      "webp": "assets/webp/portrait-women/new-20260924-img-5559-a1afe88f.webp",
+      "source_dimensions": [
+        3915,
+        5872
+      ],
+      "web_dimensions": [
+        1067,
+        1600
+      ],
+      "icc_converted": true,
+      "jpg_bytes": 212894,
+      "webp_bytes": 78324
+    },
+    {
+      "category": "portrait-women",
+      "original": "source_assets\\originals\\portrait-women\\2026-09-24\\IMG_6157.jpg",
+      "source_path": "/НОВОЕ/ЖП/IMG_6157.jpg",
+      "md5": "6f2005fbd6e254c20c0e4b6fbe9e2972",
+      "bytes": 10036431,
+      "original_sha256": "422a9ae1322bbc147d68da9be6bd8a2305684bf89f6e6b2e5bad8fb39ebd8a05",
+      "same_as_existing": null,
+      "photo": {
+        "folder": "portrait-women",
+        "file": "new-20260924-img-6157-6f2005fb.jpg"
+      },
+      "jpg": "assets/web/portrait-women/new-20260924-img-6157-6f2005fb.jpg",
+      "webp": "assets/webp/portrait-women/new-20260924-img-6157-6f2005fb.webp",
+      "source_dimensions": [
+        2813,
+        4220
+      ],
+      "web_dimensions": [
+        1067,
+        1600
+      ],
+      "icc_converted": true,
+      "jpg_bytes": 321138,
+      "webp_bytes": 137626
+    },
+    {
+      "category": "portrait-women",
+      "original": "source_assets\\originals\\portrait-women\\2026-09-24\\IMG_6236.jpg",
+      "source_path": "/НОВОЕ/ЖП/IMG_6236.jpg",
+      "md5": "501b7501eaaf5816674b31a66fdd452a",
+      "bytes": 12014778,
+      "original_sha256": "2f8d5a744c268fdce1db71c2e7213ff35af296268503edc75bc3e29d6edaa673",
+      "same_as_existing": null,
+      "photo": {
+        "folder": "portrait-women",
+        "file": "new-20260924-img-6236-501b7501.jpg"
+      },
+      "jpg": "assets/web/portrait-women/new-20260924-img-6236-501b7501.jpg",
+      "webp": "assets/webp/portrait-women/new-20260924-img-6236-501b7501.webp",
+      "source_dimensions": [
+        2912,
+        4368
+      ],
+      "web_dimensions": [
+        1067,
+        1600
+      ],
+      "icc_converted": true,
+      "jpg_bytes": 280961,
+      "webp_bytes": 101064
+    },
+    {
+      "category": "portrait-women",
+      "original": "source_assets\\originals\\portrait-women\\2026-09-24\\IMG_6394.jpg",
+      "source_path": "/НОВОЕ/ЖП/IMG_6394.jpg",
+      "md5": "65671e3246a626db566e235618e2e22a",
+      "bytes": 11266046,
+      "original_sha256": "cbb0908dae032301dcba58b3449199d82db6ae7bf09c13bb3904d5a6051b4aaf",
+      "same_as_existing": null,
+      "photo": {
+        "folder": "portrait-women",
+        "file": "new-20260924-img-6394-65671e32.jpg"
+      },
+      "jpg": "assets/web/portrait-women/new-20260924-img-6394-65671e32.jpg",
+      "webp": "assets/webp/portrait-women/new-20260924-img-6394-65671e32.webp",
+      "source_dimensions": [
+        2696,
+        4044
+      ],
+      "web_dimensions": [
+        1067,
+        1600
+      ],
+      "icc_converted": true,
+      "jpg_bytes": 374108,
+      "webp_bytes": 226002
+    },
+    {
+      "category": "portrait-women",
+      "original": "source_assets\\originals\\portrait-women\\2026-09-24\\IMG_6493.jpg",
+      "source_path": "/НОВОЕ/ЖП/IMG_6493.jpg",
+      "md5": "8431b1e806d5fac9e0345da91486616f",
+      "bytes": 8578387,
+      "original_sha256": "96fe10c7b5bfe4670658aab79295962c9a71edadd169e144b844f6cc6983b778",
+      "same_as_existing": null,
+      "photo": {
+        "folder": "portrait-women",
+        "file": "new-20260924-img-6493-8431b1e8.jpg"
+      },
+      "jpg": "assets/web/portrait-women/new-20260924-img-6493-8431b1e8.jpg",
+      "webp": "assets/webp/portrait-women/new-20260924-img-6493-8431b1e8.webp",
+      "source_dimensions": [
+        4160,
+        6240
+      ],
+      "web_dimensions": [
+        1067,
+        1600
+      ],
+      "icc_converted": true,
+      "jpg_bytes": 179072,
+      "webp_bytes": 57074
+    },
+    {
+      "category": "portrait-women",
+      "original": "source_assets\\originals\\portrait-women\\2026-09-24\\IMG_6605.jpg",
+      "source_path": "/НОВОЕ/ЖП/IMG_6605.jpg",
+      "md5": "f6a35545c0525389e47603ad5f9ce213",
+      "bytes": 6740094,
+      "original_sha256": "a1d9d7195b8f5b31c0db35f4d563b2d27b7b6b221f92d24e2580f9c8b3b0bcd3",
+      "same_as_existing": null,
+      "photo": {
+        "folder": "portrait-women",
+        "file": "new-20260924-img-6605-f6a35545.jpg"
+      },
+      "jpg": "assets/web/portrait-women/new-20260924-img-6605-f6a35545.jpg",
+      "webp": "assets/webp/portrait-women/new-20260924-img-6605-f6a35545.webp",
+      "source_dimensions": [
+        2744,
+        4117
+      ],
+      "web_dimensions": [
+        1066,
+        1600
+      ],
+      "icc_converted": true,
+      "jpg_bytes": 243200,
+      "webp_bytes": 92296
+    },
+    {
+      "category": "portrait-women",
+      "original": "source_assets\\originals\\portrait-women\\2026-09-24\\IMG_7036.jpg",
+      "source_path": "/НОВОЕ/ЖП/IMG_7036.jpg",
+      "md5": "01b52d73555fa9cd013ad307e5a4c58b",
+      "bytes": 20110326,
+      "original_sha256": "b088ec6d271e5a97e6ce3290e1a0281c871e9b9d10151bc77b36078b850d9f3f",
+      "same_as_existing": null,
+      "photo": {
+        "folder": "portrait-women",
+        "file": "new-20260924-img-7036-01b52d73.jpg"
+      },
+      "jpg": "assets/web/portrait-women/new-20260924-img-7036-01b52d73.jpg",
+      "webp": "assets/webp/portrait-women/new-20260924-img-7036-01b52d73.webp",
+      "source_dimensions": [
+        4160,
+        6240
+      ],
+      "web_dimensions": [
+        1067,
+        1600
+      ],
+      "icc_converted": true,
+      "jpg_bytes": 152199,
+      "webp_bytes": 52250
+    },
+    {
+      "category": "portrait-women",
+      "original": "source_assets\\originals\\portrait-women\\2026-09-24\\IMG_7107 (2).jpg",
+      "source_path": "/НОВОЕ/ЖП/IMG_7107 (2).jpg",
+      "md5": "cba5922001e3b1b9a7cd5e679e963579",
+      "bytes": 16092605,
+      "original_sha256": "ea6f43afc86e2ce583f45cf9a5c077aeb3d263fc6c9494f45d5b82fb39100fac",
+      "same_as_existing": null,
+      "photo": {
+        "folder": "portrait-women",
+        "file": "new-20260924-img-7107-2-cba59220.jpg"
+      },
+      "jpg": "assets/web/portrait-women/new-20260924-img-7107-2-cba59220.jpg",
+      "webp": "assets/webp/portrait-women/new-20260924-img-7107-2-cba59220.webp",
+      "source_dimensions": [
+        4075,
+        6113
+      ],
+      "web_dimensions": [
+        1067,
+        1600
+      ],
+      "icc_converted": true,
+      "jpg_bytes": 175098,
+      "webp_bytes": 74370
+    },
+    {
+      "category": "portrait-women",
+      "original": "source_assets\\originals\\portrait-women\\2026-09-24\\IMG_7107.jpg",
+      "source_path": "/НОВОЕ/ЖП/IMG_7107.jpg",
+      "md5": "54bbc4b69ff3c202d507e1d3e7cf4f91",
+      "bytes": 23166359,
+      "original_sha256": "14975857d97c4afe7f95f36bf049d34b9931657098e702eafeb0ec93abe2a5a4",
+      "same_as_existing": null,
+      "photo": {
+        "folder": "portrait-women",
+        "file": "new-20260924-img-7107-54bbc4b6.jpg"
+      },
+      "jpg": "assets/web/portrait-women/new-20260924-img-7107-54bbc4b6.jpg",
+      "webp": "assets/webp/portrait-women/new-20260924-img-7107-54bbc4b6.webp",
+      "source_dimensions": [
+        4036,
+        6054
+      ],
+      "web_dimensions": [
+        1067,
+        1600
+      ],
+      "icc_converted": true,
+      "jpg_bytes": 386122,
+      "webp_bytes": 279168
+    },
+    {
+      "category": "portrait-women",
+      "original": "source_assets\\originals\\portrait-women\\2026-09-24\\IMG_8732.jpg",
+      "source_path": "/НОВОЕ/ЖП/IMG_8732.jpg",
+      "md5": "1cb8407d0d2762becad121a53c5907bf",
+      "bytes": 4333746,
+      "original_sha256": "018fe48a5edc71c8b087360b9d735996acccffd2436e16b4aa8e25a9115ecd36",
+      "same_as_existing": null,
+      "photo": {
+        "folder": "portrait-women",
+        "file": "new-20260924-img-8732-1cb8407d.jpg"
+      },
+      "jpg": "assets/web/portrait-women/new-20260924-img-8732-1cb8407d.jpg",
+      "webp": "assets/webp/portrait-women/new-20260924-img-8732-1cb8407d.webp",
+      "source_dimensions": [
+        2912,
+        1941
+      ],
+      "web_dimensions": [
+        1600,
+        1066
+      ],
+      "icc_converted": true,
+      "jpg_bytes": 272970,
+      "webp_bytes": 121736
+    },
+    {
+      "category": "portrait-women",
+      "original": "source_assets\\originals\\portrait-women\\2026-09-24\\IMG_8751.jpg",
+      "source_path": "/НОВОЕ/ЖП/IMG_8751.jpg",
+      "md5": "eca7a3cc1c7cc12b0ace35005dacd965",
+      "bytes": 3597849,
+      "original_sha256": "a4e56eb3bc449b969965dc961619491fd3869ba97ad431e825be8405e67da327",
+      "same_as_existing": null,
+      "photo": {
+        "folder": "portrait-women",
+        "file": "new-20260924-img-8751-eca7a3cc.jpg"
+      },
+      "jpg": "assets/web/portrait-women/new-20260924-img-8751-eca7a3cc.jpg",
+      "webp": "assets/webp/portrait-women/new-20260924-img-8751-eca7a3cc.webp",
+      "source_dimensions": [
+        2171,
+        3257
+      ],
+      "web_dimensions": [
+        1067,
+        1600
+      ],
+      "icc_converted": true,
+      "jpg_bytes": 196741,
+      "webp_bytes": 82082
+    },
+    {
+      "category": "portrait-women",
+      "original": "source_assets\\originals\\portrait-women\\2026-09-24\\IMG_8812.jpg",
+      "source_path": "/НОВОЕ/ЖП/IMG_8812.jpg",
+      "md5": "4e2cf06f11b55bc8fa89bbeb599a745a",
+      "bytes": 9691810,
+      "original_sha256": "9c7bb1b7d2ad8a337acdea4d08f25f13d53502987255f505954a5e7d113fdd63",
+      "same_as_existing": null,
+      "photo": {
+        "folder": "portrait-women",
+        "file": "new-20260924-img-8812-4e2cf06f.jpg"
+      },
+      "jpg": "assets/web/portrait-women/new-20260924-img-8812-4e2cf06f.jpg",
+      "webp": "assets/webp/portrait-women/new-20260924-img-8812-4e2cf06f.webp",
+      "source_dimensions": [
+        2912,
+        4368
+      ],
+      "web_dimensions": [
+        1067,
+        1600
+      ],
+      "icc_converted": true,
+      "jpg_bytes": 303787,
+      "webp_bytes": 156466
+    },
+    {
+      "category": "portrait-women",
+      "original": "source_assets\\originals\\portrait-women\\2026-09-24\\IMG_9708.jpg",
+      "source_path": "/НОВОЕ/ЖП/IMG_9708.jpg",
+      "md5": "e1a929b3973583efa9883c2c177cbeee",
+      "bytes": 14018551,
+      "original_sha256": "f9d9cb4b896342973b18dcd759470bb665fe9d8eca53d76efe72e4ab4e798049",
+      "same_as_existing": null,
+      "photo": {
+        "folder": "portrait-women",
+        "file": "new-20260924-img-9708-e1a929b3.jpg"
+      },
+      "jpg": "assets/web/portrait-women/new-20260924-img-9708-e1a929b3.jpg",
+      "webp": "assets/webp/portrait-women/new-20260924-img-9708-e1a929b3.webp",
+      "source_dimensions": [
+        3229,
+        4843
+      ],
+      "web_dimensions": [
+        1067,
+        1600
+      ],
+      "icc_converted": true,
+      "jpg_bytes": 335032,
+      "webp_bytes": 160302
+    }
+  ]
+}
