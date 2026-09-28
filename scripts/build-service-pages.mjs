@@ -3,6 +3,7 @@
 import { writeFileSync, mkdirSync, existsSync } from 'node:fs';
 
 const origin = 'https://annafinkphoto.ru';
+const awardProfile = 'https://35awards.com/author/danochka78/';
 const contact = [
   ['Telegram', 'https://t.me/Anna_Fink'],
   ['VK', 'https://vk.com/anna_fink'],
@@ -147,7 +148,7 @@ for (const page of pages) {
   const otherPages = pages.filter(other => other.slug !== page.slug);
   const schema = {
     '@context': 'https://schema.org', '@graph': [
-      { '@type': 'Person', '@id': `${origin}/#anna`, name: 'Анна Финк', url: origin + '/', sameAs: ['https://t.me/Anna_Fink', 'https://vk.com/anna_fink'] },
+      { '@type': 'Person', '@id': `${origin}/#anna`, name: 'Анна Финк', url: origin + '/', sameAs: ['https://t.me/Anna_Fink', 'https://vk.com/anna_fink', awardProfile] },
       { '@type': 'Service', '@id': `${url}#service`, name: page.name, description: page.description,
         serviceType: page.name, provider: { '@id': `${origin}/#anna` }, areaServed: { '@type': 'City', name: 'Хабаровск' },
         offers: page.offers.map(([name, price]) => ({ '@type': 'Offer', name, price, priceCurrency: 'RUB', url })) },
@@ -195,7 +196,7 @@ for (const page of pages) {
       <figure><img src="${assets(`webp/${page.hero}`)}" alt="${escapeHtml(page.gallery.find(([file]) => page.hero.endsWith(file))?.[1] || page.name)}" width="800" height="1100" fetchpriority="high"></figure>
     </section>
     <section class="band" id="works"><div class="wrap"><p class="eyebrow">Портфолио</p><h2>Примеры съёмок</h2><p class="section-intro">${escapeHtml(page.galleryIntro)}</p>${page.award ? `
-      <p class="award-note">${escapeHtml(page.award[0])} <a href="${assets(`achievements/certs/jpg/${page.award[1]}`)}" target="_blank" rel="noopener noreferrer">Посмотреть сертификат</a></p>` : ''}
+      <p class="award-note">${escapeHtml(page.award[0])} <a href="${assets(`achievements/certs/jpg/${page.award[1]}`)}" target="_blank" rel="noopener noreferrer">Посмотреть сертификат</a> · <a href="${awardProfile}" target="_blank" rel="noopener noreferrer">Профиль на 35AWARDS</a></p>` : ''}
       <div class="gallery">${page.gallery.map(([file, alt]) => { const src = assets(`webp/${page.folder}/${file}`); return `<a href="${src}" aria-label="Открыть фотографию: ${escapeHtml(alt)}"><img src="${src}" alt="${escapeHtml(alt)}" width="600" height="800" loading="lazy" decoding="async"></a>`; }).join('')}</div>
     </div></section>
     <section class="band" id="approach"><div class="wrap"><p class="eyebrow">Как проходит съёмка</p><h2>От идеи до фотографий</h2><div class="details-grid">${page.steps.map(([heading, body], index) => `<article class="detail"><span class="num">0${index + 1}</span><h3>${escapeHtml(heading)}</h3><p>${escapeHtml(body)}</p></article>`).join('')}</div></div></section>

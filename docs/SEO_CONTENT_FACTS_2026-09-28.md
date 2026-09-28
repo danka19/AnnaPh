@@ -15,7 +15,7 @@ Source: owner reply in this task on 2026-09-28, plus the existing public service
 | A session can be rescheduled free of charge when notice is given at least 24 hours beforehand. | State only this confirmed case; do not infer late-change or prepayment policy. |
 | There are currently no source reviews or Yandex Maps/2GIS business cards. | Do not publish testimonials or directory links. Create and verify the cards later when the owner provides their URLs. |
 
-The local file `assets/achievements/certs/jpg/cert-female-color.jpg` names **Финк Анна** and states that the work entered the contest's TOP 30%. The annual certificates (`cert-2019`, `cert-2020`, `cert-2022`) prove participation in their respective annual competitions, not the rankings of individual photos; do not use them as evidence for a specific ranking. An official public result/profile URL is still desirable. The owner has explicitly requested no further homepage edits, so any evidence links must be added elsewhere.
+The local file `assets/achievements/certs/jpg/cert-female-color.jpg` names **Финк Анна** and states that the work entered the contest's TOP 30%. The annual certificates (`cert-2019`, `cert-2020`, `cert-2022`) prove participation in their respective annual competitions, not the rankings of individual photos; do not use them as evidence for a specific ranking. The [official 35AWARDS profile](https://35awards.com/author/danochka78/) names **Анна Финк / Anna Fink**, locates her in Khabarovsk and lists relevant portrait/staged categories. The owner has explicitly requested no further homepage edits, so any evidence links must be added elsewhere.
 
 Additional thematic certificates support these exact statements on the new service pages: `cert-children-autumn.jpg` reports TOP 15% for the work in «Дети и осень» (2020), and `cert-dance.jpg` reports TOP 20% for the work in «Движение: Танец» (2020). These rankings refer to the submitted work, not an overall photographer ranking or every photo in the service gallery.
 
@@ -27,10 +27,10 @@ Women's portrait: one hour; 6000 RUB for 15 detailed plus at least 20 light-reto
 
 ## Still unverified
 
-- Latin public name spelling beyond the existing domain/logo.
+- Preferred Latin brand spelling for site copy is not owner-confirmed; the official 35AWARDS profile uses “Anna Fink”.
 - Travel inclusion or fee, service area beyond Khabarovsk, late rescheduling/cancellation terms and advance payment.
 - Future ownership/URLs of Yandex Maps and 2GIS profiles; the owner confirms these do not exist yet and will send links after creation. Google Business Profile eligibility and presence remain unchecked.
-- Future source reviews and reuse permissions; the owner confirms there are no source reviews yet. Official 35AWARDS result/profile URLs are unavailable so far.
+- Future source reviews and reuse permissions; the owner confirms there are no source reviews yet. The official 35AWARDS profile URL is now known, but direct result URLs for the three thematic certificates have not been established.
 - Location, participant publication permission, and story details for proposed case studies.
 
 Do not publish an exact street address, unverifiable client story, review attribution, award rank or price unit on the basis of a photograph alone.
