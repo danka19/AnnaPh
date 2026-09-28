@@ -33,7 +33,7 @@ Acceptance: browser with JS disabled still shows all service offers, useful gall
 ### Task 3: Publish a small, distinct service architecture
 
 - [x] Accept the proposed extension from the one-page brief before implementation. The owner authorized this plan's execution.
-- [ ] Prioritize queries using owner booking priorities and Khabarovsk-filtered Wordstat data; volumes are currently unknown. Start with 3–4 pages with enough unique material, then expand only when justified.
+- [x] Prioritize queries using owner booking priorities and a [dated Khabarovsk Wordstat snapshot](../../audits/2026-09-28-wordstat-khabarovsk.md). Start with 3–4 pages with enough unique material, then expand only when justified. The small, overlapping query counts are not booking forecasts.
 
 | Proposed URL | Primary Russian search intent | Required unique content |
 |---|---|---|
