@@ -15,7 +15,7 @@ Source: owner reply in this task on 2026-09-28, plus the existing public service
 | A session can be rescheduled free of charge when notice is given at least 24 hours beforehand. | State only this confirmed case; do not infer late-change or prepayment policy. |
 | There are currently no source reviews or Yandex Maps/2GIS business cards. | Do not publish testimonials or directory links. Create and verify the cards later when the owner provides their URLs. |
 
-The local file `assets/achievements/certs/jpg/cert-female-color.jpg` names **Финк Анна** and states that the work entered the contest's TOP 30%. The homepage may link this certificate as first-party evidence. The annual certificates (`cert-2019`, `cert-2020`, `cert-2022`) prove participation in their respective annual competitions, not the rankings of individual photos; do not use them as evidence for a specific ranking. An official public result/profile URL is still desirable.
+The local file `assets/achievements/certs/jpg/cert-female-color.jpg` names **Финк Анна** and states that the work entered the contest's TOP 30%. The annual certificates (`cert-2019`, `cert-2020`, `cert-2022`) prove participation in their respective annual competitions, not the rankings of individual photos; do not use them as evidence for a specific ranking. An official public result/profile URL is still desirable. The owner has explicitly requested no further homepage edits, so any evidence links must be added elsewhere.
 
 The owner also replied “не входит” to a bundled question asking whether studio rental and travel were included. Rental was separately clarified as paid. Travel and its fee still need a precise answer before publication.
 
