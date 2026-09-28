@@ -37,8 +37,14 @@ Do not publish an exact street address, unverifiable client story, review attrib
 
 ## Follow-up tasks after owner inputs
 
-- Create/claim the correct Yandex Maps and 2GIS cards, then add their verified URLs and consistent name, service area, website and contacts; check eligibility before creating any Google listing.
+- Check eligibility, then create/claim any appropriate Yandex Maps and 2GIS cards and add their verified URLs with consistent name, service area, website and contacts. Check eligibility before creating a Google listing as well.
 - Collect permitted original client reviews and link to their source before publishing quotes or ratings.
 - Recheck individual 35AWARDS photo rankings against their corresponding certificates or official result URLs; annual participation certificates must be labeled as such.
 - Request permission and basic facts for 2–3 client stories: broad setting (studio, home, outdoor place), purpose, preparation and result. Do not disclose exact/private addresses.
 - Clarify late rescheduling/cancellation and any prepayment treatment after the owner provides details; update the FAQ then. The confirmed free transfer with at least 24 hours' notice is already public.
+
+## Directory eligibility checked 2026-09-28
+
+- [Yandex Business quick start](https://yandex.ru/support/business-priority/ru/add-company/add-org) says to search for an existing organization first and permits city/region selection when there is no customer-facing office. Its [category requirements](https://yandex.ru/support/business-priority/ru/add-company/rules-rubric) distinguish online private specialists from businesses with an actual office. Choose the category and service area that fit Anna's real working arrangement; do not present a rented studio as her permanent office.
+- [Google Business Profile guidelines](https://support.google.com/business/answer/3038177?hl=en) and [address help](https://support.google.com/business/answer/2853879?hl=en) permit an eligible service-area business to hide its address. Eligibility must still be checked for Anna's exact business and supported location before registration.
+- [2GIS inclusion rules](https://help.2gis.ru/question/datafeedback-rules) emphasize active organizations at publicly accessible places, and its [new-company instructions](https://help.2gis.ru/question/kak-dobavit-kompaniyu-v-2gis) describe verification. An addressless, appointment-only photographer's eligibility is therefore uncertain; confirm with 2GIS rather than invent a fixed location. The owner's intended cards are not published yet, and no directory submission has been made.
