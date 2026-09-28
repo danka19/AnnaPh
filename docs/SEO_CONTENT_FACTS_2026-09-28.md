@@ -17,6 +17,8 @@ Source: owner reply in this task on 2026-09-28, plus the existing public service
 
 The local file `assets/achievements/certs/jpg/cert-female-color.jpg` names **Финк Анна** and states that the work entered the contest's TOP 30%. The annual certificates (`cert-2019`, `cert-2020`, `cert-2022`) prove participation in their respective annual competitions, not the rankings of individual photos; do not use them as evidence for a specific ranking. An official public result/profile URL is still desirable. The owner has explicitly requested no further homepage edits, so any evidence links must be added elsewhere.
 
+Additional thematic certificates support these exact statements on the new service pages: `cert-children-autumn.jpg` reports TOP 15% for the work in «Дети и осень» (2020), and `cert-dance.jpg` reports TOP 20% for the work in «Движение: Танец» (2020). These rankings refer to the submitted work, not an overall photographer ranking or every photo in the service gallery.
+
 The owner also replied “не входит” to a bundled question asking whether studio rental and travel were included. Rental was separately clarified as paid. Travel and its fee still need a precise answer before publication.
 
 ## Already visible on the homepage, pending a fresh commercial check

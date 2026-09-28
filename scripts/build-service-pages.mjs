@@ -24,6 +24,7 @@ const pages = [
       ['IMG_7632.webp', 'Женский портрет у стены'],
     ], folder: 'portrait-women',
     galleryIntro: 'В этих кадрах нет требования быть моделью. Важнее взгляд, настроение и то, как ты хочешь увидеть себя.',
+    award: ['Работа Анны вошла в топ-30% конкурса 35AWARDS «Женский цветной портрет» (2021).', 'cert-female-color.jpg'],
     steps: [
       ['Обсуждаем идею', 'Расскажи, какой ты хочешь увидеть себя на фотографиях. Подберём образ и локацию под настроение съёмки.'],
       ['Снимаем спокойно', 'Я веду съёмку и помогаю с позированием. Ничего не нужно уметь заранее.'],
@@ -54,6 +55,7 @@ const pages = [
       ['IMG_2794.webp', 'Пара на прогулке среди деревьев'],
     ], folder: 'family',
     galleryIntro: 'В подборке есть семейные портреты и кадры вдвоём. Каждый сюжет строится вокруг людей, которые пришли на съёмку.',
+    award: ['Работа Анны вошла в топ-15% конкурса 35AWARDS «Дети и осень» (2020).', 'cert-children-autumn.jpg'],
     steps: [
       ['Планируем вместе', 'Обсуждаем состав семьи, образ и локацию.'],
       ['Снимаем без спешки', 'В течение часа я помогаю с позированием и снимаю живые моменты.'],
@@ -108,6 +110,7 @@ const pages = [
       ['IMG_8594.webp', 'Фотография у скал и огня'],
     ], folder: 'art',
     galleryIntro: 'Каждая серия строится вокруг своего образа: от балета и свечей до зимней истории с лошадью.',
+    award: ['Работа Анны вошла в топ-20% конкурса 35AWARDS «Движение: Танец» (2020).', 'cert-dance.jpg'],
     steps: [
       ['Находим сюжет', 'Обсуждаем историю, настроение и художественный образ.'],
       ['Готовим пространство', 'В зависимости от замысла выбираем студию, помещение или уличную локацию и свет.'],
@@ -136,6 +139,9 @@ const assets = path => `../assets/${path}`;
 for (const page of pages) {
   for (const image of [page.hero, ...page.gallery.map(([file]) => `${page.folder}/${file}`)]) {
     if (!existsSync(`assets/webp/${image}`)) throw new Error(`Missing image: ${image}`);
+  }
+  if (page.award && !existsSync(`assets/achievements/certs/jpg/${page.award[1]}`)) {
+    throw new Error(`Missing certificate: ${page.award[1]}`);
   }
   const url = `${origin}/${page.slug}/`;
   const otherPages = pages.filter(other => other.slug !== page.slug);
@@ -188,7 +194,8 @@ for (const page of pages) {
       </div>
       <figure><img src="${assets(`webp/${page.hero}`)}" alt="${escapeHtml(page.gallery.find(([file]) => page.hero.endsWith(file))?.[1] || page.name)}" width="800" height="1100" fetchpriority="high"></figure>
     </section>
-    <section class="band" id="works"><div class="wrap"><p class="eyebrow">Портфолио</p><h2>Примеры съёмок</h2><p class="section-intro">${escapeHtml(page.galleryIntro)}</p>
+    <section class="band" id="works"><div class="wrap"><p class="eyebrow">Портфолио</p><h2>Примеры съёмок</h2><p class="section-intro">${escapeHtml(page.galleryIntro)}</p>${page.award ? `
+      <p class="award-note">${escapeHtml(page.award[0])} <a href="${assets(`achievements/certs/jpg/${page.award[1]}`)}" target="_blank" rel="noopener noreferrer">Посмотреть сертификат</a></p>` : ''}
       <div class="gallery">${page.gallery.map(([file, alt]) => { const src = assets(`webp/${page.folder}/${file}`); return `<a href="${src}" aria-label="Открыть фотографию: ${escapeHtml(alt)}"><img src="${src}" alt="${escapeHtml(alt)}" width="600" height="800" loading="lazy" decoding="async"></a>`; }).join('')}</div>
     </div></section>
     <section class="band" id="approach"><div class="wrap"><p class="eyebrow">Как проходит съёмка</p><h2>От идеи до фотографий</h2><div class="details-grid">${page.steps.map(([heading, body], index) => `<article class="detail"><span class="num">0${index + 1}</span><h3>${escapeHtml(heading)}</h3><p>${escapeHtml(body)}</p></article>`).join('')}</div></div></section>
