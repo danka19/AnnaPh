@@ -6,7 +6,7 @@ Date: 2026-09-28. Target origin confirmed by owner: `https://annafinkphoto.ru`. 
 
 Increase relevant discovery and qualified photography enquiries from Khabarovsk through Yandex/Google, local directories and source-linked AI answers. GEO here means generative engine optimization, alongside local SEO. No ranking or citation guarantees.
 
-Preserve Russian public copy and English project documentation, the visual identity and real photography. Keep static hosting, no backend, forms, accounts, email fields or personal-data storage. Existing brief forbids analytics: do not install Metrika, GA or tracking pixels. Contacts stay external Telegram/VK/MAX/channel links. Do not add a phone number or public street address without supplied and approved information. Preserve archived originals. The initial brief is one-page: additional service pages below are a proposed scope extension, not an already accepted implementation decision.
+Preserve Russian public copy and English project documentation, the visual identity and real photography. Keep static hosting, no backend, forms, accounts, email fields or personal-data storage. Existing brief forbids analytics: do not install Metrika, GA or tracking pixels. Contacts stay external Telegram/VK/MAX/channel links. Do not add a phone number or public street address without supplied and approved information. Preserve archived originals. The owner has authorized implementation of the plan, including the additional service pages.
 
 No redesign, framework migration, paid link campaign, mass AI text generation, fabricated testimonials, fake local branches or address, automatic directory publication, or paid tools are part of this plan. `llms.txt` is not a prerequisite and is deferred. Training bot permission is a separate owner policy, not an SEO requirement.
 
@@ -14,9 +14,9 @@ Sequence: Task 1 immediately; Task 2 next; Tasks 3–5 after confirming factual 
 
 ### Task 1: Correct domain identity and establish an indexing baseline
 
-- [ ] Replace annaph.ru in `index.html` canonical, og:url, og:image and JSON-LD url/image, `robots.txt` Sitemap, and `sitemap.xml` loc with the confirmed origin. Check all absolute production URLs, not only canonical.
-- [ ] Check production image URLs, HTTPS, www and index.html normalization. Prefer permanent redirects to HTTPS apex; preserve valid paths. Keep unknown URLs as real 404s. Configure on the actual hosting platform once identified.
-- [ ] Replace stale lastmod with the true substantive modification date or omit it. Do not stamp every page with every deploy time.
+- [x] Replace annaph.ru in `index.html` canonical, og:url, og:image and JSON-LD url/image, `robots.txt` Sitemap, and `sitemap.xml` loc with the confirmed origin. Check all absolute production URLs, not only canonical.
+- [x] Check production image URLs, HTTPS, www and index.html normalization. HTTPS/www redirect to the apex; `/index.html` remains 200 with a root canonical, and unknown paths return 404. Do not add an ONREZA rule without inspecting the active rule set.
+- [x] Replace stale lastmod with the true substantive modification date or omit it. No lastmod is emitted until it can be maintained accurately.
 - [ ] Verify ownership and inspect homepage in Google Search Console and Yandex Webmaster. Record indexed status, declared/selected canonical, exclusions, sitemap processing and Khabarovsk regional association. Submit the corrected sitemap and request recrawl once.
 - [ ] Check robots, meta robots, X-Robots-Tag and CDN/WAF for public pages/assets and major crawlers, including OAI-SearchBot. An impersonated user-agent request alone does not establish real crawler access; corroborate with logs when available.
 
@@ -24,16 +24,16 @@ Acceptance: HTTPS homepage 200; all identity URLs point to annafinkphoto.ru; sit
 
 ### Task 2: Make essential content independent of JavaScript
 
-- [ ] In `index.html`, render services/prices/inclusions, contact anchors and a useful curated portfolio directly in HTML. Retain JS only to enhance tabs, lightbox and animation. Keep data in one maintainable source or verify parity if a small build step is chosen; no framework migration is needed.
-- [ ] Ensure portfolio/service links are real href links and the page remains readable when JavaScript fails. Do not rely solely on noscript duplicate content or images of text.
+- [x] In `index.html`, render services/prices/inclusions, contact anchors and a useful curated portfolio directly in HTML. JS still enhances tabs, lightbox and animation; no framework migration.
+- [x] Ensure portfolio/service links are real href links and the page remains readable when JavaScript fails. The live release was checked with JS on and off.
 - [ ] Align introduction and structured data with actual displayed packages. Preserve current amounts pending owner validation: women's 6000/7500 RUB; family 7000; men's and pregnancy 6000; art/reportage 5000; school/kindergarten albums from 1300; individual albums by agreement. Confirm units for ambiguous prices rather than assume “per hour”.
 
 Acceptance: browser with JS disabled still shows all service offers, useful gallery content and four contact destinations; enabled version keeps interactions; one H1 and logical headings; no duplicate cards. Addresses SEO-02/04/06.
 
 ### Task 3: Publish a small, distinct service architecture
 
-- [ ] Accept the proposed extension from the one-page brief before implementation. If the owner keeps a single page, implement expanded semantic sections first and record the limited long-tail coverage.
-- [ ] Prioritize queries using owner booking priorities and Khabarovsk-filtered Wordstat data; volumes are currently unknown. Start with 3–4 pages with enough unique material, then expand only when justified.
+- [x] Accept the proposed extension from the one-page brief before implementation. The owner authorized this plan's execution.
+- [x] Prioritize queries using owner booking priorities and a [dated Khabarovsk Wordstat snapshot](../../audits/2026-09-28-wordstat-khabarovsk.md). Start with 3–4 pages with enough unique material, then expand only when justified. The small, overlapping query counts are not booking forecasts.
 
 | Proposed URL | Primary Russian search intent | Required unique content |
 |---|---|---|
@@ -46,7 +46,7 @@ Acceptance: browser with JS disabled still shows all service offers, useful gall
 | `/fotoalbomy/` | выпускные альбомы Хабаровск | formats, minimum order, price basis and production timing |
 
 - [ ] Every page: unique title/description/H1, concise answer about offer and city, actual package, what is extra, delivery timing, 6–12 selected relevant images, preparation/FAQ and booking link. Use truthful facts, not a word-count quota.
-- [ ] Implement as static route directories with `index.html` or the hosting equivalent; self-canonical and sitemap entry for each. Link from the homepage and relevant services; add breadcrumbs. Avoid targeting the same query on several interchangeable pages.
+- [ ] Implement as static route directories with `index.html` or the hosting equivalent; self-canonical and sitemap entry for each. Link relevant services to one another and add breadcrumbs. The owner has explicitly prohibited any further homepage edits, so homepage links are excluded; record the resulting discovery limitation. Avoid targeting the same query on several interchangeable pages.
 - [ ] Do not invent Love Story prices because a gallery exists. Add a separate page only after service confirmation. Do not create pages for nearby towns unless actually served with distinct useful information.
 
 Acceptance: pages independently answer their intent, work without JS, return 200, have unique metadata and appropriate canonicals, appear in sitemap and internal links; no template-only duplicates. Addresses SEO-03/04/GEO-03.
@@ -99,4 +99,4 @@ Acceptance: dated repeatable baseline and follow-up table, with citation accurac
 
 ## Inputs that still affect execution
 
-Domain is resolved. Still needed: hosting/DNS administration and webmaster access for configuration; approval of service-page expansion; authoritative identity and commercial terms; verified review/award sources and publication rights; priority services. These do not prevent completing this plan. Correcting already-confirmed domain references and static HTML access does not require inventing any missing business fact.
+Domain, display name, service priorities, photo-delivery window, paid extras and free rescheduling with at least 24 hours' notice are confirmed. Draft PR #1 has four static service pages and an updated sitemap; production publication remains a release step. The owner has explicitly prohibited further homepage edits; the PR therefore keeps `index.html` byte-identical to `main`, and new pages have no homepage links. A Google Search Console URL-prefix property and a Yandex Webmaster resource for `https://annafinkphoto.ru/` have been initiated. Their root verification files `googlee07f90aef627bbdf.html` and `yandex_4ab6d9abccf0e57a.html` are in this branch and must remain deployed after verification. Submit the live sitemap after ownership verification. Wordstat data, late rescheduling and travel terms, real case-study permissions, and directory/review sources remain outstanding. The owner confirms that Yandex Maps/2GIS cards and source reviews do not exist yet and will provide links after creating them. These are tracked in `docs/SEO_CONTENT_FACTS_2026-09-28.md`; do not invent them to satisfy a checklist.
