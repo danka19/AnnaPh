@@ -5,16 +5,16 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <!-- Mark JS as active before first paint so hero animations start hidden (no flash of final state). -->
 <script>document.documentElement.className+=" js";</script>
-<title>Анна · фотограф в Хабаровске · портретные, семейные и образные съёмки</title>
-<meta name="description" content="Анна, фотограф в Хабаровске. Женская, мужская, семейная, образная фотосессия и съёмка беременности. Снимаю настоящих людей: не только внешность, но и состояние." />
+<title>Анна Финк · фотограф в Хабаровске · портретные, семейные и образные съёмки</title>
+<meta name="description" content="Анна Финк, фотограф в Хабаровске. Женская, мужская, семейная, образная фотосессия и съёмка беременности. Снимаю настоящих людей: не только внешность, но и состояние." />
 <link rel="canonical" href="https://annafinkphoto.ru/" />
 <meta name="theme-color" content="#21241a" />
 
 <!-- Open Graph -->
 <meta property="og:type" content="website" />
 <meta property="og:locale" content="ru_RU" />
-<meta property="og:site_name" content="Анна · фотограф в Хабаровске" />
-<meta property="og:title" content="Анна · фотограф в Хабаровске · портретные, семейные и образные съёмки" />
+<meta property="og:site_name" content="Анна Финк · фотограф в Хабаровске" />
+<meta property="og:title" content="Анна Финк · фотограф в Хабаровске · портретные, семейные и образные съёмки" />
 <meta property="og:description" content="Женская, мужская, семейная, образная фотосессия и съёмка беременности в Хабаровске. Фотосессия как разговор с собой." />
 <meta property="og:url" content="https://annafinkphoto.ru/" />
 <meta property="og:image" content="https://annafinkphoto.ru/assets/background_photo_1-hero.jpg" />
@@ -424,6 +424,8 @@ section{position:relative}
 .service .tier-price{font-weight:700;color:var(--highlight);font-size:1rem;white-space:nowrap}
 .service .tier-desc{display:block;font-size:.78rem;color:var(--text-secondary);margin-top:.3rem;line-height:1.4}
 .service .btn{width:100%}
+.service .service-detail{display:inline-block;color:var(--highlight);margin:0 0 .8rem;text-underline-offset:.2em;font-size:.88rem}
+.service .service-detail:focus-visible{outline:2px solid var(--highlight);outline-offset:3px}
 .service.featured{background:linear-gradient(160deg,#3a2120,#2b2e20);border-color:rgba(125,40,38,.5)}
 
 /* Tighter vertical rhythm for the portfolio section (reduce empty space ~25%) */
@@ -440,9 +442,11 @@ section{position:relative}
   pointer-events:none;
 }
 .awards .section-head h2{color:var(--candle)}
-.awards-hint{font-size:.8rem;color:var(--highlight);letter-spacing:.04em;margin-top:.8rem;display:inline-flex;align-items:center;gap:.5rem}
+.awards-hint{font-size:.8rem;color:var(--highlight);letter-spacing:.04em;margin-top:.8rem;display:none;align-items:center;gap:.5rem}
+.js .awards-hint{display:inline-flex}
 .awards-hint svg{width:16px;height:16px}
-.awards-carousel{position:relative;display:grid;grid-template-columns:auto minmax(0,1120px) auto;align-items:center;justify-content:center;gap:clamp(.6rem,2vw,1rem)}
+.awards-carousel{position:relative;display:none;grid-template-columns:auto minmax(0,1120px) auto;align-items:center;justify-content:center;gap:clamp(.6rem,2vw,1rem)}
+.js .awards-carousel{display:grid}
 .awards-viewport{overflow:hidden;min-width:0;width:100%;max-width:1120px}
 .awards-track{display:flex;gap:clamp(.8rem,1.4vw,1.2rem);transition:transform .55s var(--ease);will-change:transform}
 .awards-slide{flex:0 0 calc((100% - (clamp(.8rem,1.4vw,1.2rem) * 2)) / 3);min-width:0}
@@ -754,7 +758,7 @@ section{position:relative}
     <div class="section-head reveal">
       <div class="eyebrow-line"><span class="kicker">Услуги</span></div>
       <h2>Что можно заказать</h2>
-      <p>Форматы съёмки в студии, в помещении и на природе. Точную стоимость и детали обсуждаем в переписке.</p>
+      <p>Снимаю в студии, помещении и на открытом воздухе. Аренда платной локации, визажист и укладка оплачиваются отдельно. Готовые фотографии — через 2–3 недели.</p>
     </div>
     <div class="services-grid" id="servicesGrid">
       <article class="service reveal">
@@ -762,6 +766,7 @@ section{position:relative}
         <h3>Женский портрет</h3><div class="s-for">Для женщин любого возраста</div>
         <ul><li>Помощь в подборе образа и локации</li><li>Полное ведение съёмки и помощь с позированием</li><li>1 час съёмки</li><li>Именинницам — рилс в подарок</li></ul>
         <div class="tiers"><div class="tier"><div class="tier-head"><span class="tier-name">Топ 15</span><span class="tier-price">6000 ₽</span></div><span class="tier-desc">15 фото в детальной ретуши (если требуется) + не менее 20 фото в лёгкой ретуши</span></div><div class="tier"><div class="tier-head"><span class="tier-name">Топ 20</span><span class="tier-price">7500 ₽</span></div><span class="tier-desc">20 фото в детальной ретуши (если требуется) + не менее 20 фото в лёгкой ретуши</span></div></div>
+        <a class="service-detail" href="zhenskaya-fotosessiya/">Подробнее о женской съёмке</a>
         <a href="#contacts" class="btn btn-ghost">Обсудить съёмку</a>
       </article>
       <article class="service reveal">
@@ -770,6 +775,7 @@ section{position:relative}
         <p class="s-note">Цена за двух взрослых и детей. Если взрослых больше — стоимость по запросу.</p>
         <ul><li>Помощь в подборе образа и локации</li><li>1 час съёмки</li><li>15 фото в детальной ретуши (если требуется)</li><li>Не менее 30 фото в лёгкой ретуши</li></ul>
         <div class="price">Цена: <em>7000 ₽</em></div>
+        <a class="service-detail" href="semeynaya-fotosessiya/">Подробнее о семейной съёмке</a>
         <a href="#contacts" class="btn btn-ghost">Обсудить съёмку</a>
       </article>
       <article class="service reveal">
@@ -784,6 +790,7 @@ section{position:relative}
         <h3>Беременность</h3><div class="s-for">Будущим мамам</div>
         <ul><li>Помощь в подборе образа и локации</li><li>1 час съёмки</li><li>15 фото в детальной ретуши (если требуется)</li><li>Не менее 20 фото в лёгкой ретуши</li></ul>
         <div class="price">Цена: <em>6000 ₽</em></div>
+        <a class="service-detail" href="fotosessiya-beremennosti/">Подробнее о съёмке беременности</a>
         <a href="#contacts" class="btn btn-ghost">Обсудить съёмку</a>
       </article>
       <article class="service reveal">
@@ -791,6 +798,7 @@ section{position:relative}
         <h3>Образная (арт) съёмка</h3><div class="s-for">Для смелых идей и сюжетов</div>
         <ul><li>Сюжет и художественный образ</li><li>Студия, помещение или улица</li><li>Кинематографичный свет</li></ul>
         <div class="price">Цена: <em>5000 ₽</em></div>
+        <a class="service-detail" href="art-fotosessiya/">Подробнее об образной съёмке</a>
         <a href="#contacts" class="btn btn-ghost">Обсудить съёмку</a>
       </article>
       <article class="service reveal">
@@ -890,7 +898,8 @@ section{position:relative}
     <div class="section-head center reveal">
       <div class="eyebrow-line"><span class="kicker">Признание</span></div>
       <h2>35AWARDS</h2>
-      <p>Кадры, отмеченные в фотоконкурсах. Листай карусель и коснись карточки, чтобы увидеть сертификат.</p>
+      <p>Кадры, отмеченные в фотоконкурсах.</p>
+      <p>Моя работа в номинации «Женский цветной портрет» вошла в TOP 30% конкурса 35AWARDS. <a href="assets/achievements/certs/webp/cert-female-color.webp" target="_blank" rel="noopener noreferrer">Посмотреть сертификат</a>.</p>
       <span class="awards-hint">
         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M3 12a9 9 0 0 1 9-9m0 0a9 9 0 0 1 9 9m-9-9v3m0 12a9 9 0 0 1-9-9m18 0a9 9 0 0 1-9 9m0-3v3"/></svg>
         Нажми, чтобы увидеть сертификат
@@ -988,20 +997,38 @@ section{position:relative}
 <script type="application/ld+json">
 {
   "@context":"https://schema.org",
-  "@type":["Photographer","ProfessionalService"],
-  "name":"Анна, фотограф в Хабаровске",
-  "description":"Фотограф в Хабаровске: женская, мужская, семейная, образная фотосессия и съёмка беременности.",
-  "image":"https://annafinkphoto.ru/assets/background_photo_1-hero.jpg",
-  "url":"https://annafinkphoto.ru/",
-  "areaServed":{"@type":"City","name":"Хабаровск"},
-  "address":{"@type":"PostalAddress","addressLocality":"Хабаровск","addressCountry":"RU"},
-  "priceRange":"Стоимость уточняется",
-  "knowsAbout":["портретная фотосессия","женская фотосессия","семейная фотосессия","фотосессия беременности","мужской портрет","образная съёмка"],
-  "sameAs":[
-    "https://t.me/Anna_Fink",
-    "https://vk.com/anna_fink",
-    "https://max.ru/u/f9LHodD0cOLPNGGr6jpI33K1cuUN0E16P-s9kA3HxnDV8fCt2W4wYKjlsNY",
-    "https://t.me/ya_vizhu_tak"
+  "@graph":[
+    {
+      "@type":"Person",
+      "@id":"https://annafinkphoto.ru/#anna",
+      "name":"Анна Финк",
+      "jobTitle":"Фотограф",
+      "url":"https://annafinkphoto.ru/",
+      "image":"https://annafinkphoto.ru/assets/about-anna.webp",
+      "sameAs":["https://t.me/Anna_Fink","https://vk.com/anna_fink"]
+    },
+    {
+      "@type":"WebSite",
+      "@id":"https://annafinkphoto.ru/#website",
+      "name":"Анна Финк · фотограф в Хабаровске",
+      "url":"https://annafinkphoto.ru/",
+      "inLanguage":"ru-RU"
+    },
+    {
+      "@type":"Service",
+      "@id":"https://annafinkphoto.ru/#photography",
+      "name":"Фотосессии в Хабаровске",
+      "description":"Женские, семейные, образные съёмки и фотосессии беременности в Хабаровске.",
+      "provider":{"@id":"https://annafinkphoto.ru/#anna"},
+      "areaServed":{"@type":"City","name":"Хабаровск"},
+      "offers":[
+        {"@type":"Offer","name":"Женский портрет Топ 15","price":6000,"priceCurrency":"RUB","url":"https://annafinkphoto.ru/zhenskaya-fotosessiya/"},
+        {"@type":"Offer","name":"Женский портрет Топ 20","price":7500,"priceCurrency":"RUB","url":"https://annafinkphoto.ru/zhenskaya-fotosessiya/"},
+        {"@type":"Offer","name":"Семейная съёмка","price":7000,"priceCurrency":"RUB","url":"https://annafinkphoto.ru/semeynaya-fotosessiya/"},
+        {"@type":"Offer","name":"Образная съёмка","price":5000,"priceCurrency":"RUB","url":"https://annafinkphoto.ru/art-fotosessiya/"},
+        {"@type":"Offer","name":"Фотосессия беременности","price":6000,"priceCurrency":"RUB","url":"https://annafinkphoto.ru/fotosessiya-beremennosti/"}
+      ]
+    }
   ]
 }
 </script>

@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url>
-    <loc>https://annafinkphoto.ru/</loc>
-  </url>
+  <url><loc>https://annafinkphoto.ru/</loc></url>
+  <url><loc>https://annafinkphoto.ru/art-fotosessiya/</loc></url>
+  <url><loc>https://annafinkphoto.ru/zhenskaya-fotosessiya/</loc></url>
+  <url><loc>https://annafinkphoto.ru/semeynaya-fotosessiya/</loc></url>
+  <url><loc>https://annafinkphoto.ru/fotosessiya-beremennosti/</loc></url>
 </urlset>
